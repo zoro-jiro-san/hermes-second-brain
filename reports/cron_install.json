@@ -1,0 +1,71 @@
+{
+  "status": "success",
+  "timestamp": "2026-04-26T01:15:00Z",
+  "installed_by": "Hermes Agent (Nous Research)",
+  "task": "Install cron jobs from docs/cron_jobs.md",
+  "steps_completed": [
+    "Created system log directory: /var/log/hermes/ (owned by tokisaki:tokisaki, mode 750)",
+    "Created four cron scripts in /home/tokisaki/github/hermes-second-brain/cron/",
+    "Copied cron scripts to /home/tokisaki/work/synthesis/cron/ (execution location)",
+    "Installed 4 crontab entries for user tokisaki",
+    "Verified crontab installation"
+  ],
+  "cron_scripts": {
+    "source_dir": "/home/tokisaki/github/hermes-second-brain/cron/",
+    "execution_dir": "/home/tokisaki/work/synthesis/cron/",
+    "scripts": [
+      "health_check.sh",
+      "daily_sync.sh",
+      "weekly_digest.sh",
+      "monthly_clean.sh"
+    ],
+    "permissions": "755 (executable by tokisaki)"
+  },
+  "crontab_entries": {
+    "path_variable": "/usr/local/bin:/usr/bin:/bin:/home/tokisaki/.local/bin",
+    "jobs": [
+      {
+        "schedule": "15 * * * *",
+        "script": "health_check.sh",
+        "log": "/var/log/hermes/health.log",
+        "description": "Hourly Health Check - fast lint and symlink validation"
+      },
+      {
+        "schedule": "0 3 * * *",
+        "script": "daily_sync.sh",
+        "log": "/var/log/hermes/daily_sync.log",
+        "description": "Daily Research Sync - ingest, compile, graph update, digest"
+      },
+      {
+        "schedule": "0 6 * * 0",
+        "script": "weekly_digest.sh",
+        "log": "/var/log/hermes/weekly_digest.log",
+        "description": "Weekly Insight Digest - full lint, insights summary, notifications"
+      },
+      {
+        "schedule": "0 2 1 * *",
+        "script": "monthly_clean.sh",
+        "log": "/var/log/hermes/monthly_clean.log",
+        "description": "Monthly Deep Clean - prune, rotate, database maintenance"
+      }
+    ]
+  },
+  "log_directory": {
+    "path": "/var/log/hermes/",
+    "owner": "tokisaki",
+    "group": "tokisaki",
+    "mode": "750"
+  },
+  "notes": [
+    "Cron scripts reference hermes-brain-* CLI tools from PATH",
+    "Scripts are located in git repo for version control, but executed from work/synthesis/",
+    "Missing hermes-brain-digest tool will trigger fallback behavior in scripts",
+    "Alerting (Telegram/email) requires configuration in ~/.hermes/telegram_config.py and system MTA"
+  ],
+  "verification": {
+    "crontab_list": "Verified via 'crontab -l' - 4 entries installed",
+    "scripts_exist_source": true,
+    "scripts_exist_execution": true,
+    "log_directory_created": true
+  }
+}
