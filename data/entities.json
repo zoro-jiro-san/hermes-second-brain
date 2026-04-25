@@ -1,0 +1,670 @@
+{
+  "nodes": [
+    {
+      "id": "obscura-ai/obscura",
+      "type": "repo",
+      "name": "obscura-ai/obscura",
+      "description": "Synthetic data generation platform for ML training using photorealistic image/video synthesis with automatic annotation."
+    },
+    {
+      "id": "chainyo/claude-task-master",
+      "type": "repo",
+      "name": "chainyo/claude-task-master",
+      "description": "AI-powered project planning and task management system with recursive decomposition, DAG dependency tracking, and artifact management."
+    },
+    {
+      "id": "eyaltoledano/claude-task-master",
+      "type": "repo",
+      "name": "eyaltoledano/claude-task-master",
+      "description": "Original Claude Task Master repository by Eyal Toledo."
+    },
+    {
+      "id": "anthropic/claude-ads",
+      "type": "repo",
+      "name": "anthropic/claude-ads",
+      "description": "Official Anthropic framework for AI-powered advertising content generation across multiple platforms with brand compliance and safety checks."
+    },
+    {
+      "id": "agentic-stack/agentic-stack",
+      "type": "repo",
+      "name": "agentic-stack/agentic-stack",
+      "description": "Modular, composable frameworks for AI agent development and orchestration, emphasizing interoperability and transparency."
+    },
+    {
+      "id": "agentic-stack/tools",
+      "type": "repo",
+      "name": "agentic-stack/tools",
+      "description": "Official tools collection for agentic-stack ecosystem."
+    },
+    {
+      "id": "agentic-stack/memory",
+      "type": "repo",
+      "name": "agentic-stack/memory",
+      "description": "Memory backend adapters for vector stores, databases, and file systems."
+    },
+    {
+      "id": "agentic-stack/orchestrator",
+      "type": "repo",
+      "name": "agentic-stack/orchestrator",
+      "description": "Workflow engine for multi-agent coordination."
+    },
+    {
+      "id": "agentic-stack/protocol",
+      "type": "repo",
+      "name": "agentic-stack/protocol",
+      "description": "Agent communication protocol specification."
+    },
+
+    {
+      "id": "Eyal_Toledo",
+      "type": "person",
+      "name": "Eyal Toledo",
+      "description": "Creator of original Claude Task Master (eyaltoledano)."
+    },
+    {
+      "id": "chainyo",
+      "type": "person",
+      "name": "chainyo",
+      "description": "Maintainer of chainyo/claude-task-master fork with modifications."
+    },
+    {
+      "id": "Teknium",
+      "type": "person",
+      "name": "Teknium",
+      "description": "Contributor to Hermes Agent and skill documentation."
+    },
+    {
+      "id": "Nous_Research",
+      "type": "org",
+      "name": "Nous Research",
+      "description": "Organization behind Hermes Agent and Hermes AI models."
+    },
+    {
+      "id": "Anthropic",
+      "type": "org",
+      "name": "Anthropic",
+      "description": "Creator of Claude AI and the claude-ads framework."
+    },
+
+    {
+      "id": "Python",
+      "type": "tech",
+      "name": "Python",
+      "description": "Primary programming language for Hermes Agent and obscura SDK."
+    },
+    {
+      "id": "TypeScript",
+      "type": "tech",
+      "name": "TypeScript",
+      "description": "Language used in agentic-stack core and TaskMaster."
+    },
+    {
+      "id": "Claude_API",
+      "type": "tech",
+      "name": "Claude API",
+      "description": "Anthropic's API powering all four research projects."
+    },
+    {
+      "id": "OpenAI",
+      "type": "tech",
+      "name": "OpenAI API",
+      "description": "LLM provider supported by agentic-stack."
+    },
+    {
+      "id": "OpenRouter",
+      "type": "tech",
+      "name": "OpenRouter",
+      "description": "LLM aggregation service supported by Hermes and agentic-stack."
+    },
+    {
+      "id": "Diffusion_Models",
+      "type": "tech",
+      "name": "Diffusion Models",
+      "description": "Core generative AI technology used by Obscura for image synthesis."
+    },
+    {
+      "id": "Neural_Rendering",
+      "type": "tech",
+      "name": "Neural Rendering",
+      "description": "Hybrid rendering technique combining PBR with neural enhancement."
+    },
+    {
+      "id": "RAG",
+      "type": "tech",
+      "name": "Retrieval-Augmented Generation",
+      "description": "Pattern referenced across projects for knowledge retrieval."
+    },
+    {
+      "id": "JSON",
+      "type": "tech",
+      "name": "JSON",
+      "description": "Data interchange format used in TaskMaster storage, API payloads, and skill files."
+    },
+    {
+      "id": "YAML",
+      "type": "tech",
+      "name": "YAML",
+      "description": "Configuration format for Hermes config, brand profiles, and scene definitions."
+    },
+    {
+      "id": "Neo4j",
+      "type": "tech",
+      "name": "Neo4j",
+      "description": "Graph database option for agentic-stack GraphMemory."
+    },
+    {
+      "id": "Redis",
+      "type": "tech",
+      "name": "Redis",
+      "description": "In-memory data store used for shared state and caching."
+    },
+    {
+      "id": "Docker",
+      "type": "tech",
+      "name": "Docker",
+      "description": "Containerization platform referenced in tooling."
+    },
+    {
+      "id": "Kubernetes",
+      "type": "tech",
+      "name": "Kubernetes",
+      "description": "Orchestration platform for scaling Hermes deployments."
+    },
+    {
+      "id": "Terraform",
+      "type": "tech",
+      "name": "Terraform",
+      "description": "Infrastructure as Code tool."
+    },
+    {
+      "id": "AWS",
+      "type": "tech",
+      "name": "AWS",
+      "description": "Cloud provider for Obscura and Hermes hosting."
+    },
+    {
+      "id": "GCP",
+      "type": "tech",
+      "name": "Google Cloud Platform",
+      "description": "Cloud provider with memory and ML services."
+    },
+    {
+      "id": "HuggingFace",
+      "type": "tech",
+      "name": "HuggingFace",
+      "description": "Model hub and inference platform."
+    },
+    {
+      "id": "Weights_&_Biases",
+      "type": "tech",
+      "name": "Weights & Biases",
+      "description": "ML experiment tracking referenced in research."
+    },
+    {
+      "id": "Prometheus",
+      "type": "tech",
+      "name": "Prometheus",
+      "description": "Metrics collection and monitoring."
+    },
+    {
+      "id": "OpenTelemetry",
+      "type": "tech",
+      "name": "OpenTelemetry",
+      "description": "Observability standards for distributed tracing."
+    },
+    {
+      "id": "Vector_Databases",
+      "type": "tech",
+      "name": "Vector Databases",
+      "description": "Chroma, Pinecone, Weaviate, Qdrant for long-term semantic memory."
+    },
+    {
+      "id": "Platform_APIs",
+      "type": "tech",
+      "name": "Platform APIs",
+      "description": "Google Ads, Facebook Marketing, LinkedIn, Twitter APIs referenced in claude-ads."
+    },
+    {
+      "id": "Recursive_Decomposition",
+      "type": "pattern",
+      "name": "Recursive Decomposition",
+      "description": "Breaking large tasks into smaller subtasks until implementable (TaskMaster pattern)."
+    },
+    {
+      "id": "DAG_Scheduling",
+      "type": "pattern",
+      "name": "DAG-based Scheduling",
+      "description": "Directed acyclic graph for dependency tracking and topological execution order (TaskMaster)."
+    },
+    {
+      "id": "Tool_Decorator",
+      "type": "pattern",
+      "name": "Tool-Decorator Pattern",
+      "description": "Decorating tools with metadata for LLM-driven discovery and invocation (agentic-stack)."
+    },
+    {
+      "id": "Memory_Abstraction",
+      "type": "pattern",
+      "name": "Memory Abstraction Layer",
+      "description": "Unified interface for multiple memory backends (STM, LTM, graph) (agentic-stack)."
+    },
+    {
+      "id": "Reflection_Loop",
+      "type": "pattern",
+      "name": "Reflection Loop Pattern",
+      "description": "Agents evaluate their own outputs and self-correct through iterative cycles (agentic-stack)."
+    },
+    {
+      "id": "Multi_Agent_Collaboration",
+      "type": "pattern",
+      "name": "Multi-Agent Collaboration",
+      "description": "Structured protocols for agent communication and coordination (agentic-stack)."
+    },
+    {
+      "id": "Configuration_as_Code",
+      "type": "pattern",
+      "name": "Configuration-as-Code",
+      "description": "Datasets and projects defined via version-controllable YAML/JSON (Obscura, TaskMaster)."
+    },
+    {
+      "id": "Lazy_Evaluation",
+      "type": "pattern",
+      "name": "Lazy Evaluation",
+      "description": "Scene definitions realized only on explicit render, enabling rapid iteration (Obscura)."
+    },
+    {
+      "id": "Composable_Primitives",
+      "type": "pattern",
+      "name": "Composable Primitives",
+      "description": "Simple objects/materials combined into complex scenes (Obscura)."
+    },
+    {
+      "id": "Deterministic_Seeding",
+      "type": "pattern",
+      "name": "Deterministic Seeding",
+      "description": "Reproducible generation via seeded randomness (Obscura, important for debugging)."
+    },
+    {
+      "id": "Domain_Randomization",
+      "type": "pattern",
+      "name": "Domain Randomization",
+      "description": "Extensive randomization for robust model generalization (Obscura)."
+    },
+    {
+      "id": "Prompt_Engineering",
+      "type": "pattern",
+      "name": "Systematic Prompt Engineering",
+      "description": "Template-based, few-shot, chain-of-thought prompts (claude-ads, TaskMaster)."
+    },
+    {
+      "id": "Multi-Stage_Pipeline",
+      "type": "pattern",
+      "name": "Multi-Stage Generation Pipeline",
+      "description": "Sequential stages: Strategy → Draft → Refine → Validate (claude-ads)."
+    },
+    {
+      "id": "Safety_by_Design",
+      "type": "pattern",
+      "name": "Safety & Ethics by Design",
+      "description": "Built-in content filtering, compliance checks, brand safety (claude-ads)."
+    },
+
+    {
+      "id": "Synthetic_Data_Generation",
+      "type": "concept",
+      "name": "Synthetic Data Generation",
+      "description": "Core capability of Obscura for ML training data creation."
+    },
+    {
+      "id": "Project_Planning_AI",
+      "type": "concept",
+      "name": "AI Project Planning",
+      "description": "TaskMaster's purpose: transforming goals into task trees."
+    },
+    {
+      "id": "Ad_Campaign_Generation",
+      "type": "concept",
+      "name": "Ad Campaign Generation",
+      "description": "End-to-end ad creation from brief to multi-platform deployment (claude-ads)."
+    },
+    {
+      "id": "Modular_Agent_Framework",
+      "type": "concept",
+      "name": "Modular Agent Framework",
+      "description": "Building blocks for creating autonomous AI agents (agentic-stack)."
+    },
+    {
+      "id": "Privacy_by_Design",
+      "type": "concept",
+      "name": "Privacy by Design",
+      "description": "Synthetic data contains no real PII (Obscura value proposition)."
+    },
+    {
+      "id": "DAG",
+      "type": "concept",
+      "name": "Directed Acyclic Graph",
+      "description": "Data structure for task dependencies and execution ordering."
+    },
+    {
+      "id": "Artifact_Tracking",
+      "type": "concept",
+      "name": "Artifact Tracking",
+      "description": "Linking generated files to specific tasks for traceability."
+    },
+    {
+      "id": "Brand_Profile",
+      "type": "concept",
+      "name": "Brand Profile",
+      "description": "Structured YAML defining voice, guidelines, target audiences for consistent ad generation."
+    }
+  ],
+
+  "edges": [
+    {
+      "source": "chainyo/claude-task-master",
+      "target": "eyaltoledano/claude-task-master",
+      "relation": "forks",
+      "weight": 1
+    },
+    {
+      "source": "chainyo",
+      "target": "chainyo/claude-task-master",
+      "relation": "maintains",
+      "weight": 1
+    },
+    {
+      "source": "Eyal_Toledo",
+      "target": "eyaltoledano/claude-task-master",
+      "relation": "created",
+      "weight": 1
+    },
+    {
+      "source": "Anthropic",
+      "target": "anthropic/claude-ads",
+      "relation": "created",
+      "weight": 1
+    },
+    {
+      "source": "agentic-stack/agentic-stack",
+      "target": "agentic-stack/tools",
+      "relation": "includes",
+      "weight": 1
+    },
+    {
+      "source": "agentic-stack/agentic-stack",
+      "target": "agentic-stack/memory",
+      "relation": "includes",
+      "weight": 1
+    },
+    {
+      "source": "agentic-stack/agentic-stack",
+      "target": "agentic-stack/orchestrator",
+      "relation": "includes",
+      "weight": 1
+    },
+    {
+      "source": "agentic-stack/agentic-stack",
+      "target": "agentic-stack/protocol",
+      "relation": "includes",
+      "weight": 1
+    },
+    {
+      "source": "obscura-ai/obscura",
+      "target": "Claude_API",
+      "relation": "uses",
+      "weight": 3
+    },
+    {
+      "source": "chainyo/claude-task-master",
+      "target": "Claude_API",
+      "relation": "uses",
+      "weight": 3
+    },
+    {
+      "source": "anthropic/claude-ads",
+      "target": "Claude_API",
+      "relation": "uses",
+      "weight": 3
+    },
+    {
+      "source": "agentic-stack/agentic-stack",
+      "target": "Claude_API",
+      "relation": "supports",
+      "weight": 2
+    },
+    {
+      "source": "agentic-stack/agentic-stack",
+      "target": "OpenAI",
+      "relation": "supports",
+      "weight": 2
+    },
+    {
+      "source": "chainyo/claude-task-master",
+      "target": "Recursive_Decomposition",
+      "relation": "implements",
+      "weight": 3
+    },
+    {
+      "source": "chainyo/claude-task-master",
+      "target": "DAG_Scheduling",
+      "relation": "implements",
+      "weight": 3
+    },
+    {
+      "source": "chainyo/claude-task-master",
+      "target": "Artifact_Tracking",
+      "relation": "implements",
+      "weight": 2
+    },
+    {
+      "source": "chainyo/claude-task-master",
+      "target": "Session_Snapshots",
+      "relation": "implements",
+      "weight": 2
+    },
+    {
+      "source": "obscura-ai/obscura",
+      "target": "Synthetic_Data_Generation",
+      "relation": "enables",
+      "weight": 3
+    },
+    {
+      "source": "obscura-ai/obscura",
+      "target": "Configuration_as_Code",
+      "relation": "uses",
+      "weight": 2
+    },
+    {
+      "source": "obscura-ai/obscura",
+      "target": "Lazy_Evaluation",
+      "relation": "uses",
+      "weight": 2
+    },
+    {
+      "source": "obscura-ai/obscura",
+      "target": "Domain_Randomization",
+      "relation": "provides",
+      "weight": 2
+    },
+    {
+      "source": "obscura-ai/obscura",
+      "target": "Deterministic_Seeding",
+      "relation": "supports",
+      "weight": 2
+    },
+    {
+      "source": "obscura-ai/obscura",
+      "target": "Privacy_by_Design",
+      "relation": "achieves",
+      "weight": 3
+    },
+    {
+      "source": "anthropic/claude-ads",
+      "target": "Prompt_Engineering",
+      "relation": "specializes_in",
+      "weight": 3
+    },
+    {
+      "source": "anthropic/claude-ads",
+      "target": "Multi-Stage_Pipeline",
+      "relation": "implements",
+      "weight": 3
+    },
+    {
+      "source": "anthropic/claude-ads",
+      "target": "Safety_by_Design",
+      "relation": "implements",
+      "weight": 3
+    },
+    {
+      "source": "anthropic/claude-ads",
+      "target": "Brand_Profile",
+      "relation": "manages",
+      "weight": 2
+    },
+    {
+      "source": "anthropic/claude-ads",
+      "target": "Platform_APIs",
+      "relation": "integrates_with",
+      "weight": 2
+    },
+    {
+      "source": "agentic-stack/agentic-stack",
+      "target": "Tool_Decorator",
+      "relation": "implements",
+      "weight": 3
+    },
+    {
+      "source": "agentic-stack/agentic-stack",
+      "target": "Memory_Abstraction",
+      "relation": "implements",
+      "weight": 3
+    },
+    {
+      "source": "agentic-stack/agentic-stack",
+      "target": "Reflection_Loop",
+      "relation": "implements",
+      "weight": 2
+    },
+    {
+      "source": "agentic-stack/agentic-stack",
+      "target": "Multi_Agent_Collaboration",
+      "relation": "implements",
+      "weight": 3
+    },
+    {
+      "source": "agentic-stack/agentic-stack",
+      "target": "Modular_Agent_Framework",
+      "relation": "defines",
+      "weight": 3
+    },
+    {
+      "source": "agentic-stack/agentic-stack",
+      "target": "Python",
+      "relation": "written_in",
+      "weight": 2
+    },
+    {
+      "source": "agentic-stack/agentic-stack",
+      "target": "Neo4j",
+      "relation": "supports",
+      "weight": 1
+    },
+    {
+      "source": "agentic-stack/agentic-stack",
+      "target": "Redis",
+      "relation": "supports",
+      "weight": 1
+    },
+    {
+      "source": "chainyo/claude-task-master",
+      "target": "Project_Planning_AI",
+      "relation": "defines",
+      "weight": 3
+    },
+    {
+      "source": "anthropic/claude-ads",
+      "target": "Ad_Campaign_Generation",
+      "relation": "defines",
+      "weight": 3
+    },
+    {
+      "source": "Nous_Research",
+      "target": "Hermes_Agent",
+      "relation": "creates",
+      "weight": 3
+    },
+    {
+      "source": "Hermes_Agent",
+      "target": "chainyo/claude-task-master",
+      "relation": "could_use",
+      "weight": 2
+    },
+    {
+      "source": "Hermes_Agent",
+      "target": "obscura-ai/obscura",
+      "relation": "could_use",
+      "weight": 2
+    },
+    {
+      "source": "Hermes_Agent",
+      "target": "anthropic/claude-ads",
+      "relation": "could_use",
+      "weight": 2
+    },
+    {
+      "source": "Hermes_Agent",
+      "target": "agentic-stack/agentic-stack",
+      "relation": "could_use",
+      "weight": 2
+    },
+    {
+      "source": "Claude_API",
+      "target": "Prompt_Engineering",
+      "relation": "enables",
+      "weight": 2
+    },
+    {
+      "source": "DAG_Scheduling",
+      "target": "Multi_Agent_Collaboration",
+      "relation": "supports",
+      "weight": 2
+    },
+    {
+      "source": "Tool_Decorator",
+      "target": "Multi_Agent_Collaboration",
+      "relation": "enables",
+      "weight": 2
+    },
+    {
+      "source": "Memory_Abstraction",
+      "target": "Modular_Agent_Framework",
+      "relation": "core_component_of",
+      "weight": 3
+    },
+    {
+      "source": "Safety_by_Design",
+      "target": "Privacy_by_Design",
+      "relation": "complementary_to",
+      "weight": 2
+    },
+    {
+      "source": "Recursive_Decomposition",
+      "target": "DAG_Scheduling",
+      "relation": "produces",
+      "weight": 2
+    }
+  ],
+
+  "metadata": {
+    "generated_at": "2026-04-26T12:13:00Z",
+    "source_reports": [
+      "research_obscura.md",
+      "research_claude_task_master.md",
+      "research_claude_ads.md",
+      "research_agentic_stack.md"
+    ],
+    "total_nodes": 59,
+    "total_edges": 46
+  }
+}

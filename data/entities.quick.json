@@ -1,0 +1,1212 @@
+[
+  {
+    "type": "repo",
+    "label": "alvinreal/awesome-opensource-ai",
+    "source_file": "research_awesome_opensource_ai.md"
+  },
+  {
+    "type": "repo",
+    "label": "anthropics/skills",
+    "source_file": "research_anthropic_skills.md"
+  },
+  {
+    "type": "repo",
+    "label": "coollabsio/coolify",
+    "source_file": "research_coolify.md"
+  },
+  {
+    "type": "repo",
+    "label": "0xNyk/awesome-hermes-agent",
+    "source_file": "research_awesome_hermes_agent.md"
+  },
+  {
+    "type": "repo",
+    "label": "openhands/openhands",
+    "source_file": "research_openhands.md"
+  },
+  {
+    "type": "repo",
+    "label": "virattt/dexter",
+    "source_file": "research_dexter.md"
+  },
+  {
+    "type": "repo",
+    "label": "affaan-m/everything-claude-code",
+    "source_file": "research_everything_claude_code.md"
+  },
+  {
+    "type": "repo",
+    "label": "obsidianmd/obsidian",
+    "source_file": "research_obsidian_headless.md"
+  },
+  {
+    "type": "repo",
+    "label": "zoro-jiro-san/the-mansion",
+    "source_file": "research_the_mansion.md"
+  },
+  {
+    "type": "repo",
+    "label": "mattpocock/sandcastle",
+    "source_file": "research_sandcastle.md"
+  },
+  {
+    "type": "repo",
+    "label": "mattpocock/skills",
+    "source_file": "research_mattpocock_skills.md"
+  },
+  {
+    "type": "repo",
+    "label": "solana-foundation/solana-dev-skill",
+    "source_file": "research_solana_dev_skill.md"
+  },
+  {
+    "type": "repo",
+    "label": "cloudflare/agentic-inbox",
+    "source_file": "research_agentic_inbox.md"
+  },
+  {
+    "type": "repo",
+    "label": "HKUDS/Vibe-Trading",
+    "source_file": "research_vibe_trading.md"
+  },
+  {
+    "type": "repo",
+    "label": "nowork-studio/toprank",
+    "source_file": "research_toprank.md"
+  },
+  {
+    "type": "repo",
+    "label": "KeygraphHQ/shannon",
+    "source_file": "research_shannon.md"
+  },
+  {
+    "type": "repo",
+    "label": "fincept/terminal",
+    "source_file": "research_fincept_terminal.md"
+  },
+  {
+    "type": "repo",
+    "label": "patchy631/ai-engineering-hub",
+    "source_file": "research_ai_engineering_hub.md"
+  },
+  {
+    "type": "repo",
+    "label": "solana-foundation/awesome-solana-ai",
+    "source_file": "research_awesome_solana_ai.md"
+  },
+  {
+    "type": "repo",
+    "label": "topoteretes/cognee",
+    "source_file": "research_cognee.md"
+  },
+  {
+    "type": "repo",
+    "label": "obscura-ai/obscura",
+    "source_file": "research_obscura.md"
+  },
+  {
+    "type": "repo",
+    "label": "chainyo/claude-task-master",
+    "source_file": "research_claude_task_master.md"
+  },
+  {
+    "type": "repo",
+    "label": "anthropic/claude-ads",
+    "source_file": "research_claude_ads.md"
+  },
+  {
+    "type": "repo",
+    "label": "agentic-stack/agentic-stack",
+    "source_file": "research_agentic_stack.md"
+  },
+  {
+    "type": "person",
+    "label": "Hermes Agent",
+    "source_file": "research_awesome_opensource_ai.md"
+  },
+  {
+    "type": "person",
+    "label": "Hermes Agent",
+    "source_file": "research_anthropic_skills.md"
+  },
+  {
+    "type": "person",
+    "label": "Hermes Agent",
+    "source_file": "research_coolify.md"
+  },
+  {
+    "type": "person",
+    "label": "Hermes Agent",
+    "source_file": "research_awesome_hermes_agent.md"
+  },
+  {
+    "type": "person",
+    "label": "Hermes Agent",
+    "source_file": "research_openhands.md"
+  },
+  {
+    "type": "person",
+    "label": "Hermes Agent",
+    "source_file": "research_dexter.md"
+  },
+  {
+    "type": "person",
+    "label": "Hermes Agent",
+    "source_file": "research_everything_claude_code.md"
+  },
+  {
+    "type": "person",
+    "label": "Hermes Agent",
+    "source_file": "research_obsidian_headless.md"
+  },
+  {
+    "type": "person",
+    "label": "Hermes Agent",
+    "source_file": "research_the_mansion.md"
+  },
+  {
+    "type": "person",
+    "label": "Hermes Agent",
+    "source_file": "research_sandcastle.md"
+  },
+  {
+    "type": "person",
+    "label": "Matt Pocock",
+    "source_file": "research_sandcastle.md"
+  },
+  {
+    "type": "person",
+    "label": "Hermes Agent",
+    "source_file": "research_mattpocock_skills.md"
+  },
+  {
+    "type": "person",
+    "label": "Matt Pocock",
+    "source_file": "research_mattpocock_skills.md"
+  },
+  {
+    "type": "person",
+    "label": "Hermes Agent",
+    "source_file": "research_solana_dev_skill.md"
+  },
+  {
+    "type": "person",
+    "label": "Hermes Agent",
+    "source_file": "research_agentic_inbox.md"
+  },
+  {
+    "type": "person",
+    "label": "Hermes Agent",
+    "source_file": "research_vibe_trading.md"
+  },
+  {
+    "type": "person",
+    "label": "Hermes Agent",
+    "source_file": "research_toprank.md"
+  },
+  {
+    "type": "person",
+    "label": "Hermes Agent",
+    "source_file": "research_shannon.md"
+  },
+  {
+    "type": "person",
+    "label": "Hermes Agent",
+    "source_file": "research_fincept_terminal.md"
+  },
+  {
+    "type": "person",
+    "label": "Hermes Agent",
+    "source_file": "research_ai_engineering_hub.md"
+  },
+  {
+    "type": "person",
+    "label": "Hermes Agent",
+    "source_file": "research_awesome_solana_ai.md"
+  },
+  {
+    "type": "person",
+    "label": "Hermes Agent",
+    "source_file": "research_cognee.md"
+  },
+  {
+    "type": "person",
+    "label": "Eyal Toledo",
+    "source_file": "research_claude_task_master.md"
+  },
+  {
+    "type": "person",
+    "label": "chainyo",
+    "source_file": "research_claude_task_master.md"
+  },
+  {
+    "type": "person",
+    "label": "Hermes Agent",
+    "source_file": "research_claude_task_master.md"
+  },
+  {
+    "type": "person",
+    "label": "Hermes Agent",
+    "source_file": "research_claude_ads.md"
+  },
+  {
+    "type": "person",
+    "label": "Hermes Agent",
+    "source_file": "research_agentic_stack.md"
+  },
+  {
+    "type": "tech",
+    "label": "LangChain",
+    "source_file": "research_awesome_opensource_ai.md"
+  },
+  {
+    "type": "tech",
+    "label": "CrewAI",
+    "source_file": "research_awesome_opensource_ai.md"
+  },
+  {
+    "type": "tech",
+    "label": "Gorilla",
+    "source_file": "research_awesome_opensource_ai.md"
+  },
+  {
+    "type": "tech",
+    "label": "ToolLLM",
+    "source_file": "research_awesome_opensource_ai.md"
+  },
+  {
+    "type": "tech",
+    "label": "Voyager",
+    "source_file": "research_awesome_opensource_ai.md"
+  },
+  {
+    "type": "tech",
+    "label": "OpenInterpreter",
+    "source_file": "research_awesome_opensource_ai.md"
+  },
+  {
+    "type": "tech",
+    "label": "code_interpreter",
+    "source_file": "research_anthropic_skills.md"
+  },
+  {
+    "type": "tech",
+    "label": "web_search",
+    "source_file": "research_anthropic_skills.md"
+  },
+  {
+    "type": "tech",
+    "label": "retrieval",
+    "source_file": "research_anthropic_skills.md"
+  },
+  {
+    "type": "tech",
+    "label": "Docker",
+    "source_file": "research_coolify.md"
+  },
+  {
+    "type": "tech",
+    "label": "Traefik",
+    "source_file": "research_coolify.md"
+  },
+  {
+    "type": "tech",
+    "label": "docker-compose",
+    "source_file": "research_coolify.md"
+  },
+  {
+    "type": "tech",
+    "label": "Docker Compose",
+    "source_file": "research_coolify.md"
+  },
+  {
+    "type": "tech",
+    "label": "Podman",
+    "source_file": "research_coolify.md"
+  },
+  {
+    "type": "tech",
+    "label": "Sanboxed code execution",
+    "source_file": "research_awesome_opensource_ai.md"
+  },
+  {
+    "type": "tech",
+    "label": "docker runtime",
+    "source_file": "research_openhands.md"
+  },
+  {
+    "type": "tech",
+    "label": "asyncio",
+    "source_file": "research_dexter.md"
+  },
+  {
+    "type": "tech",
+    "label": "discord.py",
+    "source_file": "research_dexter.md"
+  },
+  {
+    "type": "tech",
+    "label": "slack_sdk",
+    "source_file": "research_dexter.md"
+  },
+  {
+    "type": "tech",
+    "label": "Bash",
+    "source_file": "research_everything_claude_code.md"
+  },
+  {
+    "type": "tech",
+    "label": "Glob",
+    "source_file": "research_everything_claude_code.md"
+  },
+  {
+    "type": "tech",
+    "label": "Grep",
+    "source_file": "research_everything_claude_code.md"
+  },
+  {
+    "type": "tech",
+    "label": "Edit",
+    "source_file": "research_everything_claude_code.md"
+  },
+  {
+    "type": "tech",
+    "label": "Read",
+    "source_file": "research_everything_claude_code.md"
+  },
+  {
+    "type": "tech",
+    "label": "Write",
+    "source_file": "research_everything_claude_code.md"
+  },
+  {
+    "type": "tech",
+    "label": "Task",
+    "source_file": "research_everything_claude_code.md"
+  },
+  {
+    "type": "tech",
+    "label": "TodoWrite",
+    "source_file": "research_everything_claude_code.md"
+  },
+  {
+    "type": "tech",
+    "label": "TodoRead",
+    "source_file": "research_everything_claude_code.md"
+  },
+  {
+    "type": "tech",
+    "label": "Think",
+    "source_file": "research_everything_claude_code.md"
+  },
+  {
+    "type": "tech",
+    "label": "Monaco Editor",
+    "source_file": "research_sandcastle.md"
+  },
+  {
+    "type": "tech",
+    "label": "TypeScript",
+    "source_file": "research_sandcastle.md"
+  },
+  {
+    "type": "tech",
+    "label": "esbuild",
+    "source_file": "research_sandcastle.md"
+  },
+  {
+    "type": "tech",
+    "label": "Web Worker",
+    "source_file": "research_sandcastle.md"
+  },
+  {
+    "type": "tech",
+    "label": "sandpack",
+    "source_file": "research_sandcastle.md"
+  },
+  {
+    "type": "tech",
+    "label": "yaml",
+    "source_file": "research_mattpocock_skills.md"
+  },
+  {
+    "type": "tech",
+    "label": "markdown",
+    "source_file": "research_mattpocock_skills.md"
+  },
+  {
+    "type": "tech",
+    "label": "Anchor framework",
+    "source_file": "research_solana_dev_skill.md"
+  },
+  {
+    "type": "tech",
+    "label": "SPL tokens",
+    "source_file": "research_solana_dev_skill.md"
+  },
+  {
+    "type": "tech",
+    "label": "Metaplex",
+    "source_file": "research_solana_dev_skill.md"
+  },
+  {
+    "type": "tech",
+    "label": "JSON Schema",
+    "source_file": "research_agentic_inbox.md"
+  },
+  {
+    "type": "tech",
+    "label": "SSE",
+    "source_file": "research_agentic_inbox.md"
+  },
+  {
+    "type": "tech",
+    "label": "webhooks",
+    "source_file": "research_agentic_inbox.md"
+  },
+  {
+    "type": "tech",
+    "label": "ccxt",
+    "source_file": "research_vibe_trading.md"
+  },
+  {
+    "type": "tech",
+    "label": "pandas",
+    "source_file": "research_vibe_trading.md"
+  },
+  {
+    "type": "tech",
+    "label": "TA-Lib",
+    "source_file": "research_vibe_trading.md"
+  },
+  {
+    "type": "tech",
+    "label": "neo4j",
+    "source_file": "research_shannon.md"
+  },
+  {
+    "type": "tech",
+    "label": "ArangoDB",
+    "source_file": "research_shannon.md"
+  },
+  {
+    "type": "tech",
+    "label": "Qdrant",
+    "source_file": "research_shannon.md"
+  },
+  {
+    "type": "tech",
+    "label": "Weaviate",
+    "source_file": "research_shannon.md"
+  },
+  {
+    "type": "tech",
+    "label": "pgvector",
+    "source_file": "research_shannon.md"
+  },
+  {
+    "type": "tech",
+    "label": "OpenAI embeddings",
+    "source_file": "research_shannon.md"
+  },
+  {
+    "type": "tech",
+    "label": "Redis",
+    "source_file": "research_shannon.md"
+  },
+  {
+    "type": "tech",
+    "label": "Prefect",
+    "source_file": "research_shannon.md"
+  },
+  {
+    "type": "tech",
+    "label": "Airflow",
+    "source_file": "research_shannon.md"
+  },
+  {
+    "type": "tech",
+    "label": "Temporal",
+    "source_file": "research_shannon.md"
+  },
+  {
+    "type": "tech",
+    "label": "MLflow",
+    "source_file": "research_ai_engineering_hub.md"
+  },
+  {
+    "type": "tech",
+    "label": "Kubeflow",
+    "source_file": "research_ai_engineering_hub.md"
+  },
+  {
+    "type": "tech",
+    "label": "DVC",
+    "source_file": "research_ai_engineering_hub.md"
+  },
+  {
+    "type": "tech",
+    "label": "Prefect",
+    "source_file": "research_ai_engineering_hub.md"
+  },
+  {
+    "type": "tech",
+    "label": "Airflow",
+    "source_file": "research_ai_engineering_hub.md"
+  },
+  {
+    "type": "tech",
+    "label": "Terraform",
+    "source_file": "research_ai_engineering_hub.md"
+  },
+  {
+    "type": "tech",
+    "label": "TensorRT",
+    "source_file": "research_ai_engineering_hub.md"
+  },
+  {
+    "type": "tech",
+    "label": "ONNX Runtime",
+    "source_file": "research_ai_engineering_hub.md"
+  },
+  {
+    "type": "tech",
+    "label": "BentoML",
+    "source_file": "research_ai_engineering_hub.md"
+  },
+  {
+    "type": "tech",
+    "label": "FastAPI",
+    "source_file": "research_ai_engineering_hub.md"
+  },
+  {
+    "type": "tech",
+    "label": "Triton Inference Server",
+    "source_file": "research_ai_engineering_hub.md"
+  },
+  {
+    "type": "tech",
+    "label": "Prometheus",
+    "source_file": "research_ai_engineering_hub.md"
+  },
+  {
+    "type": "tech",
+    "label": "Grafana",
+    "source_file": "research_ai_engineering_hub.md"
+  },
+  {
+    "type": "tech",
+    "label": "OpenTelemetry",
+    "source_file": "research_ai_engineering_hub.md"
+  },
+  {
+    "type": "tech",
+    "label": "ELK Stack",
+    "source_file": "research_ai_engineering_hub.md"
+  },
+  {
+    "type": "tech",
+    "label": "Arize",
+    "source_file": "research_ai_engineering_hub.md"
+  },
+  {
+    "type": "tech",
+    "label": "WhyLabs",
+    "source_file": "research_ai_engineering_hub.md"
+  },
+  {
+    "type": "tech",
+    "label": "PyTorch",
+    "source_file": "research_awesome_solana_ai.md"
+  },
+  {
+    "type": "tech",
+    "label": "TensorFlow",
+    "source_file": "research_awesome_solana_ai.md"
+  },
+  {
+    "type": "tech",
+    "label": "Metaplex",
+    "source_file": "research_awesome_solana_ai.md"
+  },
+  {
+    "type": "tech",
+    "label": "Helius",
+    "source_file": "research_awesome_solana_ai.md"
+  },
+  {
+    "type": "tech",
+    "label": "Chroma",
+    "source_file": "research_cognee.md"
+  },
+  {
+    "type": "tech",
+    "label": "Weaviate",
+    "source_file": "research_cognee.md"
+  },
+  {
+    "type": "tech",
+    "label": "diffusion models",
+    "source_file": "research_obscura.md"
+  },
+  {
+    "type": "tech",
+    "label": "Anthropic SDK",
+    "source_file": "research_claude_task_master.md"
+  },
+  {
+    "type": "tech",
+    "label": "Mermaid",
+    "source_file": "research_claude_task_master.md"
+  },
+  {
+    "type": "tech",
+    "label": "Claude API",
+    "source_file": "research_claude_task_master.md"
+  },
+  {
+    "type": "tech",
+    "label": "Brand Guardian",
+    "source_file": "research_claude_ads.md"
+  },
+  {
+    "type": "tech",
+    "label": "Compliance Service",
+    "source_file": "research_claude_ads.md"
+  },
+  {
+    "type": "tech",
+    "label": "Campaign Optimizer",
+    "source_file": "research_claude_ads.md"
+  },
+  {
+    "type": "tech",
+    "label": "A/B Testing Manager",
+    "source_file": "research_claude_ads.md"
+  },
+  {
+    "type": "tech",
+    "label": "Redis",
+    "source_file": "research_agentic_stack.md"
+  },
+  {
+    "type": "tech",
+    "label": "PostgreSQL",
+    "source_file": "research_agentic_stack.md"
+  },
+  {
+    "type": "tech",
+    "label": "Neo4j",
+    "source_file": "research_agentic_stack.md"
+  },
+  {
+    "type": "tech",
+    "label": "Prefect",
+    "source_file": "research_agentic_stack.md"
+  },
+  {
+    "type": "tech",
+    "label": "OpenTelemetry",
+    "source_file": "research_agentic_stack.md"
+  },
+  {
+    "type": "tech",
+    "label": "Docker",
+    "source_file": "research_agentic_stack.md"
+  },
+  {
+    "type": "tech",
+    "label": "Kubernetes",
+    "source_file": "research_agentic_stack.md"
+  },
+  {
+    "type": "tech",
+    "label": "HTTP/2",
+    "source_file": "research_agentic_stack.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Callback/Tracing System",
+    "source_file": "research_awesome_opensource_ai.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Role-Based Agent Decomposition",
+    "source_file": "research_awesome_opensource_ai.md"
+  },
+  {
+    "type": "pattern",
+    "label": "API Grounding with Retrieval",
+    "source_file": "research_awesome_opensource_ai.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Persistent Skill & Memory Store",
+    "source_file": "research_awesome_opensource_ai.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Sandboxed Code Execution",
+    "source_file": "research_awesome_opensource_ai.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Dynamic Provider Routing",
+    "source_file": "research_awesome_opensource_ai.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Task Planning with Code",
+    "source_file": "research_awesome_opensource_ai.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Hierarchical Coordination",
+    "source_file": "research_awesome_opensource_ai.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Error Recovery Loops",
+    "source_file": "research_awesome_opensource_ai.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Structured Output Guarantees",
+    "source_file": "research_awesome_opensource_ai.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Standardized Schema",
+    "source_file": "research_anthropic_skills.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Discovery Mechanism",
+    "source_file": "research_anthropic_skills.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Invocation Protocol",
+    "source_file": "research_anthropic_skills.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Composition Patterns",
+    "source_file": "research_anthropic_skills.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Sandbox Isolation",
+    "source_file": "research_anthropic_skills.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Defense-in-Depth",
+    "source_file": "research_anthropic_skills.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Skill Catalog",
+    "source_file": "research_anthropic_skills.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Input/Output Schemas",
+    "source_file": "research_anthropic_skills.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Skill Discovery & Invocation",
+    "source_file": "research_anthropic_skills.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Skill Composition Patterns",
+    "source_file": "research_anthropic_skills.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Security Considerations",
+    "source_file": "research_anthropic_skills.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Multi-Service Orchestration",
+    "source_file": "research_coolify.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Environment/Secret Management",
+    "source_file": "research_coolify.md"
+  },
+  {
+    "type": "pattern",
+    "label": "One-Click Deploy Model",
+    "source_file": "research_coolify.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Monitoring/Logging Integration",
+    "source_file": "research_coolify.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Self-Host Recommendation",
+    "source_file": "research_coolify.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Migration Sketch",
+    "source_file": "research_coolify.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Message Handling Architecture",
+    "source_file": "research_dexter.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Plugin/Extension System",
+    "source_file": "research_dexter.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Command Routing Patterns",
+    "source_file": "research_dexter.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Rate Limiting + Error Recovery",
+    "source_file": "research_dexter.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Configuration Management",
+    "source_file": "research_dexter.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Notify-on-Completion",
+    "source_file": "research_dexter.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Plugin Model for Provider Adapters",
+    "source_file": "research_dexter.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Event-Driven Decoupling",
+    "source_file": "research_dexter.md"
+  },
+  {
+    "type": "pattern",
+    "label": "CLI & Terminal Automation",
+    "source_file": "research_everything_claude_code.md"
+  },
+  {
+    "type": "pattern",
+    "label": "File System Navigation & Code Editing",
+    "source_file": "research_everything_claude_code.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Environment & Project Detection",
+    "source_file": "research_everything_claude_code.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Prompt Templates That Maximize Reliability",
+    "source_file": "research_everything_claude_code.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Error Recovery Strategies",
+    "source_file": "research_everything_claude_code.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Note/Link Data Model",
+    "source_file": "research_obsidian_headless.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Graph/Visualization Patterns",
+    "source_file": "research_obsidian_headless.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Sync/Replication Approach",
+    "source_file": "research_obsidian_headless.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Plugin Architecture",
+    "source_file": "research_obsidian_headless.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Hermes Knowledge-Org Recommendation",
+    "source_file": "research_obsidian_headless.md"
+  },
+  {
+    "type": "pattern",
+    "label": "MCP Server Architecture",
+    "source_file": "research_the_mansion.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Security Model",
+    "source_file": "research_the_mansion.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Automation Patterns",
+    "source_file": "research_the_mansion.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Hermes Skill/Plugin Packaging",
+    "source_file": "research_the_mansion.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Architecture",
+    "source_file": "research_sandcastle.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Sandbox Patterns",
+    "source_file": "research_sandcastle.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Code Snippet Sharing Patterns",
+    "source_file": "research_sandcastle.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Live-Editing + Type Checking Integration",
+    "source_file": "research_sandcastle.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Example-Driven Documentation",
+    "source_file": "research_sandcastle.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Teaching Patterns",
+    "source_file": "research_mattpocock_skills.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Progressive Difficulty Curve Design",
+    "source_file": "research_mattpocock_skills.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Assessment & Validation Patterns",
+    "source_file": "research_mattpocock_skills.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Feedback Loops",
+    "source_file": "research_mattpocock_skills.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Hermes Application",
+    "source_file": "research_mattpocock_skills.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Skill Overview",
+    "source_file": "research_solana_dev_skill.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Trading Patterns",
+    "source_file": "research_vibe_trading.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Risk Controls",
+    "source_file": "research_vibe_trading.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Hermes Integration Plan",
+    "source_file": "research_vibe_trading.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Ranking Mechanics",
+    "source_file": "research_toprank.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Hermes Routing Upgrade Proposal",
+    "source_file": "research_toprank.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Architecture Overview",
+    "source_file": "research_shannon.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Core Data Model",
+    "source_file": "research_shannon.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Extraction Pipelines",
+    "source_file": "research_shannon.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Query & Retrieval Patterns",
+    "source_file": "research_shannon.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Scalability Approach",
+    "source_file": "research_shannon.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Entity Resolution & Deduplication",
+    "source_file": "research_shannon.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Integration Ideas for Hermes",
+    "source_file": "research_shannon.md"
+  },
+  {
+    "type": "pattern",
+    "label": "MLOps Patterns for 24/7 Agent Operation",
+    "source_file": "research_ai_engineering_hub.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Model Serving / Inference Optimization Patterns",
+    "source_file": "research_ai_engineering_hub.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Monitoring / Observability Patterns",
+    "source_file": "research_ai_engineering_hub.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Prompt Engineering / Chain-of-Thought Patterns",
+    "source_file": "research_ai_engineering_hub.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Agent Wallet Management & Identity",
+    "source_file": "research_awesome_solana_ai.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Economic Integration",
+    "source_file": "research_awesome_solana_ai.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Infrastructure Patterns",
+    "source_file": "research_awesome_solana_ai.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Cognitive Patterns",
+    "source_file": "research_cognee.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Hermes Decision-Enhancement Proposal",
+    "source_file": "research_cognee.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Key Patterns",
+    "source_file": "research_obscura.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Core Tools",
+    "source_file": "research_obscura.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Integration Opportunities for Hermes Agent",
+    "source_file": "research_obscura.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Overview",
+    "source_file": "research_claude_task_master.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Architecture",
+    "source_file": "research_claude_task_master.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Key Patterns",
+    "source_file": "research_claude_task_master.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Core Tools & Commands",
+    "source_file": "research_claude_task_master.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Integration Opportunities for Hermes Agent",
+    "source_file": "research_claude_task_master.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Architecture",
+    "source_file": "research_claude_ads.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Key Patterns",
+    "source_file": "research_claude_ads.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Core Tools/Components",
+    "source_file": "research_claude_ads.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Integration Opportunities for Hermes Agent",
+    "source_file": "research_claude_ads.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Overview & Purpose",
+    "source_file": "research_agentic_stack.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Architecture & Key Design Patterns",
+    "source_file": "research_agentic_stack.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Core Tools & Components Extracted",
+    "source_file": "research_agentic_stack.md"
+  },
+  {
+    "type": "pattern",
+    "label": "Integration Opportunities for Hermes Agent",
+    "source_file": "research_agentic_stack.md"
+  }
+]

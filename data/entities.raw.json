@@ -1,0 +1,77 @@
+[
+  {
+    "type": "link",
+    "label": "`anthropic/claude-ads`",
+    "url": "https://github.com/anthropic/claude-ads"
+  },
+  {
+    "type": "link",
+    "label": "discord.gg/agentic-stack",
+    "url": "https://discord.gg/agentic-stack"
+  },
+  {
+    "type": "link",
+    "label": "docs.agentic-stack.dev",
+    "url": "https://docs.agentic-stack.dev"
+  },
+  {
+    "type": "link",
+    "label": "github.com/agentic-stack",
+    "url": "https://github.com/agentic-stack"
+  },
+  {
+    "type": "link",
+    "label": "github.com/agentic-stack/agentic-stack",
+    "url": "https://github.com/agentic-stack/agentic-stack"
+  },
+  {
+    "type": "link",
+    "label": "https://api.obscura.ai/docs",
+    "url": "https://api.obscura.ai/docs"
+  },
+  {
+    "type": "link",
+    "label": "https://discord.gg/obscura",
+    "url": "https://discord.gg/obscura"
+  },
+  {
+    "type": "link",
+    "label": "https://docs.obscura.ai",
+    "url": "https://docs.obscura.ai"
+  },
+  {
+    "type": "link",
+    "label": "https://github.com/obscura-ai/obscura",
+    "url": "https://github.com/obscura-ai/obscura"
+  },
+  {
+    "type": "link",
+    "label": "https://www.obscura.ai",
+    "url": "https://www.obscura.ai"
+  },
+  {
+    "type": "repo",
+    "label": "\"anthropic/claude-ads\"",
+    "url": "https://github.com/\"anthropic/claude-ads\""
+  },
+  {
+    "type": "repo",
+    "label": "\"chainyo/claude-task-master\"",
+    "url": "https://github.com/\"chainyo/claude-task-master\""
+  },
+  {
+    "type": "repo",
+    "label": "agentic-stack/agentic-stack",
+    "url": "https://github.com/agentic-stack/agentic-stack"
+  },
+  {
+    "type": "repo",
+    "label": "anthropic/claude-ads",
+    "url": "https://github.com/anthropic/claude-ads"
+  },
+  {
+    "type": "repo",
+    "label": "obscura-ai/obscura",
+    "url": "https://github.com/obscura-ai/obscura"
+  }
+]
