@@ -1,0 +1,97 @@
+#!/usr/bin/env python3
+"""Synthesize wiki pages from raw articles using LLM (placeholder scaffold).
+
+This tool calls an LLM (OpenRouter/anthropic) to read raw/articles/*.md and
+produce rich wiki content. It's intentionally not implemented fully to avoid
+unintended API costs. The scaffold shows where to plug in the LLM call.
+
+Usage:
+  hermes-brain-synthesize [--model anthropic/claude-3.7-sonnet] [--dry-run]
+"""
+import argparse, json, sys
+from datetime import datetime
+from pathlib import Path
+
+REPO = Path("/home/tokisaki/github/hermes-second-brain")
+RAW = REPO / "raw" / "articles"
+WIKI = REPO / "wiki"
+
+def synthesize_page(src_path, dst_path, model, dry_run=False):
+    """Generate wiki content from raw article using LLM."""
+    src_txt = src_path.read_text()
+    # Extract frontmatter to get repo/title
+    import re
+    fm_match = re.search(r'---\s*(.*?)\s*---', src_txt, re.DOTALL)
+    meta = {}
+    if fm_match:
+        for line in fm_match.group(1).split('\n'):
+            if ':' in line:
+                k,v = line.split(':',1)
+                meta[k.strip()] = v.strip()
+    title = meta.get('title', src_path.stem)
+    repo = meta.get('repo', 'unknown')
+
+    prompt = f"""You are compiling a knowledge base. Read the following research article and produce a comprehensive wiki page.
+
+Article file: {src_path.name}
+Repository: {repo}
+Title: {title}
+
+Raw content (first 8000 chars):
+{src_txt[:8000]}
+
+Write a wiki page with these sections:
+# {title}
+## Overview (2-3 sentence summary)
+## Key Concepts (bullet list of main ideas)
+## Architecture (if applicable — diagrams in Mermaid)
+## Integration with Hermes (how these patterns apply to Hermes Agent)
+## References (citations to other research in the knowledge base)
+
+Use [[wikilinks]] to connect to related topics.
+Write in clear, concise Markdown. Include code examples if relevant.
+"""
+
+    if dry_run:
+        print(f"[DRY] Would synthesize {src_path.name} using {model}")
+        print(f"  Prompt length: {len(prompt)} chars")
+        return None
+
+    # Call LLM via OpenRouter or Anthropic
+    try:
+        import subprocess, os
+        # Use hermes-tool or direct API call
+        # For now, placeholder — user must implement API key
+        print(f"Placeholder: need to implement LLM call for {src_path.name}", file=sys.stderr)
+        return None
+    except Exception as e:
+        print(f"Error: {e}", file=sys.stderr)
+        sys.exit(1)
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--model", default="anthropic/claude-3.7-sonnet", help="LLM model to use")
+    parser.add_argument("--dry-run", action="store_true", help="Preview without API calls")
+    parser.add_argument("--file", help="Synthesize single file instead of all")
+    args = parser.parse_args()
+
+    targets = [RAW / args.file] if args.file else sorted(RAW.glob("*.md"))
+    done, skipped = 0, []
+
+    for src in targets:
+        stem = src.stem.replace("research_", "")
+        dst = WIKI / f"{stem}.md"
+        if dst.exists() and not args.dry_run:
+            skipped.append(src.name)
+            continue
+        synthesize_page(src, dst, args.model, args.dry_run)
+        if not args.dry_run:
+            done += 1
+
+    if not args.dry_run:
+        print(f"Synthesized: {done} | Skipped: {len(skipped)}")
+    else:
+        print(f"[DRY] Would process: {len(targets)} files")
+
+if __name__ == "__main__":
+    main()
