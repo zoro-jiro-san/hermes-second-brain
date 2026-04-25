@@ -1,0 +1,2022 @@
+[
+  {
+    "id": "repo:alvinreal-awesome-opensource-ai",
+    "type": "repo",
+    "label": "alvinreal/awesome-opensource-ai",
+    "description": "Entity from research: research_awesome_opensource_ai.md",
+    "source_files": [
+      "research_awesome_opensource_ai.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "repo:anthropics-skills",
+    "type": "repo",
+    "label": "anthropics/skills",
+    "description": "Entity from research: research_anthropic_skills.md",
+    "source_files": [
+      "research_anthropic_skills.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "repo:coollabsio-coolify",
+    "type": "repo",
+    "label": "coollabsio/coolify",
+    "description": "Entity from research: research_coolify.md",
+    "source_files": [
+      "research_coolify.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "repo:0xnyk-awesome-hermes-agent",
+    "type": "repo",
+    "label": "0xNyk/awesome-hermes-agent",
+    "description": "Entity from research: research_awesome_hermes_agent.md",
+    "source_files": [
+      "research_awesome_hermes_agent.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "repo:openhands-openhands",
+    "type": "repo",
+    "label": "openhands/openhands",
+    "description": "Entity from research: research_openhands.md",
+    "source_files": [
+      "research_openhands.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "repo:virattt-dexter",
+    "type": "repo",
+    "label": "virattt/dexter",
+    "description": "Entity from research: research_dexter.md",
+    "source_files": [
+      "research_dexter.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "repo:affaan-m-everything-claude-code",
+    "type": "repo",
+    "label": "affaan-m/everything-claude-code",
+    "description": "Entity from research: research_everything_claude_code.md",
+    "source_files": [
+      "research_everything_claude_code.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "repo:obsidianmd-obsidian",
+    "type": "repo",
+    "label": "obsidianmd/obsidian",
+    "description": "Entity from research: research_obsidian_headless.md",
+    "source_files": [
+      "research_obsidian_headless.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "repo:zoro-jiro-san-the-mansion",
+    "type": "repo",
+    "label": "zoro-jiro-san/the-mansion",
+    "description": "Entity from research: research_the_mansion.md",
+    "source_files": [
+      "research_the_mansion.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "repo:mattpocock-sandcastle",
+    "type": "repo",
+    "label": "mattpocock/sandcastle",
+    "description": "Entity from research: research_sandcastle.md",
+    "source_files": [
+      "research_sandcastle.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "repo:mattpocock-skills",
+    "type": "repo",
+    "label": "mattpocock/skills",
+    "description": "Entity from research: research_mattpocock_skills.md",
+    "source_files": [
+      "research_mattpocock_skills.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "repo:solana-foundation-solana-dev-skill",
+    "type": "repo",
+    "label": "solana-foundation/solana-dev-skill",
+    "description": "Entity from research: research_solana_dev_skill.md",
+    "source_files": [
+      "research_solana_dev_skill.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "repo:cloudflare-agentic-inbox",
+    "type": "repo",
+    "label": "cloudflare/agentic-inbox",
+    "description": "Entity from research: research_agentic_inbox.md",
+    "source_files": [
+      "research_agentic_inbox.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "repo:hkuds-vibe-trading",
+    "type": "repo",
+    "label": "HKUDS/Vibe-Trading",
+    "description": "Entity from research: research_vibe_trading.md",
+    "source_files": [
+      "research_vibe_trading.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "repo:nowork-studio-toprank",
+    "type": "repo",
+    "label": "nowork-studio/toprank",
+    "description": "Entity from research: research_toprank.md",
+    "source_files": [
+      "research_toprank.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "repo:keygraphhq-shannon",
+    "type": "repo",
+    "label": "KeygraphHQ/shannon",
+    "description": "Entity from research: research_shannon.md",
+    "source_files": [
+      "research_shannon.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "repo:fincept-terminal",
+    "type": "repo",
+    "label": "fincept/terminal",
+    "description": "Entity from research: research_fincept_terminal.md",
+    "source_files": [
+      "research_fincept_terminal.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "repo:patchy631-ai-engineering-hub",
+    "type": "repo",
+    "label": "patchy631/ai-engineering-hub",
+    "description": "Entity from research: research_ai_engineering_hub.md",
+    "source_files": [
+      "research_ai_engineering_hub.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "repo:solana-foundation-awesome-solana-ai",
+    "type": "repo",
+    "label": "solana-foundation/awesome-solana-ai",
+    "description": "Entity from research: research_awesome_solana_ai.md",
+    "source_files": [
+      "research_awesome_solana_ai.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "repo:topoteretes-cognee",
+    "type": "repo",
+    "label": "topoteretes/cognee",
+    "description": "Entity from research: research_cognee.md",
+    "source_files": [
+      "research_cognee.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "repo:obscura-ai-obscura",
+    "type": "repo",
+    "label": "obscura-ai/obscura",
+    "description": "Entity from research: research_obscura.md",
+    "source_files": [
+      "research_obscura.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "repo:chainyo-claude-task-master",
+    "type": "repo",
+    "label": "chainyo/claude-task-master",
+    "description": "Entity from research: research_claude_task_master.md",
+    "source_files": [
+      "research_claude_task_master.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "repo:anthropic-claude-ads",
+    "type": "repo",
+    "label": "anthropic/claude-ads",
+    "description": "Entity from research: research_claude_ads.md",
+    "source_files": [
+      "research_claude_ads.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "repo:agentic-stack-agentic-stack",
+    "type": "repo",
+    "label": "agentic-stack/agentic-stack",
+    "description": "Entity from research: research_agentic_stack.md",
+    "source_files": [
+      "research_agentic_stack.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "person:hermes-agent",
+    "type": "person",
+    "label": "Hermes Agent",
+    "description": "Entity from research: research_agentic_stack.md",
+    "source_files": [
+      "research_agentic_stack.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "person:matt-pocock",
+    "type": "person",
+    "label": "Matt Pocock",
+    "description": "Entity from research: research_mattpocock_skills.md",
+    "source_files": [
+      "research_mattpocock_skills.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "person:eyal-toledo",
+    "type": "person",
+    "label": "Eyal Toledo",
+    "description": "Entity from research: research_claude_task_master.md",
+    "source_files": [
+      "research_claude_task_master.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "person:chainyo",
+    "type": "person",
+    "label": "chainyo",
+    "description": "Entity from research: research_claude_task_master.md",
+    "source_files": [
+      "research_claude_task_master.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:langchain",
+    "type": "tech",
+    "label": "LangChain",
+    "description": "Entity from research: research_awesome_opensource_ai.md",
+    "source_files": [
+      "research_awesome_opensource_ai.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:crewai",
+    "type": "tech",
+    "label": "CrewAI",
+    "description": "Entity from research: research_awesome_opensource_ai.md",
+    "source_files": [
+      "research_awesome_opensource_ai.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:gorilla",
+    "type": "tech",
+    "label": "Gorilla",
+    "description": "Entity from research: research_awesome_opensource_ai.md",
+    "source_files": [
+      "research_awesome_opensource_ai.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:toolllm",
+    "type": "tech",
+    "label": "ToolLLM",
+    "description": "Entity from research: research_awesome_opensource_ai.md",
+    "source_files": [
+      "research_awesome_opensource_ai.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:voyager",
+    "type": "tech",
+    "label": "Voyager",
+    "description": "Entity from research: research_awesome_opensource_ai.md",
+    "source_files": [
+      "research_awesome_opensource_ai.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:openinterpreter",
+    "type": "tech",
+    "label": "OpenInterpreter",
+    "description": "Entity from research: research_awesome_opensource_ai.md",
+    "source_files": [
+      "research_awesome_opensource_ai.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:code_interpreter",
+    "type": "tech",
+    "label": "code_interpreter",
+    "description": "Entity from research: research_anthropic_skills.md",
+    "source_files": [
+      "research_anthropic_skills.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:web_search",
+    "type": "tech",
+    "label": "web_search",
+    "description": "Entity from research: research_anthropic_skills.md",
+    "source_files": [
+      "research_anthropic_skills.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:retrieval",
+    "type": "tech",
+    "label": "retrieval",
+    "description": "Entity from research: research_anthropic_skills.md",
+    "source_files": [
+      "research_anthropic_skills.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:docker",
+    "type": "tech",
+    "label": "Docker",
+    "description": "Entity from research: research_agentic_stack.md",
+    "source_files": [
+      "research_agentic_stack.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:traefik",
+    "type": "tech",
+    "label": "Traefik",
+    "description": "Entity from research: research_coolify.md",
+    "source_files": [
+      "research_coolify.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:docker-compose",
+    "type": "tech",
+    "label": "Docker Compose",
+    "description": "Entity from research: research_coolify.md",
+    "source_files": [
+      "research_coolify.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:podman",
+    "type": "tech",
+    "label": "Podman",
+    "description": "Entity from research: research_coolify.md",
+    "source_files": [
+      "research_coolify.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:sanboxed-code-execution",
+    "type": "tech",
+    "label": "Sanboxed code execution",
+    "description": "Entity from research: research_awesome_opensource_ai.md",
+    "source_files": [
+      "research_awesome_opensource_ai.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:docker-runtime",
+    "type": "tech",
+    "label": "docker runtime",
+    "description": "Entity from research: research_openhands.md",
+    "source_files": [
+      "research_openhands.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:asyncio",
+    "type": "tech",
+    "label": "asyncio",
+    "description": "Entity from research: research_dexter.md",
+    "source_files": [
+      "research_dexter.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:discord.py",
+    "type": "tech",
+    "label": "discord.py",
+    "description": "Entity from research: research_dexter.md",
+    "source_files": [
+      "research_dexter.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:slack_sdk",
+    "type": "tech",
+    "label": "slack_sdk",
+    "description": "Entity from research: research_dexter.md",
+    "source_files": [
+      "research_dexter.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:bash",
+    "type": "tech",
+    "label": "Bash",
+    "description": "Entity from research: research_everything_claude_code.md",
+    "source_files": [
+      "research_everything_claude_code.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:glob",
+    "type": "tech",
+    "label": "Glob",
+    "description": "Entity from research: research_everything_claude_code.md",
+    "source_files": [
+      "research_everything_claude_code.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:grep",
+    "type": "tech",
+    "label": "Grep",
+    "description": "Entity from research: research_everything_claude_code.md",
+    "source_files": [
+      "research_everything_claude_code.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:edit",
+    "type": "tech",
+    "label": "Edit",
+    "description": "Entity from research: research_everything_claude_code.md",
+    "source_files": [
+      "research_everything_claude_code.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:read",
+    "type": "tech",
+    "label": "Read",
+    "description": "Entity from research: research_everything_claude_code.md",
+    "source_files": [
+      "research_everything_claude_code.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:write",
+    "type": "tech",
+    "label": "Write",
+    "description": "Entity from research: research_everything_claude_code.md",
+    "source_files": [
+      "research_everything_claude_code.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:task",
+    "type": "tech",
+    "label": "Task",
+    "description": "Entity from research: research_everything_claude_code.md",
+    "source_files": [
+      "research_everything_claude_code.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:todowrite",
+    "type": "tech",
+    "label": "TodoWrite",
+    "description": "Entity from research: research_everything_claude_code.md",
+    "source_files": [
+      "research_everything_claude_code.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:todoread",
+    "type": "tech",
+    "label": "TodoRead",
+    "description": "Entity from research: research_everything_claude_code.md",
+    "source_files": [
+      "research_everything_claude_code.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:think",
+    "type": "tech",
+    "label": "Think",
+    "description": "Entity from research: research_everything_claude_code.md",
+    "source_files": [
+      "research_everything_claude_code.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:monaco-editor",
+    "type": "tech",
+    "label": "Monaco Editor",
+    "description": "Entity from research: research_sandcastle.md",
+    "source_files": [
+      "research_sandcastle.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:typescript",
+    "type": "tech",
+    "label": "TypeScript",
+    "description": "Entity from research: research_sandcastle.md",
+    "source_files": [
+      "research_sandcastle.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:esbuild",
+    "type": "tech",
+    "label": "esbuild",
+    "description": "Entity from research: research_sandcastle.md",
+    "source_files": [
+      "research_sandcastle.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:web-worker",
+    "type": "tech",
+    "label": "Web Worker",
+    "description": "Entity from research: research_sandcastle.md",
+    "source_files": [
+      "research_sandcastle.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:sandpack",
+    "type": "tech",
+    "label": "sandpack",
+    "description": "Entity from research: research_sandcastle.md",
+    "source_files": [
+      "research_sandcastle.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:yaml",
+    "type": "tech",
+    "label": "yaml",
+    "description": "Entity from research: research_mattpocock_skills.md",
+    "source_files": [
+      "research_mattpocock_skills.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:markdown",
+    "type": "tech",
+    "label": "markdown",
+    "description": "Entity from research: research_mattpocock_skills.md",
+    "source_files": [
+      "research_mattpocock_skills.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:anchor-framework",
+    "type": "tech",
+    "label": "Anchor framework",
+    "description": "Entity from research: research_solana_dev_skill.md",
+    "source_files": [
+      "research_solana_dev_skill.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:spl-tokens",
+    "type": "tech",
+    "label": "SPL tokens",
+    "description": "Entity from research: research_solana_dev_skill.md",
+    "source_files": [
+      "research_solana_dev_skill.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:metaplex",
+    "type": "tech",
+    "label": "Metaplex",
+    "description": "Entity from research: research_awesome_solana_ai.md",
+    "source_files": [
+      "research_awesome_solana_ai.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:json-schema",
+    "type": "tech",
+    "label": "JSON Schema",
+    "description": "Entity from research: research_agentic_inbox.md",
+    "source_files": [
+      "research_agentic_inbox.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:sse",
+    "type": "tech",
+    "label": "SSE",
+    "description": "Entity from research: research_agentic_inbox.md",
+    "source_files": [
+      "research_agentic_inbox.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:webhooks",
+    "type": "tech",
+    "label": "webhooks",
+    "description": "Entity from research: research_agentic_inbox.md",
+    "source_files": [
+      "research_agentic_inbox.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:ccxt",
+    "type": "tech",
+    "label": "ccxt",
+    "description": "Entity from research: research_vibe_trading.md",
+    "source_files": [
+      "research_vibe_trading.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:pandas",
+    "type": "tech",
+    "label": "pandas",
+    "description": "Entity from research: research_vibe_trading.md",
+    "source_files": [
+      "research_vibe_trading.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:ta-lib",
+    "type": "tech",
+    "label": "TA-Lib",
+    "description": "Entity from research: research_vibe_trading.md",
+    "source_files": [
+      "research_vibe_trading.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:neo4j",
+    "type": "tech",
+    "label": "Neo4j",
+    "description": "Entity from research: research_agentic_stack.md",
+    "source_files": [
+      "research_agentic_stack.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:arangodb",
+    "type": "tech",
+    "label": "ArangoDB",
+    "description": "Entity from research: research_shannon.md",
+    "source_files": [
+      "research_shannon.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:qdrant",
+    "type": "tech",
+    "label": "Qdrant",
+    "description": "Entity from research: research_shannon.md",
+    "source_files": [
+      "research_shannon.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:weaviate",
+    "type": "tech",
+    "label": "Weaviate",
+    "description": "Entity from research: research_cognee.md",
+    "source_files": [
+      "research_cognee.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:pgvector",
+    "type": "tech",
+    "label": "pgvector",
+    "description": "Entity from research: research_shannon.md",
+    "source_files": [
+      "research_shannon.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:openai-embeddings",
+    "type": "tech",
+    "label": "OpenAI embeddings",
+    "description": "Entity from research: research_shannon.md",
+    "source_files": [
+      "research_shannon.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:redis",
+    "type": "tech",
+    "label": "Redis",
+    "description": "Entity from research: research_agentic_stack.md",
+    "source_files": [
+      "research_agentic_stack.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:prefect",
+    "type": "tech",
+    "label": "Prefect",
+    "description": "Entity from research: research_agentic_stack.md",
+    "source_files": [
+      "research_agentic_stack.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:airflow",
+    "type": "tech",
+    "label": "Airflow",
+    "description": "Entity from research: research_ai_engineering_hub.md",
+    "source_files": [
+      "research_ai_engineering_hub.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:temporal",
+    "type": "tech",
+    "label": "Temporal",
+    "description": "Entity from research: research_shannon.md",
+    "source_files": [
+      "research_shannon.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:mlflow",
+    "type": "tech",
+    "label": "MLflow",
+    "description": "Entity from research: research_ai_engineering_hub.md",
+    "source_files": [
+      "research_ai_engineering_hub.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:kubeflow",
+    "type": "tech",
+    "label": "Kubeflow",
+    "description": "Entity from research: research_ai_engineering_hub.md",
+    "source_files": [
+      "research_ai_engineering_hub.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:dvc",
+    "type": "tech",
+    "label": "DVC",
+    "description": "Entity from research: research_ai_engineering_hub.md",
+    "source_files": [
+      "research_ai_engineering_hub.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:terraform",
+    "type": "tech",
+    "label": "Terraform",
+    "description": "Entity from research: research_ai_engineering_hub.md",
+    "source_files": [
+      "research_ai_engineering_hub.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:tensorrt",
+    "type": "tech",
+    "label": "TensorRT",
+    "description": "Entity from research: research_ai_engineering_hub.md",
+    "source_files": [
+      "research_ai_engineering_hub.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:onnx-runtime",
+    "type": "tech",
+    "label": "ONNX Runtime",
+    "description": "Entity from research: research_ai_engineering_hub.md",
+    "source_files": [
+      "research_ai_engineering_hub.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:bentoml",
+    "type": "tech",
+    "label": "BentoML",
+    "description": "Entity from research: research_ai_engineering_hub.md",
+    "source_files": [
+      "research_ai_engineering_hub.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:fastapi",
+    "type": "tech",
+    "label": "FastAPI",
+    "description": "Entity from research: research_ai_engineering_hub.md",
+    "source_files": [
+      "research_ai_engineering_hub.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:triton-inference-server",
+    "type": "tech",
+    "label": "Triton Inference Server",
+    "description": "Entity from research: research_ai_engineering_hub.md",
+    "source_files": [
+      "research_ai_engineering_hub.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:prometheus",
+    "type": "tech",
+    "label": "Prometheus",
+    "description": "Entity from research: research_ai_engineering_hub.md",
+    "source_files": [
+      "research_ai_engineering_hub.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:grafana",
+    "type": "tech",
+    "label": "Grafana",
+    "description": "Entity from research: research_ai_engineering_hub.md",
+    "source_files": [
+      "research_ai_engineering_hub.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:opentelemetry",
+    "type": "tech",
+    "label": "OpenTelemetry",
+    "description": "Entity from research: research_agentic_stack.md",
+    "source_files": [
+      "research_agentic_stack.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:elk-stack",
+    "type": "tech",
+    "label": "ELK Stack",
+    "description": "Entity from research: research_ai_engineering_hub.md",
+    "source_files": [
+      "research_ai_engineering_hub.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:arize",
+    "type": "tech",
+    "label": "Arize",
+    "description": "Entity from research: research_ai_engineering_hub.md",
+    "source_files": [
+      "research_ai_engineering_hub.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:whylabs",
+    "type": "tech",
+    "label": "WhyLabs",
+    "description": "Entity from research: research_ai_engineering_hub.md",
+    "source_files": [
+      "research_ai_engineering_hub.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:pytorch",
+    "type": "tech",
+    "label": "PyTorch",
+    "description": "Entity from research: research_awesome_solana_ai.md",
+    "source_files": [
+      "research_awesome_solana_ai.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:tensorflow",
+    "type": "tech",
+    "label": "TensorFlow",
+    "description": "Entity from research: research_awesome_solana_ai.md",
+    "source_files": [
+      "research_awesome_solana_ai.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:helius",
+    "type": "tech",
+    "label": "Helius",
+    "description": "Entity from research: research_awesome_solana_ai.md",
+    "source_files": [
+      "research_awesome_solana_ai.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:chroma",
+    "type": "tech",
+    "label": "Chroma",
+    "description": "Entity from research: research_cognee.md",
+    "source_files": [
+      "research_cognee.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:diffusion-models",
+    "type": "tech",
+    "label": "diffusion models",
+    "description": "Entity from research: research_obscura.md",
+    "source_files": [
+      "research_obscura.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:anthropic-sdk",
+    "type": "tech",
+    "label": "Anthropic SDK",
+    "description": "Entity from research: research_claude_task_master.md",
+    "source_files": [
+      "research_claude_task_master.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:mermaid",
+    "type": "tech",
+    "label": "Mermaid",
+    "description": "Entity from research: research_claude_task_master.md",
+    "source_files": [
+      "research_claude_task_master.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:claude-api",
+    "type": "tech",
+    "label": "Claude API",
+    "description": "Entity from research: research_claude_task_master.md",
+    "source_files": [
+      "research_claude_task_master.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:brand-guardian",
+    "type": "tech",
+    "label": "Brand Guardian",
+    "description": "Entity from research: research_claude_ads.md",
+    "source_files": [
+      "research_claude_ads.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:compliance-service",
+    "type": "tech",
+    "label": "Compliance Service",
+    "description": "Entity from research: research_claude_ads.md",
+    "source_files": [
+      "research_claude_ads.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:campaign-optimizer",
+    "type": "tech",
+    "label": "Campaign Optimizer",
+    "description": "Entity from research: research_claude_ads.md",
+    "source_files": [
+      "research_claude_ads.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:a-b-testing-manager",
+    "type": "tech",
+    "label": "A/B Testing Manager",
+    "description": "Entity from research: research_claude_ads.md",
+    "source_files": [
+      "research_claude_ads.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:postgresql",
+    "type": "tech",
+    "label": "PostgreSQL",
+    "description": "Entity from research: research_agentic_stack.md",
+    "source_files": [
+      "research_agentic_stack.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:kubernetes",
+    "type": "tech",
+    "label": "Kubernetes",
+    "description": "Entity from research: research_agentic_stack.md",
+    "source_files": [
+      "research_agentic_stack.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "tech:http-2",
+    "type": "tech",
+    "label": "HTTP/2",
+    "description": "Entity from research: research_agentic_stack.md",
+    "source_files": [
+      "research_agentic_stack.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:callback-tracing-system",
+    "type": "pattern",
+    "label": "Callback/Tracing System",
+    "description": "Entity from research: research_awesome_opensource_ai.md",
+    "source_files": [
+      "research_awesome_opensource_ai.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:role-based-agent-decomposition",
+    "type": "pattern",
+    "label": "Role-Based Agent Decomposition",
+    "description": "Entity from research: research_awesome_opensource_ai.md",
+    "source_files": [
+      "research_awesome_opensource_ai.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:api-grounding-with-retrieval",
+    "type": "pattern",
+    "label": "API Grounding with Retrieval",
+    "description": "Entity from research: research_awesome_opensource_ai.md",
+    "source_files": [
+      "research_awesome_opensource_ai.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:persistent-skill-&-memory-store",
+    "type": "pattern",
+    "label": "Persistent Skill & Memory Store",
+    "description": "Entity from research: research_awesome_opensource_ai.md",
+    "source_files": [
+      "research_awesome_opensource_ai.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:sandboxed-code-execution",
+    "type": "pattern",
+    "label": "Sandboxed Code Execution",
+    "description": "Entity from research: research_awesome_opensource_ai.md",
+    "source_files": [
+      "research_awesome_opensource_ai.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:dynamic-provider-routing",
+    "type": "pattern",
+    "label": "Dynamic Provider Routing",
+    "description": "Entity from research: research_awesome_opensource_ai.md",
+    "source_files": [
+      "research_awesome_opensource_ai.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:task-planning-with-code",
+    "type": "pattern",
+    "label": "Task Planning with Code",
+    "description": "Entity from research: research_awesome_opensource_ai.md",
+    "source_files": [
+      "research_awesome_opensource_ai.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:hierarchical-coordination",
+    "type": "pattern",
+    "label": "Hierarchical Coordination",
+    "description": "Entity from research: research_awesome_opensource_ai.md",
+    "source_files": [
+      "research_awesome_opensource_ai.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:error-recovery-loops",
+    "type": "pattern",
+    "label": "Error Recovery Loops",
+    "description": "Entity from research: research_awesome_opensource_ai.md",
+    "source_files": [
+      "research_awesome_opensource_ai.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:structured-output-guarantees",
+    "type": "pattern",
+    "label": "Structured Output Guarantees",
+    "description": "Entity from research: research_awesome_opensource_ai.md",
+    "source_files": [
+      "research_awesome_opensource_ai.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:standardized-schema",
+    "type": "pattern",
+    "label": "Standardized Schema",
+    "description": "Entity from research: research_anthropic_skills.md",
+    "source_files": [
+      "research_anthropic_skills.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:discovery-mechanism",
+    "type": "pattern",
+    "label": "Discovery Mechanism",
+    "description": "Entity from research: research_anthropic_skills.md",
+    "source_files": [
+      "research_anthropic_skills.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:invocation-protocol",
+    "type": "pattern",
+    "label": "Invocation Protocol",
+    "description": "Entity from research: research_anthropic_skills.md",
+    "source_files": [
+      "research_anthropic_skills.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:composition-patterns",
+    "type": "pattern",
+    "label": "Composition Patterns",
+    "description": "Entity from research: research_anthropic_skills.md",
+    "source_files": [
+      "research_anthropic_skills.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:sandbox-isolation",
+    "type": "pattern",
+    "label": "Sandbox Isolation",
+    "description": "Entity from research: research_anthropic_skills.md",
+    "source_files": [
+      "research_anthropic_skills.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:defense-in-depth",
+    "type": "pattern",
+    "label": "Defense-in-Depth",
+    "description": "Entity from research: research_anthropic_skills.md",
+    "source_files": [
+      "research_anthropic_skills.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:skill-catalog",
+    "type": "pattern",
+    "label": "Skill Catalog",
+    "description": "Entity from research: research_anthropic_skills.md",
+    "source_files": [
+      "research_anthropic_skills.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:input-output-schemas",
+    "type": "pattern",
+    "label": "Input/Output Schemas",
+    "description": "Entity from research: research_anthropic_skills.md",
+    "source_files": [
+      "research_anthropic_skills.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:skill-discovery-&-invocation",
+    "type": "pattern",
+    "label": "Skill Discovery & Invocation",
+    "description": "Entity from research: research_anthropic_skills.md",
+    "source_files": [
+      "research_anthropic_skills.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:skill-composition-patterns",
+    "type": "pattern",
+    "label": "Skill Composition Patterns",
+    "description": "Entity from research: research_anthropic_skills.md",
+    "source_files": [
+      "research_anthropic_skills.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:security-considerations",
+    "type": "pattern",
+    "label": "Security Considerations",
+    "description": "Entity from research: research_anthropic_skills.md",
+    "source_files": [
+      "research_anthropic_skills.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:multi-service-orchestration",
+    "type": "pattern",
+    "label": "Multi-Service Orchestration",
+    "description": "Entity from research: research_coolify.md",
+    "source_files": [
+      "research_coolify.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:environment-secret-management",
+    "type": "pattern",
+    "label": "Environment/Secret Management",
+    "description": "Entity from research: research_coolify.md",
+    "source_files": [
+      "research_coolify.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:one-click-deploy-model",
+    "type": "pattern",
+    "label": "One-Click Deploy Model",
+    "description": "Entity from research: research_coolify.md",
+    "source_files": [
+      "research_coolify.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:monitoring-logging-integration",
+    "type": "pattern",
+    "label": "Monitoring/Logging Integration",
+    "description": "Entity from research: research_coolify.md",
+    "source_files": [
+      "research_coolify.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:self-host-recommendation",
+    "type": "pattern",
+    "label": "Self-Host Recommendation",
+    "description": "Entity from research: research_coolify.md",
+    "source_files": [
+      "research_coolify.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:migration-sketch",
+    "type": "pattern",
+    "label": "Migration Sketch",
+    "description": "Entity from research: research_coolify.md",
+    "source_files": [
+      "research_coolify.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:message-handling-architecture",
+    "type": "pattern",
+    "label": "Message Handling Architecture",
+    "description": "Entity from research: research_dexter.md",
+    "source_files": [
+      "research_dexter.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:plugin-extension-system",
+    "type": "pattern",
+    "label": "Plugin/Extension System",
+    "description": "Entity from research: research_dexter.md",
+    "source_files": [
+      "research_dexter.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:command-routing-patterns",
+    "type": "pattern",
+    "label": "Command Routing Patterns",
+    "description": "Entity from research: research_dexter.md",
+    "source_files": [
+      "research_dexter.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:rate-limiting-+-error-recovery",
+    "type": "pattern",
+    "label": "Rate Limiting + Error Recovery",
+    "description": "Entity from research: research_dexter.md",
+    "source_files": [
+      "research_dexter.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:configuration-management",
+    "type": "pattern",
+    "label": "Configuration Management",
+    "description": "Entity from research: research_dexter.md",
+    "source_files": [
+      "research_dexter.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:notify-on-completion",
+    "type": "pattern",
+    "label": "Notify-on-Completion",
+    "description": "Entity from research: research_dexter.md",
+    "source_files": [
+      "research_dexter.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:plugin-model-for-provider-adapters",
+    "type": "pattern",
+    "label": "Plugin Model for Provider Adapters",
+    "description": "Entity from research: research_dexter.md",
+    "source_files": [
+      "research_dexter.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:event-driven-decoupling",
+    "type": "pattern",
+    "label": "Event-Driven Decoupling",
+    "description": "Entity from research: research_dexter.md",
+    "source_files": [
+      "research_dexter.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:cli-&-terminal-automation",
+    "type": "pattern",
+    "label": "CLI & Terminal Automation",
+    "description": "Entity from research: research_everything_claude_code.md",
+    "source_files": [
+      "research_everything_claude_code.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:file-system-navigation-&-code-editing",
+    "type": "pattern",
+    "label": "File System Navigation & Code Editing",
+    "description": "Entity from research: research_everything_claude_code.md",
+    "source_files": [
+      "research_everything_claude_code.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:environment-&-project-detection",
+    "type": "pattern",
+    "label": "Environment & Project Detection",
+    "description": "Entity from research: research_everything_claude_code.md",
+    "source_files": [
+      "research_everything_claude_code.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:prompt-templates-that-maximize-reliability",
+    "type": "pattern",
+    "label": "Prompt Templates That Maximize Reliability",
+    "description": "Entity from research: research_everything_claude_code.md",
+    "source_files": [
+      "research_everything_claude_code.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:error-recovery-strategies",
+    "type": "pattern",
+    "label": "Error Recovery Strategies",
+    "description": "Entity from research: research_everything_claude_code.md",
+    "source_files": [
+      "research_everything_claude_code.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:note-link-data-model",
+    "type": "pattern",
+    "label": "Note/Link Data Model",
+    "description": "Entity from research: research_obsidian_headless.md",
+    "source_files": [
+      "research_obsidian_headless.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:graph-visualization-patterns",
+    "type": "pattern",
+    "label": "Graph/Visualization Patterns",
+    "description": "Entity from research: research_obsidian_headless.md",
+    "source_files": [
+      "research_obsidian_headless.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:sync-replication-approach",
+    "type": "pattern",
+    "label": "Sync/Replication Approach",
+    "description": "Entity from research: research_obsidian_headless.md",
+    "source_files": [
+      "research_obsidian_headless.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:plugin-architecture",
+    "type": "pattern",
+    "label": "Plugin Architecture",
+    "description": "Entity from research: research_obsidian_headless.md",
+    "source_files": [
+      "research_obsidian_headless.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:hermes-knowledge-org-recommendation",
+    "type": "pattern",
+    "label": "Hermes Knowledge-Org Recommendation",
+    "description": "Entity from research: research_obsidian_headless.md",
+    "source_files": [
+      "research_obsidian_headless.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:mcp-server-architecture",
+    "type": "pattern",
+    "label": "MCP Server Architecture",
+    "description": "Entity from research: research_the_mansion.md",
+    "source_files": [
+      "research_the_mansion.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:security-model",
+    "type": "pattern",
+    "label": "Security Model",
+    "description": "Entity from research: research_the_mansion.md",
+    "source_files": [
+      "research_the_mansion.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:automation-patterns",
+    "type": "pattern",
+    "label": "Automation Patterns",
+    "description": "Entity from research: research_the_mansion.md",
+    "source_files": [
+      "research_the_mansion.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:hermes-skill-plugin-packaging",
+    "type": "pattern",
+    "label": "Hermes Skill/Plugin Packaging",
+    "description": "Entity from research: research_the_mansion.md",
+    "source_files": [
+      "research_the_mansion.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:architecture",
+    "type": "pattern",
+    "label": "Architecture",
+    "description": "Entity from research: research_claude_ads.md",
+    "source_files": [
+      "research_claude_ads.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:sandbox-patterns",
+    "type": "pattern",
+    "label": "Sandbox Patterns",
+    "description": "Entity from research: research_sandcastle.md",
+    "source_files": [
+      "research_sandcastle.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:code-snippet-sharing-patterns",
+    "type": "pattern",
+    "label": "Code Snippet Sharing Patterns",
+    "description": "Entity from research: research_sandcastle.md",
+    "source_files": [
+      "research_sandcastle.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:live-editing-+-type-checking-integration",
+    "type": "pattern",
+    "label": "Live-Editing + Type Checking Integration",
+    "description": "Entity from research: research_sandcastle.md",
+    "source_files": [
+      "research_sandcastle.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:example-driven-documentation",
+    "type": "pattern",
+    "label": "Example-Driven Documentation",
+    "description": "Entity from research: research_sandcastle.md",
+    "source_files": [
+      "research_sandcastle.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:teaching-patterns",
+    "type": "pattern",
+    "label": "Teaching Patterns",
+    "description": "Entity from research: research_mattpocock_skills.md",
+    "source_files": [
+      "research_mattpocock_skills.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:progressive-difficulty-curve-design",
+    "type": "pattern",
+    "label": "Progressive Difficulty Curve Design",
+    "description": "Entity from research: research_mattpocock_skills.md",
+    "source_files": [
+      "research_mattpocock_skills.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:assessment-&-validation-patterns",
+    "type": "pattern",
+    "label": "Assessment & Validation Patterns",
+    "description": "Entity from research: research_mattpocock_skills.md",
+    "source_files": [
+      "research_mattpocock_skills.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:feedback-loops",
+    "type": "pattern",
+    "label": "Feedback Loops",
+    "description": "Entity from research: research_mattpocock_skills.md",
+    "source_files": [
+      "research_mattpocock_skills.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:hermes-application",
+    "type": "pattern",
+    "label": "Hermes Application",
+    "description": "Entity from research: research_mattpocock_skills.md",
+    "source_files": [
+      "research_mattpocock_skills.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:skill-overview",
+    "type": "pattern",
+    "label": "Skill Overview",
+    "description": "Entity from research: research_solana_dev_skill.md",
+    "source_files": [
+      "research_solana_dev_skill.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:trading-patterns",
+    "type": "pattern",
+    "label": "Trading Patterns",
+    "description": "Entity from research: research_vibe_trading.md",
+    "source_files": [
+      "research_vibe_trading.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:risk-controls",
+    "type": "pattern",
+    "label": "Risk Controls",
+    "description": "Entity from research: research_vibe_trading.md",
+    "source_files": [
+      "research_vibe_trading.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:hermes-integration-plan",
+    "type": "pattern",
+    "label": "Hermes Integration Plan",
+    "description": "Entity from research: research_vibe_trading.md",
+    "source_files": [
+      "research_vibe_trading.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:ranking-mechanics",
+    "type": "pattern",
+    "label": "Ranking Mechanics",
+    "description": "Entity from research: research_toprank.md",
+    "source_files": [
+      "research_toprank.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:hermes-routing-upgrade-proposal",
+    "type": "pattern",
+    "label": "Hermes Routing Upgrade Proposal",
+    "description": "Entity from research: research_toprank.md",
+    "source_files": [
+      "research_toprank.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:architecture-overview",
+    "type": "pattern",
+    "label": "Architecture Overview",
+    "description": "Entity from research: research_shannon.md",
+    "source_files": [
+      "research_shannon.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:core-data-model",
+    "type": "pattern",
+    "label": "Core Data Model",
+    "description": "Entity from research: research_shannon.md",
+    "source_files": [
+      "research_shannon.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:extraction-pipelines",
+    "type": "pattern",
+    "label": "Extraction Pipelines",
+    "description": "Entity from research: research_shannon.md",
+    "source_files": [
+      "research_shannon.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:query-&-retrieval-patterns",
+    "type": "pattern",
+    "label": "Query & Retrieval Patterns",
+    "description": "Entity from research: research_shannon.md",
+    "source_files": [
+      "research_shannon.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:scalability-approach",
+    "type": "pattern",
+    "label": "Scalability Approach",
+    "description": "Entity from research: research_shannon.md",
+    "source_files": [
+      "research_shannon.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:entity-resolution-&-deduplication",
+    "type": "pattern",
+    "label": "Entity Resolution & Deduplication",
+    "description": "Entity from research: research_shannon.md",
+    "source_files": [
+      "research_shannon.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:integration-ideas-for-hermes",
+    "type": "pattern",
+    "label": "Integration Ideas for Hermes",
+    "description": "Entity from research: research_shannon.md",
+    "source_files": [
+      "research_shannon.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:mlops-patterns-for-24-7-agent-operation",
+    "type": "pattern",
+    "label": "MLOps Patterns for 24/7 Agent Operation",
+    "description": "Entity from research: research_ai_engineering_hub.md",
+    "source_files": [
+      "research_ai_engineering_hub.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:model-serving---inference-optimization-patterns",
+    "type": "pattern",
+    "label": "Model Serving / Inference Optimization Patterns",
+    "description": "Entity from research: research_ai_engineering_hub.md",
+    "source_files": [
+      "research_ai_engineering_hub.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:monitoring---observability-patterns",
+    "type": "pattern",
+    "label": "Monitoring / Observability Patterns",
+    "description": "Entity from research: research_ai_engineering_hub.md",
+    "source_files": [
+      "research_ai_engineering_hub.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:prompt-engineering---chain-of-thought-patterns",
+    "type": "pattern",
+    "label": "Prompt Engineering / Chain-of-Thought Patterns",
+    "description": "Entity from research: research_ai_engineering_hub.md",
+    "source_files": [
+      "research_ai_engineering_hub.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:agent-wallet-management-&-identity",
+    "type": "pattern",
+    "label": "Agent Wallet Management & Identity",
+    "description": "Entity from research: research_awesome_solana_ai.md",
+    "source_files": [
+      "research_awesome_solana_ai.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:economic-integration",
+    "type": "pattern",
+    "label": "Economic Integration",
+    "description": "Entity from research: research_awesome_solana_ai.md",
+    "source_files": [
+      "research_awesome_solana_ai.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:infrastructure-patterns",
+    "type": "pattern",
+    "label": "Infrastructure Patterns",
+    "description": "Entity from research: research_awesome_solana_ai.md",
+    "source_files": [
+      "research_awesome_solana_ai.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:cognitive-patterns",
+    "type": "pattern",
+    "label": "Cognitive Patterns",
+    "description": "Entity from research: research_cognee.md",
+    "source_files": [
+      "research_cognee.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:hermes-decision-enhancement-proposal",
+    "type": "pattern",
+    "label": "Hermes Decision-Enhancement Proposal",
+    "description": "Entity from research: research_cognee.md",
+    "source_files": [
+      "research_cognee.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:key-patterns",
+    "type": "pattern",
+    "label": "Key Patterns",
+    "description": "Entity from research: research_claude_ads.md",
+    "source_files": [
+      "research_claude_ads.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:core-tools",
+    "type": "pattern",
+    "label": "Core Tools",
+    "description": "Entity from research: research_obscura.md",
+    "source_files": [
+      "research_obscura.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:integration-opportunities-for-hermes-agent",
+    "type": "pattern",
+    "label": "Integration Opportunities for Hermes Agent",
+    "description": "Entity from research: research_agentic_stack.md",
+    "source_files": [
+      "research_agentic_stack.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:overview",
+    "type": "pattern",
+    "label": "Overview",
+    "description": "Entity from research: research_claude_task_master.md",
+    "source_files": [
+      "research_claude_task_master.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:core-tools-&-commands",
+    "type": "pattern",
+    "label": "Core Tools & Commands",
+    "description": "Entity from research: research_claude_task_master.md",
+    "source_files": [
+      "research_claude_task_master.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:core-tools-components",
+    "type": "pattern",
+    "label": "Core Tools/Components",
+    "description": "Entity from research: research_claude_ads.md",
+    "source_files": [
+      "research_claude_ads.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:overview-&-purpose",
+    "type": "pattern",
+    "label": "Overview & Purpose",
+    "description": "Entity from research: research_agentic_stack.md",
+    "source_files": [
+      "research_agentic_stack.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:architecture-&-key-design-patterns",
+    "type": "pattern",
+    "label": "Architecture & Key Design Patterns",
+    "description": "Entity from research: research_agentic_stack.md",
+    "source_files": [
+      "research_agentic_stack.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "pattern:core-tools-&-components-extracted",
+    "type": "pattern",
+    "label": "Core Tools & Components Extracted",
+    "description": "Entity from research: research_agentic_stack.md",
+    "source_files": [
+      "research_agentic_stack.md"
+    ],
+    "url": ""
+  }
+]
