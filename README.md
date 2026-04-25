@@ -19,6 +19,7 @@
 - [Common Workflows](#common-workflows)
 - [Automation](#automation)
 - [Obsidian Integration](#obsidian-integration)
+- [Obsidian Sync Workflow](#obsidian-sync-workflow)
 - [Skill Symlinking](#skill-symlinking)
 - [Knowledge Graph](#knowledge-graph)
 - [Cost & Performance](#cost--performance)
@@ -370,6 +371,131 @@ Open Obsidian → File → Open folder → `~/.hermes/vault`
 2. Obsidian reflects changes live (filesystem watcher)
 3. Explore graph, search, add personal notes in `personal/` (agent-excluded namespace)
 4. Questions answered from wiki; optionally save answers back as synthesis pages
+
+---
+
+## Obsidian Sync Workflow
+
+The `sync/` directory provides a **real-time, push-only synchronization** system from your local Obsidian vault to GitHub. GitHub is the source of truth; the vault is your live editing workspace.
+
+### Architecture
+
+```
+┌─────────────────┐     inotify     ┌──────────────────┐   git push   ┌─────────────────┐
+│  Obsidian Vault │ ──────────────▶ │  watch_and_push  │ ─────────▶ │   GitHub        │
+│  (~/vaults/)    │   (file change) │     (daemon)     │  (on change) │   (hermes-      │
+│                 │                 │                  │              │   second-brain) │
+└─────────────────┘                 └──────────────────┘              └─────────────────┘
+                                                                          │
+                                                                          │ post-push hooks
+                                                                          ▼
+┌─────────────────┐    6-hour batch  ┌──────────────────┐   rebuild    ┌─────────────────┐
+│   Cron Job      │ ◀─────────────── │   cron_push.sh   │ ◀────────── │  Index + Graph  │
+│ (crontab -e)    │   (periodic)     │   (fallback)     │   hooks     │  memory/        │
+└─────────────────┘                  └──────────────────┘              └─────────────────┘
+```
+
+**Components:**
+
+| File | Purpose | Trigger |
+|------|---------|---------|
+| `sync/watch_and_push.sh` | Inotify loop: watches vault, auto-commits & pushes .md changes | Real-time (file system events) |
+| `sync/cron_push.sh` | Batch push every 6 hours as fallback/consistency | Cron schedule |
+| `sync/post_push.sh` | Rebuilds TF-IDF index, updates graph edges from wikilinks, runs lint | After each successful push |
+| `sync/update_graph_from_wikilinks.py` | Extracts `[[wikilinks]]` from wiki pages → graph edges | Called by post_push.sh |
+
+**Data flow:**
+1. Edit note in Obsidian → `inotifywait` detects `.md` change
+2. Debounce (3 sec) to batch edits
+3. `git add -A` → `git commit` → `git push`
+4. Post-push: rebuild index, update graph edges (wikilinks → `links_to` edges), run lint
+5. GitHub updated; indexes reflect latest structure
+
+### Setup
+
+```bash
+# 1. Ensure scripts are executable
+chmod +x sync/*.sh sync/*.py
+
+# 2. Test the watcher manually (one terminal)
+./sync/watch_and_push.sh --verbose
+
+# 3. In another terminal, edit a note in Obsidian or:
+echo "# Sync Test" > ~/vaults/hermes-second-brain/sync-test.md
+# Watch output should show commit + push
+
+# 4. Install cron job (6-hour batch fallback)
+crontab -e
+# Add:
+0 */6 * * * /home/tokisaki/github/hermes-second-brain/sync/cron_push.sh --quiet >> /home/tokisaki/github/hermes-second-brain/logs/cron_push_$(date +\%Y\%m\%d).log 2>&1
+```
+
+**Environment variables** (optional):
+
+```bash
+export VAULT_PATH=~/vaults/hermes-second-brain   # default
+export REPO_PATH=~/github/hermes-second-brain    # default
+export DEBOUNCE_SEC=3                            # seconds to wait after last change
+```
+
+### How the Graph Edge Update Works
+
+The `update_graph_from_wikilinks.py` script runs after every push:
+
+- Scans all `wiki/*.md` files
+- Extracts `[[Page Name]]` wikilinks
+- Creates nodes of type `page` (id: `page:<stem>`) for each wiki page
+- Creates edges of type `links_to` from source → target page
+- Confidence: `0.9` (explicit link)
+- Merges with existing research-derived graph without overwriting
+
+This keeps the Obsidian Graph View accurate and enables link-based queries.
+
+### Operations
+
+**Start the persistent watcher** (recommended):
+
+```bash
+# Systemd (survives reboots)
+systemctl --user enable --now hermes-sync
+
+# Or manual background:
+nohup ./sync/watch_and_push.sh --quiet > /dev/null 2>&1 &
+```
+
+**Monitor:**
+
+```bash
+# Systemd logs
+journalctl --user -u hermes-sync -f
+
+# Or tail watch output (if not daemonized)
+tail -f /path/to/watch.log
+```
+
+**Manual full sync** (commit everything now):
+
+```bash
+cd ~/github/hermes-second-brain
+git add -A && git commit -m "Manual sync $(date)" && git push
+./sync/post_push.sh
+```
+
+**Stop:**
+
+```bash
+systemctl --user stop hermes-sync   # if systemd
+# or: pkill -f watch_and_push.sh   # if manual
+```
+
+### Troubleshooting
+
+- **Push fails**: `git push` returns non-fast-forward → run `git pull --rebase`, resolve, push, restart watcher.
+- **inotify limit**: `sudo sysctl fs.inotify.max_user_watches=524288`
+- **Graph not updating**: Run `python3 sync/update_graph_from_wikilinks.py` manually; check execution permissions.
+- **Index stale**: Post-push should rebuild automatically; verify `index/embeddings/index.json` updates.
+
+For full documentation, see `docs/OBSIDIAN_SYNC.md`.
 
 ---
 

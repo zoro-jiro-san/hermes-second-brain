@@ -2018,5 +2018,205 @@
       "research_agentic_stack.md"
     ],
     "url": ""
+  },
+  {
+    "id": "page:agentic_inbox",
+    "type": "page",
+    "label": "agentic_inbox",
+    "description": "Wiki page: agentic_inbox.md",
+    "source_files": [
+      "agentic_inbox.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "page:ai_engineering_hub",
+    "type": "page",
+    "label": "ai_engineering_hub",
+    "description": "Wiki page: ai_engineering_hub.md",
+    "source_files": [
+      "ai_engineering_hub.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "page:anthropic_skills",
+    "type": "page",
+    "label": "anthropic_skills",
+    "description": "Wiki page: anthropic_skills.md",
+    "source_files": [
+      "anthropic_skills.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "page:awesome_hermes_agent",
+    "type": "page",
+    "label": "awesome_hermes_agent",
+    "description": "Wiki page: awesome_hermes_agent.md",
+    "source_files": [
+      "awesome_hermes_agent.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "page:awesome_opensource_ai",
+    "type": "page",
+    "label": "awesome_opensource_ai",
+    "description": "Wiki page: awesome_opensource_ai.md",
+    "source_files": [
+      "awesome_opensource_ai.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "page:awesome_solana_ai",
+    "type": "page",
+    "label": "awesome_solana_ai",
+    "description": "Wiki page: awesome_solana_ai.md",
+    "source_files": [
+      "awesome_solana_ai.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "page:cognee",
+    "type": "page",
+    "label": "cognee",
+    "description": "Wiki page: cognee.md",
+    "source_files": [
+      "cognee.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "page:coolify",
+    "type": "page",
+    "label": "coolify",
+    "description": "Wiki page: coolify.md",
+    "source_files": [
+      "coolify.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "page:dexter",
+    "type": "page",
+    "label": "dexter",
+    "description": "Wiki page: dexter.md",
+    "source_files": [
+      "dexter.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "page:everything_claude_code",
+    "type": "page",
+    "label": "everything_claude_code",
+    "description": "Wiki page: everything_claude_code.md",
+    "source_files": [
+      "everything_claude_code.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "page:fincept_terminal",
+    "type": "page",
+    "label": "fincept_terminal",
+    "description": "Wiki page: fincept_terminal.md",
+    "source_files": [
+      "fincept_terminal.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "page:mattpocock_skills",
+    "type": "page",
+    "label": "mattpocock_skills",
+    "description": "Wiki page: mattpocock_skills.md",
+    "source_files": [
+      "mattpocock_skills.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "page:obsidian_headless",
+    "type": "page",
+    "label": "obsidian_headless",
+    "description": "Wiki page: obsidian_headless.md",
+    "source_files": [
+      "obsidian_headless.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "page:openhands",
+    "type": "page",
+    "label": "openhands",
+    "description": "Wiki page: openhands.md",
+    "source_files": [
+      "openhands.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "page:sandcastle",
+    "type": "page",
+    "label": "sandcastle",
+    "description": "Wiki page: sandcastle.md",
+    "source_files": [
+      "sandcastle.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "page:shannon",
+    "type": "page",
+    "label": "shannon",
+    "description": "Wiki page: shannon.md",
+    "source_files": [
+      "shannon.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "page:solana_dev_skill",
+    "type": "page",
+    "label": "solana_dev_skill",
+    "description": "Wiki page: solana_dev_skill.md",
+    "source_files": [
+      "solana_dev_skill.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "page:the_mansion",
+    "type": "page",
+    "label": "the_mansion",
+    "description": "Wiki page: the_mansion.md",
+    "source_files": [
+      "the_mansion.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "page:toprank",
+    "type": "page",
+    "label": "toprank",
+    "description": "Wiki page: toprank.md",
+    "source_files": [
+      "toprank.md"
+    ],
+    "url": ""
+  },
+  {
+    "id": "page:vibe_trading",
+    "type": "page",
+    "label": "vibe_trading",
+    "description": "Wiki page: vibe_trading.md",
+    "source_files": [
+      "vibe_trading.md"
+    ],
+    "url": ""
   }
 ]
