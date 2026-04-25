@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
-"""Query the Second Brain graph + wiki."""
-import argparse, json, sys
+"""Query the Second Brain via graph search + lexical vector fallback."""
+import argparse, json, sys, subprocess
 from pathlib import Path
 
 REPO = Path("/home/tokisaki/github/hermes-second-brain")
 MEMORY = REPO / "memory"
 WIKI = REPO / "wiki"
+VEC_INDEX = REPO / "index" / "embeddings" / "index.json"
 
 def load_graph():
     nodes = json.loads((MEMORY / "graph.nodes.json").read_text())
@@ -14,32 +15,65 @@ def load_graph():
 
 def find_nodes(query, nodes):
     q = query.lower()
-    matches = []
-    for n in nodes:
-        if q in n["label"].lower():
-            matches.append(n)
-    return matches
+    return [n for n in nodes if q in n["label"].lower()]
 
 def get_related(node_id, edges):
     out_edges = [e for e in edges if e["from"] == node_id]
     in_edges = [e for e in edges if e["to"] == node_id]
     return out_edges, in_edges
 
+def vector_search(query, top_k=5):
+    """Lightweight TF-IDF lexical search."""
+    try:
+        with open(VEC_INDEX) as f:
+            data = json.load(f)
+        docs = data["docs"]
+        index = data["index"]
+    except Exception as e:
+        return [{"error": f"index missing: {e}"}]
+
+    import re, math
+    def tokenize(text):
+        return [w for w in re.findall(r'\b\w+\b', text.lower()) if len(w) > 2]
+
+    q_terms = tokenize(query)
+    N = len(docs)
+    scores = [0.0] * N
+    for term in q_terms:
+        if term in index:
+            for doc_id_str, weight in index[term].items():
+                scores[int(doc_id_str)] += weight
+
+    results = sorted([(s, docs[i]["file"]) for i, s in enumerate(scores) if s > 0], reverse=True)
+    return [{"file": f, "score": round(s, 4)} for s, f in results[:top_k]]
+
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("query", help="Search query (entity name)")
+    parser.add_argument("query", help="Search query")
     parser.add_argument("-f", "--format", choices=["text","json","markdown"], default="text")
-    parser.add_argument("-o", "--output", help="Write output to file")
+    parser.add_argument("-o", "--output", help="Write to file")
+    parser.add_argument("--vector", action="store_true", help="Force vector (lexical) search")
     args = parser.parse_args()
 
+    # Graph search first
     nodes, edges = load_graph()
     matches = find_nodes(args.query, nodes)
 
-    if not matches:
-        msg = f"No matches for '{args.query}'"
-        print(msg, file=sys.stderr)
-        sys.exit(1)
+    if args.vector or not matches:
+        # Fallback to lexical search over wiki filenames + content
+        results = vector_search(args.query)
+        if not results:
+            print(f"No vector matches for '{args.query}'")
+            sys.exit(1)
+        if args.format == "json":
+            print(json.dumps(results, indent=2))
+        else:
+            print(f"Vector search results for '{args.query}':")
+            for r in results:
+                print(f"  [{r['score']}] {r['file']}")
+        sys.exit(0)
 
+    # Graph results
     results = []
     for m in matches:
         out_edges, in_edges = get_related(m["id"], edges)
@@ -51,34 +85,25 @@ def main():
         out = f"# Query: {args.query}\n\n"
         for r in results:
             n = r["node"]
-            out += f"## {n['label']} `{n['type']}`\n"
-            out += f"{n.get('description','')}\n\n"
+            out += f"## {n['label']} `{n['type']}`\n{n.get('description','')}\n\n"
             if r["outgoing"]:
-                out += "**Outgoing relations:**\n"
-                for e in r["outgoing"][:8]:
-                    out += f"- {e['relation']} → {e['to']}\n"
-                out += "\n"
+                out += "**Outgoing:**\n" + "\n".join([f"- {e['relation']} → {e['to']}" for e in r["outgoing"][:8]]) + "\n\n"
             if r["incoming"]:
-                out += "**Incoming relations:**\n"
-                for e in r["incoming"][:8]:
-                    out += f"- {e['from']} {e['relation']} → {n['label']}\n"
-                out += "\n"
-    else:  # text
+                out += "**Incoming:**\n" + "\n".join([f"- {e['from']} {e['relation']} → {n['label']}" for e in r["incoming"][:8]]) + "\n"
+    else:
         out = ""
         for r in results:
             n = r["node"]
             out += f"{n['label']} [{n['type']}]\n"
-            if r["outgoing"]:
-                for e in r["outgoing"][:5]:
-                    out += f"  → {e['relation']}: {e['to']}\n"
-            if r["incoming"]:
-                for e in r["incoming"][:5]:
-                    out += f"  ← {e['from']} {e['relation']}\n"
+            for e in r["outgoing"][:5]:
+                out += f"  → {e['relation']}: {e['to']}\n"
+            for e in r["incoming"][:5]:
+                out += f"  ← {e['from']} {e['relation']}\n"
             out += "\n"
 
     if args.output:
         Path(args.output).write_text(out)
-        print(f"Output written to {args.output}")
+        print(f"Written → {args.output}")
     else:
         print(out)
 
