@@ -1,0 +1,70 @@
+{
+  "timestamp": "2026-04-25T23:05:16.099436Z",
+  "errors": [],
+  "warnings": [
+    {
+      "stale_source": "research_awesome_opensource_ai.md"
+    },
+    {
+      "stale_source": "research_anthropic_skills.md"
+    },
+    {
+      "stale_source": "research_coolify.md"
+    },
+    {
+      "stale_source": "research_awesome_hermes_agent.md"
+    },
+    {
+      "stale_source": "research_openhands.md"
+    },
+    {
+      "stale_source": "research_dexter.md"
+    },
+    {
+      "stale_source": "research_everything_claude_code.md"
+    },
+    {
+      "stale_source": "research_obsidian_headless.md"
+    },
+    {
+      "stale_source": "research_the_mansion.md"
+    },
+    {
+      "stale_source": "research_sandcastle.md"
+    },
+    {
+      "stale_source": "research_mattpocock_skills.md"
+    },
+    {
+      "stale_source": "research_solana_dev_skill.md"
+    },
+    {
+      "stale_source": "research_agentic_inbox.md"
+    },
+    {
+      "stale_source": "research_vibe_trading.md"
+    },
+    {
+      "stale_source": "research_toprank.md"
+    },
+    {
+      "stale_source": "research_shannon.md"
+    },
+    {
+      "stale_source": "research_fincept_terminal.md"
+    },
+    {
+      "stale_source": "research_ai_engineering_hub.md"
+    },
+    {
+      "stale_source": "research_awesome_solana_ai.md"
+    },
+    {
+      "stale_source": "research_cognee.md"
+    }
+  ],
+  "summary": {
+    "errors": 0,
+    "warnings": 20
+  }
+}
