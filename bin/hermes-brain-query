@@ -1,0 +1,86 @@
+#!/usr/bin/env python3
+"""Query the Second Brain graph + wiki."""
+import argparse, json, sys
+from pathlib import Path
+
+REPO = Path("/home/tokisaki/github/hermes-second-brain")
+MEMORY = REPO / "memory"
+WIKI = REPO / "wiki"
+
+def load_graph():
+    nodes = json.loads((MEMORY / "graph.nodes.json").read_text())
+    edges = json.loads((MEMORY / "graph.edges.json").read_text())
+    return nodes, edges
+
+def find_nodes(query, nodes):
+    q = query.lower()
+    matches = []
+    for n in nodes:
+        if q in n["label"].lower():
+            matches.append(n)
+    return matches
+
+def get_related(node_id, edges):
+    out_edges = [e for e in edges if e["from"] == node_id]
+    in_edges = [e for e in edges if e["to"] == node_id]
+    return out_edges, in_edges
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("query", help="Search query (entity name)")
+    parser.add_argument("-f", "--format", choices=["text","json","markdown"], default="text")
+    parser.add_argument("-o", "--output", help="Write output to file")
+    args = parser.parse_args()
+
+    nodes, edges = load_graph()
+    matches = find_nodes(args.query, nodes)
+
+    if not matches:
+        msg = f"No matches for '{args.query}'"
+        print(msg, file=sys.stderr)
+        sys.exit(1)
+
+    results = []
+    for m in matches:
+        out_edges, in_edges = get_related(m["id"], edges)
+        results.append({"node": m, "outgoing": out_edges, "incoming": in_edges})
+
+    if args.format == "json":
+        out = json.dumps(results, indent=2)
+    elif args.format == "markdown":
+        out = f"# Query: {args.query}\n\n"
+        for r in results:
+            n = r["node"]
+            out += f"## {n['label']} `{n['type']}`\n"
+            out += f"{n.get('description','')}\n\n"
+            if r["outgoing"]:
+                out += "**Outgoing relations:**\n"
+                for e in r["outgoing"][:8]:
+                    out += f"- {e['relation']} → {e['to']}\n"
+                out += "\n"
+            if r["incoming"]:
+                out += "**Incoming relations:**\n"
+                for e in r["incoming"][:8]:
+                    out += f"- {e['from']} {e['relation']} → {n['label']}\n"
+                out += "\n"
+    else:  # text
+        out = ""
+        for r in results:
+            n = r["node"]
+            out += f"{n['label']} [{n['type']}]\n"
+            if r["outgoing"]:
+                for e in r["outgoing"][:5]:
+                    out += f"  → {e['relation']}: {e['to']}\n"
+            if r["incoming"]:
+                for e in r["incoming"][:5]:
+                    out += f"  ← {e['from']} {e['relation']}\n"
+            out += "\n"
+
+    if args.output:
+        Path(args.output).write_text(out)
+        print(f"Output written to {args.output}")
+    else:
+        print(out)
+
+if __name__ == "__main__":
+    main()

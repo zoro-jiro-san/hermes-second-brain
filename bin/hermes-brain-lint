@@ -1,0 +1,92 @@
+#!/usr/bin/env python3
+"""Health checks for Second Brain: broken links, duplicates, orphaned symlinks."""
+import argparse, json, sys
+from datetime import datetime
+from pathlib import Path
+
+REPO = Path("/home/tokisaki/github/hermes-second-brain")
+RAW = REPO / "raw" / "articles"
+WIKI = REPO / "wiki"
+MEMORY = REPO / "memory"
+SKILLS_TARGET = Path.home() / ".hermes" / "skills"
+REPORTS = REPO / "reports"
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--fast", action="store_true", help="Skip expensive checks (e.g. full content scan)")
+    parser.add_argument("--json", action="store_true", help="Machine-readable output")
+    args = parser.parse_args()
+
+    issues = []
+    warnings = []
+
+    def check(path, condition, msg):
+        if not condition:
+            issues.append({"path": str(path), "error": msg})
+
+    # Existence checks
+    check(RAW, RAW.exists(), "raw/articles/ directory missing")
+    check(WIKI, WIKI.exists(), "wiki/ directory missing")
+    check(MEMORY / "graph.nodes.json", (MEMORY / "graph.nodes.json").exists(), "graph.nodes.json missing")
+    check(MEMORY / "graph.edges.json", (MEMORY / "graph.edges.json").exists(), "graph.edges.json missing")
+
+    # Broken wiki wikilinks
+    for wf in WIKI.glob("*.md"):
+        txt = wf.read_text()
+        for m in __import__('re').finditer(r'\[\[([^\]]+)\]\]', txt):
+            target = m.group(1)
+            if not (WIKI / f"{target}.md").exists():
+                issues.append({"file": str(wf), "broken_wikilink": target})
+
+    # Orphaned skill symlinks
+    if SKILLS_TARGET.exists():
+        for sl in SKILLS_TARGET.rglob("*"):
+            if sl.is_symlink():
+                try:
+                    if not sl.resolve().exists():
+                        issues.append({"symlink": str(sl), "broken_target": str(sl.resolve())})
+                except:
+                    issues.append({"symlink": str(sl), "error": "unresolvable"})
+
+    # Duplicate entity labels in graph
+    nodes = json.loads((MEMORY / "graph.nodes.json").read_text())
+    labels = [n["label"].lower() for n in nodes]
+    for lab in set(l for l in labels if labels.count(l) > 1):
+        warnings.append({"duplicate_entity": lab, "count": labels.count(lab)})
+
+    # Stale raw articles (no corresponding wiki page) — optional expensive check
+    if not args.fast:
+        wiki_stems = {f.stem for f in WIKI.glob("*.md")}
+        for src in RAW.glob("*.md"):
+            if src.stem.replace("research_", "") not in wiki_stems:
+                warnings.append({"stale_source": src.name})
+
+    # Report
+    report = {
+        "timestamp": datetime.utcnow().isoformat()+"Z",
+        "errors": issues,
+        "warnings": warnings,
+        "summary": {"errors": len(issues), "warnings": len(warnings)}
+    }
+
+    REPORTS.mkdir(exist_ok=True)
+    outfile = REPORTS / f"lint_{datetime.utcnow().strftime('%Y%m%d_%H%M%S')}.json"
+    outfile.write_text(json.dumps(report, indent=2))
+
+    if args.json:
+        print(json.dumps(report, indent=2))
+    else:
+        print(f"[lint] {len(issues)} errors, {len(warnings)} warnings → {outfile}")
+        if issues:
+            print("\nERRORS:")
+            for e in issues[:10]:
+                print(f"  {e}")
+        if warnings:
+            print("\nWARNINGS:")
+            for w in warnings[:10]:
+                print(f"  {w}")
+
+    sys.exit(1 if issues else 0)
+
+if __name__ == "__main__":
+    main()

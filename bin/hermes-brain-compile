@@ -1,0 +1,107 @@
+#!/usr/bin/env python3
+"""Compile raw/ → wiki/ (incremental compilation)."""
+import argparse, hashlib, json, sys
+from datetime import datetime
+from pathlib import Path
+
+REPO = Path("/home/tokisaki/github/hermes-second-brain")
+RAW = REPO / "raw" / "articles"
+WIKI = REPO / "wiki"
+REPORTS = REPO / "reports"
+
+def file_hash(p):
+    return hashlib.sha256(p.read_bytes()).hexdigest()[:16]
+
+def needs_compile(src, dst):
+    if not dst.exists():
+        return True
+    try:
+        src_h = file_hash(src)
+        # Read hash from frontmatter of dst if available
+        txt = dst.read_text()
+        fm = __import__('re').search(r'---\s*(.*?)\s*---', txt, __import__('re').DOTALL)
+        if fm:
+            for line in fm.group(1).split('\n'):
+                if line.startswith('hash:'):
+                    return src_h != line.split(':',1)[1].strip()
+        return True  # no hash found → recompile
+    except:
+        return True
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--full", action="store_true", help="Full recompile")
+    parser.add_argument("--dry-run", action="store_true", help="Show changes only")
+    args = parser.parse_args()
+
+    WIKI.mkdir(parents=True, exist_ok=True)
+    REPORTS.mkdir(parents=True, exist_ok=True)
+
+    compiled = []
+    skipped = []
+
+    for src in sorted(RAW.glob("*.md")):
+        stem = src.stem.replace("research_", "")
+        dst = WIKI / f"{stem}.md"
+
+        if not args.full and not needs_compile(src, dst):
+            skipped.append(src.name)
+            continue
+
+        if args.dry_run:
+            print(f"[DRY] {src.name} → wiki/{dst.name}")
+            continue
+
+        txt = src.read_text()
+        fm_match = __import__('re').search(r'---\s*(.*?)\s*---', txt, __import__('re').DOTALL)
+        fm = {}
+        if fm_match:
+            for line in fm_match.group(1).split('\n'):
+                if ':' in line:
+                    k,v = line.split(':',1)
+                    fm[k.strip()] = v.strip()
+
+        title = fm.get('title', src.stem)
+        repo = fm.get('repo', 'unknown')
+        h = file_hash(src)
+
+        content = f"""---
+source: {src.name}
+repo: {repo}
+compiled_at: {datetime.utcnow().isoformat()}Z
+hash: {h}
+---
+
+# {title}
+
+> From: [{src.name}](raw/articles/{src.name})
+
+## Overview
+Auto-compiled research entry. Content will be filled by LLM synthesis in future versions.
+
+## Source
+- Repository: [{repo}](https://github.com/{repo})
+- Local file: `raw/articles/{src.name}`
+
+---
+*This wiki page acts as a stub. LLM-driven compilation will populate details.*
+"""
+        dst.write_text(content)
+        compiled.append(src.name)
+
+    log = {
+        "timestamp": datetime.utcnow().isoformat()+"Z",
+        "compiled": compiled,
+        "skipped": skipped,
+        "total": len(list(RAW.glob("*.md")))
+    }
+    logfile = REPORTS / f"compile_{datetime.utcnow().strftime('%Y%m%d_%H%M%S')}.json"
+    logfile.write_text(json.dumps(log, indent=2))
+
+    print(f"\\n[compile] {len(compiled)} compiled, {len(skipped)} skipped")
+    if compiled:
+        print("  New:", ', '.join(compiled[:10]))
+    print(f"  log → {logfile}")
+
+if __name__ == "__main__":
+    main()
