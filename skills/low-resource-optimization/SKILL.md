@@ -48,3 +48,5 @@ resources:
   - hermes-agent-architecture/scripts/{disk-cleanup.sh,prune-night-research.sh,cache_manager.py}
   - daily-learnings/sysops/install-lowres-optimizations.sh
 ---
+  - hermes-agent-architecture/scripts/disk-monitor.sh
+  - hermes-agent-architecture/scripts/disk_cleanup_wrapper.py
