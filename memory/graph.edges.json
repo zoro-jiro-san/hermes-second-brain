@@ -1,2688 +1,2191 @@
 [
   {
-    "from": "repo:0xnyk-awesome-hermes-agent",
-    "to": "tech:crewai",
+    "from": "0xNyk/awesome-hermes-agent",
+    "to": "CrewAI",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "repo:0xnyk-awesome-hermes-agent",
-    "to": "tech:gorilla",
+    "from": "0xNyk/awesome-hermes-agent",
+    "to": "Gorilla",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "repo:0xnyk-awesome-hermes-agent",
-    "to": "tech:langchain",
+    "from": "0xNyk/awesome-hermes-agent",
+    "to": "LangChain",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "repo:0xnyk-awesome-hermes-agent",
-    "to": "tech:openinterpreter",
+    "from": "0xNyk/awesome-hermes-agent",
+    "to": "OpenInterpreter",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "repo:0xnyk-awesome-hermes-agent",
-    "to": "tech:read",
+    "from": "0xNyk/awesome-hermes-agent",
+    "to": "Read",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "repo:0xnyk-awesome-hermes-agent",
-    "to": "tech:sse",
+    "from": "0xNyk/awesome-hermes-agent",
+    "to": "SSE",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "repo:0xnyk-awesome-hermes-agent",
-    "to": "tech:task",
+    "from": "0xNyk/awesome-hermes-agent",
+    "to": "Task",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "repo:0xnyk-awesome-hermes-agent",
-    "to": "tech:toolllm",
+    "from": "0xNyk/awesome-hermes-agent",
+    "to": "ToolLLM",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "repo:0xnyk-awesome-hermes-agent",
-    "to": "tech:voyager",
+    "from": "0xNyk/awesome-hermes-agent",
+    "to": "Voyager",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "repo:0xnyk-awesome-hermes-agent",
-    "to": "tech:retrieval",
+    "from": "0xNyk/awesome-hermes-agent",
+    "to": "retrieval",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:a-b-testing-manager",
-    "to": "pattern:architecture",
-    "relation": "implements",
-    "confidence": 0.85,
-    "source_file": "research_claude_ads.md"
-  },
-  {
-    "from": "tech:airflow",
-    "to": "pattern:core-data-model",
+    "from": "Airflow",
+    "to": "Core Data Model",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_shannon.md"
   },
   {
-    "from": "tech:anthropic-sdk",
-    "to": "pattern:architecture",
-    "relation": "implements",
-    "confidence": 0.65,
-    "source_file": "research_claude_task_master.md"
-  },
-  {
-    "from": "tech:arangodb",
-    "to": "pattern:architecture",
+    "from": "ArangoDB",
+    "to": "Architecture",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_shannon.md"
   },
   {
-    "from": "tech:arangodb",
-    "to": "pattern:core-data-model",
+    "from": "ArangoDB",
+    "to": "Core Data Model",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_shannon.md"
   },
   {
-    "from": "tech:arangodb",
-    "to": "pattern:entity-resolution-&-deduplication",
+    "from": "ArangoDB",
+    "to": "Entity Resolution & Deduplication",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_shannon.md"
   },
   {
-    "from": "tech:arize",
-    "to": "pattern:scalability-approach",
+    "from": "Arize",
+    "to": "Scalability Approach",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_shannon.md"
   },
   {
-    "from": "tech:bash",
-    "to": "pattern:cli-&-terminal-automation",
+    "from": "Bash",
+    "to": "CLI & Terminal Automation",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_everything_claude_code.md"
   },
   {
-    "from": "tech:bash",
-    "to": "pattern:core-tools",
+    "from": "Bash",
+    "to": "Core Tools",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_everything_claude_code.md"
   },
   {
-    "from": "tech:campaign-optimizer",
-    "to": "pattern:architecture",
-    "relation": "implements",
-    "confidence": 0.85,
-    "source_file": "research_claude_ads.md"
-  },
-  {
-    "from": "tech:crewai",
-    "to": "pattern:api-grounding-with-retrieval",
+    "from": "CrewAI",
+    "to": "API Grounding with Retrieval",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:crewai",
-    "to": "pattern:callback-tracing-system",
+    "from": "CrewAI",
+    "to": "Callback/Tracing System",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:crewai",
-    "to": "pattern:dynamic-provider-routing",
+    "from": "CrewAI",
+    "to": "Dynamic Provider Routing",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:crewai",
-    "to": "pattern:error-recovery-loops",
+    "from": "CrewAI",
+    "to": "Error Recovery Loops",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:crewai",
-    "to": "pattern:hermes-application",
+    "from": "CrewAI",
+    "to": "Hermes Application",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_opensource_ai.md"
   },
   {
-    "from": "tech:crewai",
-    "to": "pattern:hierarchical-coordination",
+    "from": "CrewAI",
+    "to": "Hierarchical Coordination",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:crewai",
-    "to": "pattern:persistent-skill-&-memory-store",
+    "from": "CrewAI",
+    "to": "Persistent Skill & Memory Store",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:crewai",
-    "to": "pattern:role-based-agent-decomposition",
+    "from": "CrewAI",
+    "to": "Role-Based Agent Decomposition",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:crewai",
-    "to": "pattern:sandboxed-code-execution",
+    "from": "CrewAI",
+    "to": "Sandboxed Code Execution",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:crewai",
-    "to": "pattern:structured-output-guarantees",
+    "from": "CrewAI",
+    "to": "Structured Output Guarantees",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:crewai",
-    "to": "pattern:task-planning-with-code",
+    "from": "CrewAI",
+    "to": "Task Planning with Code",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:docker",
-    "to": "pattern:architecture",
+    "from": "Docker",
+    "to": "Architecture",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_openhands.md"
   },
   {
-    "from": "tech:docker",
-    "to": "pattern:multi-service-orchestration",
+    "from": "Docker",
+    "to": "Multi-Service Orchestration",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_coolify.md"
   },
   {
-    "from": "tech:docker",
-    "to": "pattern:overview",
+    "from": "Docker",
+    "to": "Overview",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_coolify.md"
   },
   {
-    "from": "tech:docker",
-    "to": "pattern:sandbox-patterns",
+    "from": "Docker",
+    "to": "Sandbox Patterns",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_openhands.md"
   },
   {
-    "from": "tech:edit",
-    "to": "pattern:core-tools",
+    "from": "Edit",
+    "to": "Core Tools",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_everything_claude_code.md"
   },
   {
-    "from": "tech:edit",
-    "to": "pattern:file-system-navigation-&-code-editing",
+    "from": "Edit",
+    "to": "File System Navigation & Code Editing",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_everything_claude_code.md"
   },
   {
-    "from": "tech:edit",
-    "to": "pattern:live-editing-+-type-checking-integration",
+    "from": "Edit",
+    "to": "Live-Editing + Type Checking Integration",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_sandcastle.md"
   },
   {
-    "from": "tech:edit",
-    "to": "pattern:overview",
+    "from": "Edit",
+    "to": "Overview",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_awesome_solana_ai.md"
   },
   {
-    "from": "person:eyal-toledo",
-    "to": "repo:chainyo-claude-task-master",
-    "relation": "created",
-    "confidence": 0.95,
-    "source_file": "research_claude_task_master.md"
-  },
-  {
-    "from": "tech:glob",
-    "to": "pattern:core-tools",
+    "from": "Glob",
+    "to": "Core Tools",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_everything_claude_code.md"
   },
   {
-    "from": "tech:glob",
-    "to": "pattern:environment-secret-management",
+    "from": "Glob",
+    "to": "Environment/Secret Management",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_coolify.md"
   },
   {
-    "from": "tech:glob",
-    "to": "pattern:file-system-navigation-&-code-editing",
+    "from": "Glob",
+    "to": "File System Navigation & Code Editing",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_everything_claude_code.md"
   },
   {
-    "from": "tech:glob",
-    "to": "pattern:key-patterns",
+    "from": "Glob",
+    "to": "Key Patterns",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_agentic_inbox.md"
   },
   {
-    "from": "tech:gorilla",
-    "to": "pattern:api-grounding-with-retrieval",
+    "from": "Gorilla",
+    "to": "API Grounding with Retrieval",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:gorilla",
-    "to": "pattern:callback-tracing-system",
+    "from": "Gorilla",
+    "to": "Callback/Tracing System",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:gorilla",
-    "to": "pattern:dynamic-provider-routing",
+    "from": "Gorilla",
+    "to": "Dynamic Provider Routing",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:gorilla",
-    "to": "pattern:error-recovery-loops",
+    "from": "Gorilla",
+    "to": "Error Recovery Loops",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:gorilla",
-    "to": "pattern:hermes-application",
+    "from": "Gorilla",
+    "to": "Hermes Application",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_opensource_ai.md"
   },
   {
-    "from": "tech:gorilla",
-    "to": "pattern:hierarchical-coordination",
+    "from": "Gorilla",
+    "to": "Hierarchical Coordination",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:gorilla",
-    "to": "pattern:persistent-skill-&-memory-store",
+    "from": "Gorilla",
+    "to": "Persistent Skill & Memory Store",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:gorilla",
-    "to": "pattern:role-based-agent-decomposition",
+    "from": "Gorilla",
+    "to": "Role-Based Agent Decomposition",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:gorilla",
-    "to": "pattern:sandboxed-code-execution",
+    "from": "Gorilla",
+    "to": "Sandboxed Code Execution",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:gorilla",
-    "to": "pattern:structured-output-guarantees",
+    "from": "Gorilla",
+    "to": "Structured Output Guarantees",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:gorilla",
-    "to": "pattern:task-planning-with-code",
+    "from": "Gorilla",
+    "to": "Task Planning with Code",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:grep",
-    "to": "pattern:core-tools",
+    "from": "Grep",
+    "to": "Core Tools",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_everything_claude_code.md"
   },
   {
-    "from": "tech:grep",
-    "to": "pattern:file-system-navigation-&-code-editing",
+    "from": "Grep",
+    "to": "File System Navigation & Code Editing",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_everything_claude_code.md"
   },
   {
-    "from": "repo:hkuds-vibe-trading",
-    "to": "tech:glob",
+    "from": "HKUDS/Vibe-Trading",
+    "to": "Glob",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_vibe_trading.md"
   },
   {
-    "from": "repo:hkuds-vibe-trading",
-    "to": "tech:read",
+    "from": "HKUDS/Vibe-Trading",
+    "to": "Read",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_vibe_trading.md"
   },
   {
-    "from": "repo:hkuds-vibe-trading",
-    "to": "tech:sse",
+    "from": "HKUDS/Vibe-Trading",
+    "to": "SSE",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_vibe_trading.md"
   },
   {
-    "from": "repo:hkuds-vibe-trading",
-    "to": "tech:ta-lib",
+    "from": "HKUDS/Vibe-Trading",
+    "to": "TA-Lib",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_vibe_trading.md"
   },
   {
-    "from": "repo:hkuds-vibe-trading",
-    "to": "tech:task",
+    "from": "HKUDS/Vibe-Trading",
+    "to": "Task",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_vibe_trading.md"
   },
   {
-    "from": "repo:hkuds-vibe-trading",
-    "to": "tech:ccxt",
+    "from": "HKUDS/Vibe-Trading",
+    "to": "ccxt",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_vibe_trading.md"
   },
   {
-    "from": "repo:hkuds-vibe-trading",
-    "to": "tech:pandas",
+    "from": "HKUDS/Vibe-Trading",
+    "to": "pandas",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_vibe_trading.md"
   },
   {
-    "from": "repo:hkuds-vibe-trading",
-    "to": "tech:webhooks",
+    "from": "HKUDS/Vibe-Trading",
+    "to": "webhooks",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_vibe_trading.md"
   },
   {
-    "from": "tech:json-schema",
-    "to": "pattern:architecture",
+    "from": "JSON Schema",
+    "to": "Architecture",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_anthropic_skills.md"
   },
   {
-    "from": "tech:json-schema",
-    "to": "pattern:input-output-schemas",
+    "from": "JSON Schema",
+    "to": "Input/Output Schemas",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_anthropic_skills.md"
   },
   {
-    "from": "tech:json-schema",
-    "to": "pattern:skill-catalog",
+    "from": "JSON Schema",
+    "to": "Skill Catalog",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_anthropic_skills.md"
   },
   {
-    "from": "repo:keygraphhq-shannon",
-    "to": "tech:airflow",
+    "from": "KeygraphHQ/shannon",
+    "to": "Airflow",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_shannon.md"
   },
   {
-    "from": "repo:keygraphhq-shannon",
-    "to": "tech:arangodb",
+    "from": "KeygraphHQ/shannon",
+    "to": "ArangoDB",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_shannon.md"
   },
   {
-    "from": "repo:keygraphhq-shannon",
-    "to": "tech:arize",
+    "from": "KeygraphHQ/shannon",
+    "to": "Arize",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_shannon.md"
   },
   {
-    "from": "repo:keygraphhq-shannon",
-    "to": "tech:neo4j",
+    "from": "KeygraphHQ/shannon",
+    "to": "Neo4j",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_shannon.md"
   },
   {
-    "from": "repo:keygraphhq-shannon",
-    "to": "tech:postgresql",
+    "from": "KeygraphHQ/shannon",
+    "to": "PostgreSQL",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_shannon.md"
   },
   {
-    "from": "repo:keygraphhq-shannon",
-    "to": "tech:prefect",
+    "from": "KeygraphHQ/shannon",
+    "to": "Prefect",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_shannon.md"
   },
   {
-    "from": "repo:keygraphhq-shannon",
-    "to": "tech:qdrant",
+    "from": "KeygraphHQ/shannon",
+    "to": "Qdrant",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_shannon.md"
   },
   {
-    "from": "repo:keygraphhq-shannon",
-    "to": "tech:read",
+    "from": "KeygraphHQ/shannon",
+    "to": "Read",
     "relation": "uses",
     "confidence": 0.8,
     "source_file": "research_shannon.md"
   },
   {
-    "from": "repo:keygraphhq-shannon",
-    "to": "tech:redis",
+    "from": "KeygraphHQ/shannon",
+    "to": "Redis",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_shannon.md"
   },
   {
-    "from": "repo:keygraphhq-shannon",
-    "to": "tech:sse",
+    "from": "KeygraphHQ/shannon",
+    "to": "SSE",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_shannon.md"
   },
   {
-    "from": "repo:keygraphhq-shannon",
-    "to": "tech:temporal",
+    "from": "KeygraphHQ/shannon",
+    "to": "Temporal",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_shannon.md"
   },
   {
-    "from": "repo:keygraphhq-shannon",
-    "to": "tech:typescript",
+    "from": "KeygraphHQ/shannon",
+    "to": "TypeScript",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_shannon.md"
   },
   {
-    "from": "repo:keygraphhq-shannon",
-    "to": "tech:weaviate",
+    "from": "KeygraphHQ/shannon",
+    "to": "Weaviate",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_shannon.md"
   },
   {
-    "from": "repo:keygraphhq-shannon",
-    "to": "tech:write",
+    "from": "KeygraphHQ/shannon",
+    "to": "Write",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_shannon.md"
   },
   {
-    "from": "repo:keygraphhq-shannon",
-    "to": "tech:neo4j",
+    "from": "KeygraphHQ/shannon",
+    "to": "pgvector",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_shannon.md"
   },
   {
-    "from": "repo:keygraphhq-shannon",
-    "to": "tech:pgvector",
+    "from": "KeygraphHQ/shannon",
+    "to": "retrieval",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_shannon.md"
   },
   {
-    "from": "repo:keygraphhq-shannon",
-    "to": "tech:retrieval",
-    "relation": "uses",
-    "confidence": 0.6,
-    "source_file": "research_shannon.md"
-  },
-  {
-    "from": "tech:langchain",
-    "to": "pattern:api-grounding-with-retrieval",
+    "from": "LangChain",
+    "to": "API Grounding with Retrieval",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:langchain",
-    "to": "pattern:callback-tracing-system",
+    "from": "LangChain",
+    "to": "Callback/Tracing System",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:langchain",
-    "to": "pattern:dynamic-provider-routing",
+    "from": "LangChain",
+    "to": "Dynamic Provider Routing",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:langchain",
-    "to": "pattern:error-recovery-loops",
+    "from": "LangChain",
+    "to": "Error Recovery Loops",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:langchain",
-    "to": "pattern:hermes-application",
+    "from": "LangChain",
+    "to": "Hermes Application",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_opensource_ai.md"
   },
   {
-    "from": "tech:langchain",
-    "to": "pattern:hierarchical-coordination",
+    "from": "LangChain",
+    "to": "Hierarchical Coordination",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:langchain",
-    "to": "pattern:persistent-skill-&-memory-store",
+    "from": "LangChain",
+    "to": "Persistent Skill & Memory Store",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:langchain",
-    "to": "pattern:role-based-agent-decomposition",
+    "from": "LangChain",
+    "to": "Role-Based Agent Decomposition",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:langchain",
-    "to": "pattern:sandboxed-code-execution",
+    "from": "LangChain",
+    "to": "Sandboxed Code Execution",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:langchain",
-    "to": "pattern:structured-output-guarantees",
+    "from": "LangChain",
+    "to": "Structured Output Guarantees",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:langchain",
-    "to": "pattern:task-planning-with-code",
+    "from": "LangChain",
+    "to": "Task Planning with Code",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "person:matt-pocock",
-    "to": "repo:mattpocock-sandcastle",
+    "from": "Matt Pocock",
+    "to": "mattpocock/sandcastle",
     "relation": "created",
     "confidence": 0.95,
     "source_file": "research_sandcastle.md"
   },
   {
-    "from": "tech:monaco-editor",
-    "to": "pattern:live-editing-+-type-checking-integration",
+    "from": "Monaco Editor",
+    "to": "Live-Editing + Type Checking Integration",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_sandcastle.md"
   },
   {
-    "from": "tech:neo4j",
-    "to": "pattern:architecture",
+    "from": "Neo4j",
+    "to": "Architecture",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_shannon.md"
   },
   {
-    "from": "tech:neo4j",
-    "to": "pattern:core-data-model",
+    "from": "Neo4j",
+    "to": "Core Data Model",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_shannon.md"
   },
   {
-    "from": "tech:neo4j",
-    "to": "pattern:entity-resolution-&-deduplication",
+    "from": "Neo4j",
+    "to": "Entity Resolution & Deduplication",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_shannon.md"
   },
   {
-    "from": "tech:neo4j",
-    "to": "pattern:scalability-approach",
+    "from": "Neo4j",
+    "to": "Scalability Approach",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_shannon.md"
   },
   {
-    "from": "tech:openinterpreter",
-    "to": "pattern:api-grounding-with-retrieval",
+    "from": "OpenInterpreter",
+    "to": "API Grounding with Retrieval",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:openinterpreter",
-    "to": "pattern:callback-tracing-system",
+    "from": "OpenInterpreter",
+    "to": "Callback/Tracing System",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:openinterpreter",
-    "to": "pattern:dynamic-provider-routing",
+    "from": "OpenInterpreter",
+    "to": "Dynamic Provider Routing",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:openinterpreter",
-    "to": "pattern:error-recovery-loops",
+    "from": "OpenInterpreter",
+    "to": "Error Recovery Loops",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:openinterpreter",
-    "to": "pattern:hermes-application",
+    "from": "OpenInterpreter",
+    "to": "Hermes Application",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_opensource_ai.md"
   },
   {
-    "from": "tech:openinterpreter",
-    "to": "pattern:hierarchical-coordination",
+    "from": "OpenInterpreter",
+    "to": "Hierarchical Coordination",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:openinterpreter",
-    "to": "pattern:persistent-skill-&-memory-store",
+    "from": "OpenInterpreter",
+    "to": "Persistent Skill & Memory Store",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:openinterpreter",
-    "to": "pattern:role-based-agent-decomposition",
+    "from": "OpenInterpreter",
+    "to": "Role-Based Agent Decomposition",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:openinterpreter",
-    "to": "pattern:sandboxed-code-execution",
+    "from": "OpenInterpreter",
+    "to": "Sandboxed Code Execution",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:openinterpreter",
-    "to": "pattern:structured-output-guarantees",
+    "from": "OpenInterpreter",
+    "to": "Structured Output Guarantees",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:openinterpreter",
-    "to": "pattern:task-planning-with-code",
+    "from": "OpenInterpreter",
+    "to": "Task Planning with Code",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:postgresql",
-    "to": "pattern:core-data-model",
+    "from": "PostgreSQL",
+    "to": "Core Data Model",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_shannon.md"
   },
   {
-    "from": "tech:prefect",
-    "to": "pattern:core-data-model",
+    "from": "Prefect",
+    "to": "Core Data Model",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_shannon.md"
   },
   {
-    "from": "tech:prefect",
-    "to": "pattern:query-&-retrieval-patterns",
+    "from": "Prefect",
+    "to": "Query & Retrieval Patterns",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_shannon.md"
   },
   {
-    "from": "tech:qdrant",
-    "to": "pattern:architecture",
+    "from": "Qdrant",
+    "to": "Architecture",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_shannon.md"
   },
   {
-    "from": "tech:qdrant",
-    "to": "pattern:core-data-model",
+    "from": "Qdrant",
+    "to": "Core Data Model",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_shannon.md"
   },
   {
-    "from": "tech:qdrant",
-    "to": "pattern:entity-resolution-&-deduplication",
+    "from": "Qdrant",
+    "to": "Entity Resolution & Deduplication",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_shannon.md"
   },
   {
-    "from": "tech:read",
-    "to": "pattern:architecture",
+    "from": "Read",
+    "to": "Architecture",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_obsidian_headless.md"
   },
   {
-    "from": "tech:read",
-    "to": "pattern:core-tools",
+    "from": "Read",
+    "to": "Core Tools",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_everything_claude_code.md"
   },
   {
-    "from": "tech:read",
-    "to": "pattern:defense-in-depth",
+    "from": "Read",
+    "to": "Defense-in-Depth",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_anthropic_skills.md"
   },
   {
-    "from": "tech:read",
-    "to": "pattern:entity-resolution-&-deduplication",
+    "from": "Read",
+    "to": "Entity Resolution & Deduplication",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_shannon.md"
   },
   {
-    "from": "tech:read",
-    "to": "pattern:file-system-navigation-&-code-editing",
+    "from": "Read",
+    "to": "File System Navigation & Code Editing",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_everything_claude_code.md"
   },
   {
-    "from": "tech:read",
-    "to": "pattern:hermes-skill-plugin-packaging",
+    "from": "Read",
+    "to": "Hermes Skill/Plugin Packaging",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_the_mansion.md"
   },
   {
-    "from": "tech:read",
-    "to": "pattern:plugin-architecture",
+    "from": "Read",
+    "to": "Plugin Architecture",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_obsidian_headless.md"
   },
   {
-    "from": "tech:read",
-    "to": "pattern:sandbox-isolation",
+    "from": "Read",
+    "to": "Sandbox Isolation",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_anthropic_skills.md"
   },
   {
-    "from": "tech:read",
-    "to": "pattern:security-considerations",
+    "from": "Read",
+    "to": "Security Considerations",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_anthropic_skills.md"
   },
   {
-    "from": "tech:redis",
-    "to": "pattern:architecture",
+    "from": "Redis",
+    "to": "Architecture",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_shannon.md"
   },
   {
-    "from": "tech:redis",
-    "to": "pattern:core-data-model",
+    "from": "Redis",
+    "to": "Core Data Model",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_shannon.md"
   },
   {
-    "from": "tech:redis",
-    "to": "pattern:entity-resolution-&-deduplication",
+    "from": "Redis",
+    "to": "Entity Resolution & Deduplication",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_shannon.md"
   },
   {
-    "from": "tech:sse",
-    "to": "pattern:architecture",
+    "from": "SSE",
+    "to": "Architecture",
     "relation": "implements",
     "confidence": 0.85,
-    "source_file": "research_claude_ads.md"
+    "source_file": "research_shannon.md"
   },
   {
-    "from": "tech:sse",
-    "to": "pattern:assessment-&-validation-patterns",
+    "from": "SSE",
+    "to": "Assessment & Validation Patterns",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_mattpocock_skills.md"
   },
   {
-    "from": "tech:sse",
-    "to": "pattern:entity-resolution-&-deduplication",
+    "from": "SSE",
+    "to": "Entity Resolution & Deduplication",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_shannon.md"
   },
   {
-    "from": "tech:sse",
-    "to": "pattern:input-output-schemas",
+    "from": "SSE",
+    "to": "Input/Output Schemas",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_anthropic_skills.md"
   },
   {
-    "from": "tech:sse",
-    "to": "pattern:key-patterns",
+    "from": "SSE",
+    "to": "Key Patterns",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_agentic_inbox.md"
   },
   {
-    "from": "tech:sse",
-    "to": "pattern:risk-controls",
+    "from": "SSE",
+    "to": "Risk Controls",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_vibe_trading.md"
   },
   {
-    "from": "tech:sse",
-    "to": "pattern:skill-catalog",
+    "from": "SSE",
+    "to": "Skill Catalog",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_anthropic_skills.md"
   },
   {
-    "from": "tech:task",
-    "to": "pattern:api-grounding-with-retrieval",
+    "from": "Task",
+    "to": "API Grounding with Retrieval",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:task",
-    "to": "pattern:architecture",
+    "from": "Task",
+    "to": "Architecture",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_dexter.md"
   },
   {
-    "from": "tech:task",
-    "to": "pattern:automation-patterns",
+    "from": "Task",
+    "to": "Automation Patterns",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_the_mansion.md"
   },
   {
-    "from": "tech:task",
-    "to": "pattern:callback-tracing-system",
+    "from": "Task",
+    "to": "Callback/Tracing System",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:task",
-    "to": "pattern:core-tools",
-    "relation": "implements",
-    "confidence": 0.65,
-    "source_file": "research_claude_task_master.md"
-  },
-  {
-    "from": "tech:task",
-    "to": "pattern:core-tools-&-commands",
-    "relation": "implements",
-    "confidence": 0.65,
-    "source_file": "research_claude_task_master.md"
-  },
-  {
-    "from": "tech:task",
-    "to": "pattern:dynamic-provider-routing",
+    "from": "Task",
+    "to": "Dynamic Provider Routing",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:task",
-    "to": "pattern:error-recovery-loops",
+    "from": "Task",
+    "to": "Error Recovery Loops",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:task",
-    "to": "pattern:hermes-application",
+    "from": "Task",
+    "to": "Hermes Application",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_opensource_ai.md"
   },
   {
-    "from": "tech:task",
-    "to": "pattern:hierarchical-coordination",
+    "from": "Task",
+    "to": "Hierarchical Coordination",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:task",
-    "to": "pattern:integration-opportunities-for-hermes-agent",
-    "relation": "implements",
-    "confidence": 0.65,
-    "source_file": "research_claude_task_master.md"
-  },
-  {
-    "from": "tech:task",
-    "to": "pattern:key-patterns",
-    "relation": "implements",
-    "confidence": 0.65,
-    "source_file": "research_claude_task_master.md"
-  },
-  {
-    "from": "tech:task",
-    "to": "pattern:message-handling-architecture",
+    "from": "Task",
+    "to": "Message Handling Architecture",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_dexter.md"
   },
   {
-    "from": "tech:task",
-    "to": "pattern:overview",
+    "from": "Task",
+    "to": "Overview",
     "relation": "implements",
-    "confidence": 0.85,
-    "source_file": "research_claude_task_master.md"
+    "confidence": 0.65,
+    "source_file": "research_awesome_solana_ai.md"
   },
   {
-    "from": "tech:task",
-    "to": "pattern:persistent-skill-&-memory-store",
+    "from": "Task",
+    "to": "Persistent Skill & Memory Store",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:task",
-    "to": "pattern:prompt-engineering---chain-of-thought-patterns",
+    "from": "Task",
+    "to": "Prompt Engineering / Chain-of-Thought Patterns",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_ai_engineering_hub.md"
   },
   {
-    "from": "tech:task",
-    "to": "pattern:role-based-agent-decomposition",
+    "from": "Task",
+    "to": "Role-Based Agent Decomposition",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:task",
-    "to": "pattern:sandboxed-code-execution",
+    "from": "Task",
+    "to": "Sandboxed Code Execution",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:task",
-    "to": "pattern:structured-output-guarantees",
+    "from": "Task",
+    "to": "Structured Output Guarantees",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:task",
-    "to": "pattern:task-planning-with-code",
+    "from": "Task",
+    "to": "Task Planning with Code",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:temporal",
-    "to": "pattern:architecture",
+    "from": "Temporal",
+    "to": "Architecture",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_shannon.md"
   },
   {
-    "from": "tech:temporal",
-    "to": "pattern:core-data-model",
+    "from": "Temporal",
+    "to": "Core Data Model",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_shannon.md"
   },
   {
-    "from": "tech:temporal",
-    "to": "pattern:integration-ideas-for-hermes",
+    "from": "Temporal",
+    "to": "Integration Ideas for Hermes",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_shannon.md"
   },
   {
-    "from": "tech:temporal",
-    "to": "pattern:scalability-approach",
+    "from": "Temporal",
+    "to": "Scalability Approach",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_shannon.md"
   },
   {
-    "from": "tech:think",
-    "to": "pattern:prompt-engineering---chain-of-thought-patterns",
+    "from": "Think",
+    "to": "Prompt Engineering / Chain-of-Thought Patterns",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_ai_engineering_hub.md"
   },
   {
-    "from": "tech:toolllm",
-    "to": "pattern:api-grounding-with-retrieval",
+    "from": "ToolLLM",
+    "to": "API Grounding with Retrieval",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:toolllm",
-    "to": "pattern:callback-tracing-system",
+    "from": "ToolLLM",
+    "to": "Callback/Tracing System",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:toolllm",
-    "to": "pattern:dynamic-provider-routing",
+    "from": "ToolLLM",
+    "to": "Dynamic Provider Routing",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:toolllm",
-    "to": "pattern:error-recovery-loops",
+    "from": "ToolLLM",
+    "to": "Error Recovery Loops",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:toolllm",
-    "to": "pattern:hermes-application",
+    "from": "ToolLLM",
+    "to": "Hermes Application",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_opensource_ai.md"
   },
   {
-    "from": "tech:toolllm",
-    "to": "pattern:hierarchical-coordination",
+    "from": "ToolLLM",
+    "to": "Hierarchical Coordination",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:toolllm",
-    "to": "pattern:persistent-skill-&-memory-store",
+    "from": "ToolLLM",
+    "to": "Persistent Skill & Memory Store",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:toolllm",
-    "to": "pattern:role-based-agent-decomposition",
+    "from": "ToolLLM",
+    "to": "Role-Based Agent Decomposition",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:toolllm",
-    "to": "pattern:sandboxed-code-execution",
+    "from": "ToolLLM",
+    "to": "Sandboxed Code Execution",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:toolllm",
-    "to": "pattern:structured-output-guarantees",
+    "from": "ToolLLM",
+    "to": "Structured Output Guarantees",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:toolllm",
-    "to": "pattern:task-planning-with-code",
+    "from": "ToolLLM",
+    "to": "Task Planning with Code",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:typescript",
-    "to": "pattern:architecture",
-    "relation": "implements",
-    "confidence": 0.65,
-    "source_file": "research_claude_task_master.md"
-  },
-  {
-    "from": "tech:typescript",
-    "to": "pattern:core-data-model",
+    "from": "TypeScript",
+    "to": "Core Data Model",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_shannon.md"
   },
   {
-    "from": "tech:typescript",
-    "to": "pattern:graph-visualization-patterns",
+    "from": "TypeScript",
+    "to": "Graph/Visualization Patterns",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_obsidian_headless.md"
   },
   {
-    "from": "tech:typescript",
-    "to": "pattern:live-editing-+-type-checking-integration",
+    "from": "TypeScript",
+    "to": "Live-Editing + Type Checking Integration",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_sandcastle.md"
   },
   {
-    "from": "tech:voyager",
-    "to": "pattern:api-grounding-with-retrieval",
+    "from": "Voyager",
+    "to": "API Grounding with Retrieval",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:voyager",
-    "to": "pattern:callback-tracing-system",
+    "from": "Voyager",
+    "to": "Callback/Tracing System",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:voyager",
-    "to": "pattern:dynamic-provider-routing",
+    "from": "Voyager",
+    "to": "Dynamic Provider Routing",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:voyager",
-    "to": "pattern:error-recovery-loops",
+    "from": "Voyager",
+    "to": "Error Recovery Loops",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:voyager",
-    "to": "pattern:hermes-application",
+    "from": "Voyager",
+    "to": "Hermes Application",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_opensource_ai.md"
   },
   {
-    "from": "tech:voyager",
-    "to": "pattern:hierarchical-coordination",
+    "from": "Voyager",
+    "to": "Hierarchical Coordination",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:voyager",
-    "to": "pattern:persistent-skill-&-memory-store",
+    "from": "Voyager",
+    "to": "Persistent Skill & Memory Store",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:voyager",
-    "to": "pattern:role-based-agent-decomposition",
+    "from": "Voyager",
+    "to": "Role-Based Agent Decomposition",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:voyager",
-    "to": "pattern:sandboxed-code-execution",
+    "from": "Voyager",
+    "to": "Sandboxed Code Execution",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:voyager",
-    "to": "pattern:structured-output-guarantees",
+    "from": "Voyager",
+    "to": "Structured Output Guarantees",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:voyager",
-    "to": "pattern:task-planning-with-code",
+    "from": "Voyager",
+    "to": "Task Planning with Code",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:weaviate",
-    "to": "pattern:core-data-model",
+    "from": "Weaviate",
+    "to": "Core Data Model",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_shannon.md"
   },
   {
-    "from": "tech:write",
-    "to": "pattern:architecture",
+    "from": "Write",
+    "to": "Architecture",
     "relation": "implements",
     "confidence": 0.65,
-    "source_file": "research_agentic_stack.md"
+    "source_file": "research_openhands.md"
   },
   {
-    "from": "tech:write",
-    "to": "pattern:core-tools",
-    "relation": "implements",
-    "confidence": 0.65,
-    "source_file": "research_everything_claude_code.md"
-  },
-  {
-    "from": "tech:write",
-    "to": "pattern:file-system-navigation-&-code-editing",
+    "from": "Write",
+    "to": "Core Tools",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_everything_claude_code.md"
   },
   {
-    "from": "repo:affaan-m-everything-claude-code",
-    "to": "tech:bash",
+    "from": "Write",
+    "to": "File System Navigation & Code Editing",
+    "relation": "implements",
+    "confidence": 0.65,
+    "source_file": "research_everything_claude_code.md"
+  },
+  {
+    "from": "affaan-m/everything-claude-code",
+    "to": "Bash",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_everything_claude_code.md"
   },
   {
-    "from": "repo:affaan-m-everything-claude-code",
-    "to": "tech:docker",
+    "from": "affaan-m/everything-claude-code",
+    "to": "Docker",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_everything_claude_code.md"
   },
   {
-    "from": "repo:affaan-m-everything-claude-code",
-    "to": "tech:edit",
+    "from": "affaan-m/everything-claude-code",
+    "to": "Edit",
     "relation": "uses",
     "confidence": 0.8,
     "source_file": "research_everything_claude_code.md"
   },
   {
-    "from": "repo:affaan-m-everything-claude-code",
-    "to": "tech:glob",
+    "from": "affaan-m/everything-claude-code",
+    "to": "Glob",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_everything_claude_code.md"
   },
   {
-    "from": "repo:affaan-m-everything-claude-code",
-    "to": "tech:grep",
+    "from": "affaan-m/everything-claude-code",
+    "to": "Grep",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_everything_claude_code.md"
   },
   {
-    "from": "repo:affaan-m-everything-claude-code",
-    "to": "tech:read",
+    "from": "affaan-m/everything-claude-code",
+    "to": "Read",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_everything_claude_code.md"
   },
   {
-    "from": "repo:affaan-m-everything-claude-code",
-    "to": "tech:sse",
+    "from": "affaan-m/everything-claude-code",
+    "to": "SSE",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_everything_claude_code.md"
   },
   {
-    "from": "repo:affaan-m-everything-claude-code",
-    "to": "tech:task",
+    "from": "affaan-m/everything-claude-code",
+    "to": "Task",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_everything_claude_code.md"
   },
   {
-    "from": "repo:affaan-m-everything-claude-code",
-    "to": "tech:think",
+    "from": "affaan-m/everything-claude-code",
+    "to": "Think",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_everything_claude_code.md"
   },
   {
-    "from": "repo:affaan-m-everything-claude-code",
-    "to": "tech:todoread",
+    "from": "affaan-m/everything-claude-code",
+    "to": "TodoRead",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_everything_claude_code.md"
   },
   {
-    "from": "repo:affaan-m-everything-claude-code",
-    "to": "tech:todowrite",
+    "from": "affaan-m/everything-claude-code",
+    "to": "TodoWrite",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_everything_claude_code.md"
   },
   {
-    "from": "repo:affaan-m-everything-claude-code",
-    "to": "tech:typescript",
+    "from": "affaan-m/everything-claude-code",
+    "to": "TypeScript",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_everything_claude_code.md"
   },
   {
-    "from": "repo:affaan-m-everything-claude-code",
-    "to": "tech:write",
+    "from": "affaan-m/everything-claude-code",
+    "to": "Write",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_everything_claude_code.md"
   },
   {
-    "from": "repo:agentic-stack-agentic-stack",
-    "to": "tech:bash",
-    "relation": "uses",
-    "confidence": 0.6,
-    "source_file": "research_agentic_stack.md"
-  },
-  {
-    "from": "repo:agentic-stack-agentic-stack",
-    "to": "tech:crewai",
-    "relation": "uses",
-    "confidence": 0.8,
-    "source_file": "research_agentic_stack.md"
-  },
-  {
-    "from": "repo:agentic-stack-agentic-stack",
-    "to": "tech:docker",
-    "relation": "uses",
-    "confidence": 0.6,
-    "source_file": "research_agentic_stack.md"
-  },
-  {
-    "from": "repo:agentic-stack-agentic-stack",
-    "to": "tech:glob",
-    "relation": "uses",
-    "confidence": 0.6,
-    "source_file": "research_agentic_stack.md"
-  },
-  {
-    "from": "repo:agentic-stack-agentic-stack",
-    "to": "tech:grafana",
-    "relation": "uses",
-    "confidence": 0.6,
-    "source_file": "research_agentic_stack.md"
-  },
-  {
-    "from": "repo:agentic-stack-agentic-stack",
-    "to": "tech:langchain",
-    "relation": "uses",
-    "confidence": 0.8,
-    "source_file": "research_agentic_stack.md"
-  },
-  {
-    "from": "repo:agentic-stack-agentic-stack",
-    "to": "tech:neo4j",
-    "relation": "uses",
-    "confidence": 0.6,
-    "source_file": "research_agentic_stack.md"
-  },
-  {
-    "from": "repo:agentic-stack-agentic-stack",
-    "to": "tech:prometheus",
-    "relation": "uses",
-    "confidence": 0.6,
-    "source_file": "research_agentic_stack.md"
-  },
-  {
-    "from": "repo:agentic-stack-agentic-stack",
-    "to": "tech:read",
-    "relation": "uses",
-    "confidence": 0.6,
-    "source_file": "research_agentic_stack.md"
-  },
-  {
-    "from": "repo:agentic-stack-agentic-stack",
-    "to": "tech:redis",
-    "relation": "uses",
-    "confidence": 0.6,
-    "source_file": "research_agentic_stack.md"
-  },
-  {
-    "from": "repo:agentic-stack-agentic-stack",
-    "to": "tech:task",
-    "relation": "uses",
-    "confidence": 0.6,
-    "source_file": "research_agentic_stack.md"
-  },
-  {
-    "from": "repo:agentic-stack-agentic-stack",
-    "to": "tech:think",
-    "relation": "uses",
-    "confidence": 0.6,
-    "source_file": "research_agentic_stack.md"
-  },
-  {
-    "from": "repo:agentic-stack-agentic-stack",
-    "to": "tech:write",
-    "relation": "uses",
-    "confidence": 0.6,
-    "source_file": "research_agentic_stack.md"
-  },
-  {
-    "from": "repo:agentic-stack-agentic-stack",
-    "to": "tech:code_interpreter",
-    "relation": "uses",
-    "confidence": 0.6,
-    "source_file": "research_agentic_stack.md"
-  },
-  {
-    "from": "repo:agentic-stack-agentic-stack",
-    "to": "tech:neo4j",
-    "relation": "uses",
-    "confidence": 0.6,
-    "source_file": "research_agentic_stack.md"
-  },
-  {
-    "from": "repo:agentic-stack-agentic-stack",
-    "to": "tech:retrieval",
-    "relation": "uses",
-    "confidence": 0.6,
-    "source_file": "research_agentic_stack.md"
-  },
-  {
-    "from": "repo:agentic-stack-agentic-stack",
-    "to": "tech:web_search",
-    "relation": "uses",
-    "confidence": 0.6,
-    "source_file": "research_agentic_stack.md"
-  },
-  {
-    "from": "repo:agentic-stack-agentic-stack",
-    "to": "tech:yaml",
-    "relation": "uses",
-    "confidence": 0.6,
-    "source_file": "research_agentic_stack.md"
-  },
-  {
-    "from": "repo:alvinreal-awesome-opensource-ai",
-    "to": "tech:crewai",
+    "from": "alvinreal/awesome-opensource-ai",
+    "to": "CrewAI",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_awesome_opensource_ai.md"
   },
   {
-    "from": "repo:alvinreal-awesome-opensource-ai",
-    "to": "tech:gorilla",
+    "from": "alvinreal/awesome-opensource-ai",
+    "to": "Gorilla",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_awesome_opensource_ai.md"
   },
   {
-    "from": "repo:alvinreal-awesome-opensource-ai",
-    "to": "tech:langchain",
+    "from": "alvinreal/awesome-opensource-ai",
+    "to": "LangChain",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_awesome_opensource_ai.md"
   },
   {
-    "from": "repo:alvinreal-awesome-opensource-ai",
-    "to": "tech:openinterpreter",
+    "from": "alvinreal/awesome-opensource-ai",
+    "to": "OpenInterpreter",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_awesome_opensource_ai.md"
   },
   {
-    "from": "repo:alvinreal-awesome-opensource-ai",
-    "to": "tech:read",
+    "from": "alvinreal/awesome-opensource-ai",
+    "to": "Read",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_awesome_opensource_ai.md"
   },
   {
-    "from": "repo:alvinreal-awesome-opensource-ai",
-    "to": "tech:sse",
+    "from": "alvinreal/awesome-opensource-ai",
+    "to": "SSE",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_awesome_opensource_ai.md"
   },
   {
-    "from": "repo:alvinreal-awesome-opensource-ai",
-    "to": "tech:task",
+    "from": "alvinreal/awesome-opensource-ai",
+    "to": "Task",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_awesome_opensource_ai.md"
   },
   {
-    "from": "repo:alvinreal-awesome-opensource-ai",
-    "to": "tech:toolllm",
+    "from": "alvinreal/awesome-opensource-ai",
+    "to": "ToolLLM",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_awesome_opensource_ai.md"
   },
   {
-    "from": "repo:alvinreal-awesome-opensource-ai",
-    "to": "tech:voyager",
+    "from": "alvinreal/awesome-opensource-ai",
+    "to": "Voyager",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_awesome_opensource_ai.md"
   },
   {
-    "from": "repo:alvinreal-awesome-opensource-ai",
-    "to": "tech:weaviate",
+    "from": "alvinreal/awesome-opensource-ai",
+    "to": "Weaviate",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_awesome_opensource_ai.md"
   },
   {
-    "from": "repo:alvinreal-awesome-opensource-ai",
-    "to": "tech:retrieval",
+    "from": "alvinreal/awesome-opensource-ai",
+    "to": "retrieval",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_awesome_opensource_ai.md"
   },
   {
-    "from": "repo:anthropic-claude-ads",
-    "to": "tech:a-b-testing-manager",
-    "relation": "uses",
-    "confidence": 0.6,
-    "source_file": "research_claude_ads.md"
-  },
-  {
-    "from": "repo:anthropic-claude-ads",
-    "to": "tech:arize",
-    "relation": "uses",
-    "confidence": 0.6,
-    "source_file": "research_claude_ads.md"
-  },
-  {
-    "from": "repo:anthropic-claude-ads",
-    "to": "tech:bash",
-    "relation": "uses",
-    "confidence": 0.8,
-    "source_file": "research_claude_ads.md"
-  },
-  {
-    "from": "repo:anthropic-claude-ads",
-    "to": "tech:brand-guardian",
-    "relation": "uses",
-    "confidence": 0.6,
-    "source_file": "research_claude_ads.md"
-  },
-  {
-    "from": "repo:anthropic-claude-ads",
-    "to": "tech:campaign-optimizer",
-    "relation": "uses",
-    "confidence": 0.6,
-    "source_file": "research_claude_ads.md"
-  },
-  {
-    "from": "repo:anthropic-claude-ads",
-    "to": "tech:claude-api",
-    "relation": "uses",
-    "confidence": 0.8,
-    "source_file": "research_claude_ads.md"
-  },
-  {
-    "from": "repo:anthropic-claude-ads",
-    "to": "tech:compliance-service",
-    "relation": "uses",
-    "confidence": 0.6,
-    "source_file": "research_claude_ads.md"
-  },
-  {
-    "from": "repo:anthropic-claude-ads",
-    "to": "tech:edit",
-    "relation": "uses",
-    "confidence": 0.6,
-    "source_file": "research_claude_ads.md"
-  },
-  {
-    "from": "repo:anthropic-claude-ads",
-    "to": "tech:read",
-    "relation": "uses",
-    "confidence": 0.6,
-    "source_file": "research_claude_ads.md"
-  },
-  {
-    "from": "repo:anthropic-claude-ads",
-    "to": "tech:sse",
-    "relation": "uses",
-    "confidence": 0.6,
-    "source_file": "research_claude_ads.md"
-  },
-  {
-    "from": "repo:anthropic-claude-ads",
-    "to": "tech:task",
-    "relation": "uses",
-    "confidence": 0.6,
-    "source_file": "research_claude_ads.md"
-  },
-  {
-    "from": "repo:anthropic-claude-ads",
-    "to": "tech:think",
-    "relation": "uses",
-    "confidence": 0.6,
-    "source_file": "research_claude_ads.md"
-  },
-  {
-    "from": "repo:anthropic-claude-ads",
-    "to": "tech:write",
-    "relation": "uses",
-    "confidence": 0.6,
-    "source_file": "research_claude_ads.md"
-  },
-  {
-    "from": "repo:anthropic-claude-ads",
-    "to": "tech:markdown",
-    "relation": "uses",
-    "confidence": 0.8,
-    "source_file": "research_claude_ads.md"
-  },
-  {
-    "from": "repo:anthropic-claude-ads",
-    "to": "tech:retrieval",
-    "relation": "uses",
-    "confidence": 0.6,
-    "source_file": "research_claude_ads.md"
-  },
-  {
-    "from": "repo:anthropic-claude-ads",
-    "to": "tech:yaml",
-    "relation": "uses",
-    "confidence": 0.8,
-    "source_file": "research_claude_ads.md"
-  },
-  {
-    "from": "repo:anthropics-skills",
-    "to": "tech:arize",
+    "from": "anthropics/skills",
+    "to": "Arize",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_anthropic_skills.md"
   },
   {
-    "from": "repo:anthropics-skills",
-    "to": "tech:bash",
+    "from": "anthropics/skills",
+    "to": "Bash",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_anthropic_skills.md"
   },
   {
-    "from": "repo:anthropics-skills",
-    "to": "tech:docker",
+    "from": "anthropics/skills",
+    "to": "Docker",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_anthropic_skills.md"
   },
   {
-    "from": "repo:anthropics-skills",
-    "to": "tech:glob",
+    "from": "anthropics/skills",
+    "to": "Glob",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_anthropic_skills.md"
   },
   {
-    "from": "repo:anthropics-skills",
-    "to": "tech:json-schema",
+    "from": "anthropics/skills",
+    "to": "JSON Schema",
     "relation": "uses",
     "confidence": 0.8,
     "source_file": "research_anthropic_skills.md"
   },
   {
-    "from": "repo:anthropics-skills",
-    "to": "tech:podman",
+    "from": "anthropics/skills",
+    "to": "Podman",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_anthropic_skills.md"
   },
   {
-    "from": "repo:anthropics-skills",
-    "to": "tech:read",
+    "from": "anthropics/skills",
+    "to": "Read",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_anthropic_skills.md"
   },
   {
-    "from": "repo:anthropics-skills",
-    "to": "tech:sse",
+    "from": "anthropics/skills",
+    "to": "SSE",
     "relation": "uses",
     "confidence": 0.8,
     "source_file": "research_anthropic_skills.md"
   },
   {
-    "from": "repo:anthropics-skills",
-    "to": "tech:write",
+    "from": "anthropics/skills",
+    "to": "Write",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_anthropic_skills.md"
   },
   {
-    "from": "repo:anthropics-skills",
-    "to": "tech:code_interpreter",
+    "from": "anthropics/skills",
+    "to": "code_interpreter",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_anthropic_skills.md"
   },
   {
-    "from": "repo:anthropics-skills",
-    "to": "tech:retrieval",
+    "from": "anthropics/skills",
+    "to": "retrieval",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_anthropic_skills.md"
   },
   {
-    "from": "repo:anthropics-skills",
-    "to": "tech:web_search",
+    "from": "anthropics/skills",
+    "to": "web_search",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_anthropic_skills.md"
   },
   {
-    "from": "repo:anthropics-skills",
-    "to": "tech:yaml",
+    "from": "anthropics/skills",
+    "to": "yaml",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_anthropic_skills.md"
   },
   {
-    "from": "tech:asyncio",
-    "to": "pattern:architecture",
+    "from": "asyncio",
+    "to": "Architecture",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_dexter.md"
   },
   {
-    "from": "tech:asyncio",
-    "to": "pattern:message-handling-architecture",
+    "from": "asyncio",
+    "to": "Message Handling Architecture",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_dexter.md"
   },
   {
-    "from": "tech:ccxt",
-    "to": "pattern:architecture",
+    "from": "ccxt",
+    "to": "Architecture",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_vibe_trading.md"
   },
   {
-    "from": "tech:ccxt",
-    "to": "pattern:architecture-overview",
+    "from": "ccxt",
+    "to": "Architecture Overview",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_vibe_trading.md"
   },
   {
-    "from": "tech:ccxt",
-    "to": "pattern:overview",
+    "from": "ccxt",
+    "to": "Overview",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_vibe_trading.md"
   },
   {
-    "from": "person:chainyo",
-    "to": "repo:chainyo-claude-task-master",
-    "relation": "created",
-    "confidence": 0.95,
-    "source_file": "research_claude_task_master.md"
-  },
-  {
-    "from": "repo:chainyo-claude-task-master",
-    "to": "tech:anthropic-sdk",
-    "relation": "uses",
-    "confidence": 0.6,
-    "source_file": "research_claude_task_master.md"
-  },
-  {
-    "from": "repo:chainyo-claude-task-master",
-    "to": "tech:bash",
-    "relation": "uses",
-    "confidence": 0.8,
-    "source_file": "research_claude_task_master.md"
-  },
-  {
-    "from": "repo:chainyo-claude-task-master",
-    "to": "tech:edit",
-    "relation": "uses",
-    "confidence": 0.6,
-    "source_file": "research_claude_task_master.md"
-  },
-  {
-    "from": "repo:chainyo-claude-task-master",
-    "to": "tech:mermaid",
-    "relation": "uses",
-    "confidence": 0.6,
-    "source_file": "research_claude_task_master.md"
-  },
-  {
-    "from": "repo:chainyo-claude-task-master",
-    "to": "tech:read",
-    "relation": "uses",
-    "confidence": 0.8,
-    "source_file": "research_claude_task_master.md"
-  },
-  {
-    "from": "repo:chainyo-claude-task-master",
-    "to": "tech:task",
-    "relation": "uses",
-    "confidence": 0.8,
-    "source_file": "research_claude_task_master.md"
-  },
-  {
-    "from": "repo:chainyo-claude-task-master",
-    "to": "tech:typescript",
-    "relation": "uses",
-    "confidence": 0.6,
-    "source_file": "research_claude_task_master.md"
-  },
-  {
-    "from": "repo:chainyo-claude-task-master",
-    "to": "tech:write",
-    "relation": "uses",
-    "confidence": 0.6,
-    "source_file": "research_claude_task_master.md"
-  },
-  {
-    "from": "repo:chainyo-claude-task-master",
-    "to": "tech:markdown",
-    "relation": "uses",
-    "confidence": 0.6,
-    "source_file": "research_claude_task_master.md"
-  },
-  {
-    "from": "tech:code_interpreter",
-    "to": "pattern:skill-catalog",
+    "from": "code_interpreter",
+    "to": "Skill Catalog",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_anthropic_skills.md"
   },
   {
-    "from": "tech:discord.py",
-    "to": "pattern:architecture",
+    "from": "discord.py",
+    "to": "Architecture",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_dexter.md"
   },
   {
-    "from": "tech:discord.py",
-    "to": "pattern:message-handling-architecture",
+    "from": "discord.py",
+    "to": "Message Handling Architecture",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_dexter.md"
   },
   {
-    "from": "tech:markdown",
-    "to": "pattern:core-tools",
-    "relation": "implements",
-    "confidence": 0.65,
-    "source_file": "research_claude_task_master.md"
-  },
-  {
-    "from": "tech:markdown",
-    "to": "pattern:core-tools-&-commands",
-    "relation": "implements",
-    "confidence": 0.65,
-    "source_file": "research_claude_task_master.md"
-  },
-  {
-    "from": "tech:markdown",
-    "to": "pattern:graph-visualization-patterns",
+    "from": "markdown",
+    "to": "Graph/Visualization Patterns",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_obsidian_headless.md"
   },
   {
-    "from": "tech:markdown",
-    "to": "pattern:note-link-data-model",
+    "from": "markdown",
+    "to": "Note/Link Data Model",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_obsidian_headless.md"
   },
   {
-    "from": "repo:mattpocock-skills",
-    "to": "tech:read",
+    "from": "mattpocock/skills",
+    "to": "Read",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_mattpocock_skills.md"
   },
   {
-    "from": "repo:mattpocock-skills",
-    "to": "tech:sse",
+    "from": "mattpocock/skills",
+    "to": "SSE",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_mattpocock_skills.md"
   },
   {
-    "from": "repo:mattpocock-skills",
-    "to": "tech:task",
+    "from": "mattpocock/skills",
+    "to": "Task",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_mattpocock_skills.md"
   },
   {
-    "from": "repo:mattpocock-skills",
-    "to": "tech:write",
+    "from": "mattpocock/skills",
+    "to": "Write",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_mattpocock_skills.md"
   },
   {
-    "from": "repo:mattpocock-skills",
-    "to": "tech:markdown",
+    "from": "mattpocock/skills",
+    "to": "markdown",
     "relation": "uses",
     "confidence": 0.8,
     "source_file": "research_mattpocock_skills.md"
   },
   {
-    "from": "repo:mattpocock-skills",
-    "to": "tech:yaml",
+    "from": "mattpocock/skills",
+    "to": "yaml",
     "relation": "uses",
     "confidence": 0.8,
     "source_file": "research_mattpocock_skills.md"
   },
   {
-    "from": "tech:neo4j",
-    "to": "pattern:architecture",
-    "relation": "implements",
-    "confidence": 0.85,
-    "source_file": "research_shannon.md"
-  },
-  {
-    "from": "tech:neo4j",
-    "to": "pattern:core-data-model",
-    "relation": "implements",
-    "confidence": 0.65,
-    "source_file": "research_shannon.md"
-  },
-  {
-    "from": "tech:neo4j",
-    "to": "pattern:entity-resolution-&-deduplication",
-    "relation": "implements",
-    "confidence": 0.85,
-    "source_file": "research_shannon.md"
-  },
-  {
-    "from": "tech:neo4j",
-    "to": "pattern:scalability-approach",
-    "relation": "implements",
-    "confidence": 0.65,
-    "source_file": "research_shannon.md"
-  },
-  {
-    "from": "repo:obscura-ai-obscura",
-    "to": "tech:json-schema",
-    "relation": "uses",
-    "confidence": 0.6,
-    "source_file": "research_obscura.md"
-  },
-  {
-    "from": "repo:obscura-ai-obscura",
-    "to": "tech:pytorch",
-    "relation": "uses",
-    "confidence": 0.6,
-    "source_file": "research_obscura.md"
-  },
-  {
-    "from": "repo:obscura-ai-obscura",
-    "to": "tech:read",
-    "relation": "uses",
-    "confidence": 0.6,
-    "source_file": "research_obscura.md"
-  },
-  {
-    "from": "repo:obscura-ai-obscura",
-    "to": "tech:sse",
-    "relation": "uses",
-    "confidence": 0.6,
-    "source_file": "research_obscura.md"
-  },
-  {
-    "from": "repo:obscura-ai-obscura",
-    "to": "tech:task",
-    "relation": "uses",
-    "confidence": 0.6,
-    "source_file": "research_obscura.md"
-  },
-  {
-    "from": "repo:obscura-ai-obscura",
-    "to": "tech:tensorflow",
-    "relation": "uses",
-    "confidence": 0.6,
-    "source_file": "research_obscura.md"
-  },
-  {
-    "from": "repo:obscura-ai-obscura",
-    "to": "tech:diffusion-models",
-    "relation": "uses",
-    "confidence": 0.6,
-    "source_file": "research_obscura.md"
-  },
-  {
-    "from": "repo:obscura-ai-obscura",
-    "to": "tech:yaml",
-    "relation": "uses",
-    "confidence": 0.6,
-    "source_file": "research_obscura.md"
-  },
-  {
-    "from": "repo:patchy631-ai-engineering-hub",
-    "to": "tech:airflow",
+    "from": "patchy631/ai-engineering-hub",
+    "to": "Airflow",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_ai_engineering_hub.md"
   },
   {
-    "from": "repo:patchy631-ai-engineering-hub",
-    "to": "tech:arize",
+    "from": "patchy631/ai-engineering-hub",
+    "to": "Arize",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_ai_engineering_hub.md"
   },
   {
-    "from": "repo:patchy631-ai-engineering-hub",
-    "to": "tech:bentoml",
+    "from": "patchy631/ai-engineering-hub",
+    "to": "BentoML",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_ai_engineering_hub.md"
   },
   {
-    "from": "repo:patchy631-ai-engineering-hub",
-    "to": "tech:dvc",
+    "from": "patchy631/ai-engineering-hub",
+    "to": "DVC",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_ai_engineering_hub.md"
   },
   {
-    "from": "repo:patchy631-ai-engineering-hub",
-    "to": "tech:elk-stack",
+    "from": "patchy631/ai-engineering-hub",
+    "to": "ELK Stack",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_ai_engineering_hub.md"
   },
   {
-    "from": "repo:patchy631-ai-engineering-hub",
-    "to": "tech:fastapi",
+    "from": "patchy631/ai-engineering-hub",
+    "to": "FastAPI",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_ai_engineering_hub.md"
   },
   {
-    "from": "repo:patchy631-ai-engineering-hub",
-    "to": "tech:grafana",
+    "from": "patchy631/ai-engineering-hub",
+    "to": "Grafana",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_ai_engineering_hub.md"
   },
   {
-    "from": "repo:patchy631-ai-engineering-hub",
-    "to": "tech:kubeflow",
+    "from": "patchy631/ai-engineering-hub",
+    "to": "Kubeflow",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_ai_engineering_hub.md"
   },
   {
-    "from": "repo:patchy631-ai-engineering-hub",
-    "to": "tech:kubernetes",
+    "from": "patchy631/ai-engineering-hub",
+    "to": "Kubernetes",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_ai_engineering_hub.md"
   },
   {
-    "from": "repo:patchy631-ai-engineering-hub",
-    "to": "tech:langchain",
+    "from": "patchy631/ai-engineering-hub",
+    "to": "LangChain",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_ai_engineering_hub.md"
   },
   {
-    "from": "repo:patchy631-ai-engineering-hub",
-    "to": "tech:mlflow",
+    "from": "patchy631/ai-engineering-hub",
+    "to": "MLflow",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_ai_engineering_hub.md"
   },
   {
-    "from": "repo:patchy631-ai-engineering-hub",
-    "to": "tech:onnx-runtime",
+    "from": "patchy631/ai-engineering-hub",
+    "to": "ONNX Runtime",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_ai_engineering_hub.md"
   },
   {
-    "from": "repo:patchy631-ai-engineering-hub",
-    "to": "tech:opentelemetry",
+    "from": "patchy631/ai-engineering-hub",
+    "to": "OpenTelemetry",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_ai_engineering_hub.md"
   },
   {
-    "from": "repo:patchy631-ai-engineering-hub",
-    "to": "tech:prefect",
+    "from": "patchy631/ai-engineering-hub",
+    "to": "Prefect",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_ai_engineering_hub.md"
   },
   {
-    "from": "repo:patchy631-ai-engineering-hub",
-    "to": "tech:prometheus",
+    "from": "patchy631/ai-engineering-hub",
+    "to": "Prometheus",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_ai_engineering_hub.md"
   },
   {
-    "from": "repo:patchy631-ai-engineering-hub",
-    "to": "tech:read",
+    "from": "patchy631/ai-engineering-hub",
+    "to": "Read",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_ai_engineering_hub.md"
   },
   {
-    "from": "repo:patchy631-ai-engineering-hub",
-    "to": "tech:redis",
+    "from": "patchy631/ai-engineering-hub",
+    "to": "Redis",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_ai_engineering_hub.md"
   },
   {
-    "from": "repo:patchy631-ai-engineering-hub",
-    "to": "tech:sse",
+    "from": "patchy631/ai-engineering-hub",
+    "to": "SSE",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_ai_engineering_hub.md"
   },
   {
-    "from": "repo:patchy631-ai-engineering-hub",
-    "to": "tech:task",
+    "from": "patchy631/ai-engineering-hub",
+    "to": "Task",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_ai_engineering_hub.md"
   },
   {
-    "from": "repo:patchy631-ai-engineering-hub",
-    "to": "tech:tensorrt",
+    "from": "patchy631/ai-engineering-hub",
+    "to": "TensorRT",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_ai_engineering_hub.md"
   },
   {
-    "from": "repo:patchy631-ai-engineering-hub",
-    "to": "tech:terraform",
+    "from": "patchy631/ai-engineering-hub",
+    "to": "Terraform",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_ai_engineering_hub.md"
   },
   {
-    "from": "repo:patchy631-ai-engineering-hub",
-    "to": "tech:think",
+    "from": "patchy631/ai-engineering-hub",
+    "to": "Think",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_ai_engineering_hub.md"
   },
   {
-    "from": "repo:patchy631-ai-engineering-hub",
-    "to": "tech:triton-inference-server",
+    "from": "patchy631/ai-engineering-hub",
+    "to": "Triton Inference Server",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_ai_engineering_hub.md"
   },
   {
-    "from": "repo:patchy631-ai-engineering-hub",
-    "to": "tech:whylabs",
+    "from": "patchy631/ai-engineering-hub",
+    "to": "WhyLabs",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_ai_engineering_hub.md"
   },
   {
-    "from": "tech:pgvector",
-    "to": "pattern:core-data-model",
+    "from": "pgvector",
+    "to": "Core Data Model",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_shannon.md"
   },
   {
-    "from": "tech:retrieval",
-    "to": "pattern:api-grounding-with-retrieval",
+    "from": "retrieval",
+    "to": "API Grounding with Retrieval",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:retrieval",
-    "to": "pattern:architecture",
-    "relation": "implements",
-    "confidence": 0.65,
-    "source_file": "research_agentic_stack.md"
-  },
-  {
-    "from": "tech:retrieval",
-    "to": "pattern:callback-tracing-system",
+    "from": "retrieval",
+    "to": "Callback/Tracing System",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:retrieval",
-    "to": "pattern:core-data-model",
+    "from": "retrieval",
+    "to": "Core Data Model",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_shannon.md"
   },
   {
-    "from": "tech:retrieval",
-    "to": "pattern:dynamic-provider-routing",
+    "from": "retrieval",
+    "to": "Dynamic Provider Routing",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:retrieval",
-    "to": "pattern:error-recovery-loops",
+    "from": "retrieval",
+    "to": "Error Recovery Loops",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:retrieval",
-    "to": "pattern:hermes-application",
+    "from": "retrieval",
+    "to": "Hermes Application",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_opensource_ai.md"
   },
   {
-    "from": "tech:retrieval",
-    "to": "pattern:hierarchical-coordination",
+    "from": "retrieval",
+    "to": "Hierarchical Coordination",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:retrieval",
-    "to": "pattern:persistent-skill-&-memory-store",
+    "from": "retrieval",
+    "to": "Persistent Skill & Memory Store",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:retrieval",
-    "to": "pattern:query-&-retrieval-patterns",
+    "from": "retrieval",
+    "to": "Query & Retrieval Patterns",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_shannon.md"
   },
   {
-    "from": "tech:retrieval",
-    "to": "pattern:role-based-agent-decomposition",
+    "from": "retrieval",
+    "to": "Role-Based Agent Decomposition",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:retrieval",
-    "to": "pattern:sandboxed-code-execution",
+    "from": "retrieval",
+    "to": "Sandboxed Code Execution",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:retrieval",
-    "to": "pattern:scalability-approach",
+    "from": "retrieval",
+    "to": "Scalability Approach",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_shannon.md"
   },
   {
-    "from": "tech:retrieval",
-    "to": "pattern:skill-catalog",
+    "from": "retrieval",
+    "to": "Skill Catalog",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_anthropic_skills.md"
   },
   {
-    "from": "tech:retrieval",
-    "to": "pattern:structured-output-guarantees",
+    "from": "retrieval",
+    "to": "Structured Output Guarantees",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:retrieval",
-    "to": "pattern:task-planning-with-code",
+    "from": "retrieval",
+    "to": "Task Planning with Code",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_awesome_hermes_agent.md"
   },
   {
-    "from": "tech:slack_sdk",
-    "to": "pattern:architecture",
+    "from": "slack_sdk",
+    "to": "Architecture",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_dexter.md"
   },
   {
-    "from": "tech:slack_sdk",
-    "to": "pattern:message-handling-architecture",
+    "from": "slack_sdk",
+    "to": "Message Handling Architecture",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_dexter.md"
   },
   {
-    "from": "repo:solana-foundation-awesome-solana-ai",
-    "to": "tech:bash",
+    "from": "solana-foundation/awesome-solana-ai",
+    "to": "Bash",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_awesome_solana_ai.md"
   },
   {
-    "from": "repo:solana-foundation-awesome-solana-ai",
-    "to": "tech:edit",
+    "from": "solana-foundation/awesome-solana-ai",
+    "to": "Edit",
     "relation": "uses",
     "confidence": 0.8,
     "source_file": "research_awesome_solana_ai.md"
   },
   {
-    "from": "repo:solana-foundation-awesome-solana-ai",
-    "to": "tech:metaplex",
+    "from": "solana-foundation/awesome-solana-ai",
+    "to": "Metaplex",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_awesome_solana_ai.md"
   },
   {
-    "from": "repo:solana-foundation-awesome-solana-ai",
-    "to": "tech:task",
+    "from": "solana-foundation/awesome-solana-ai",
+    "to": "Task",
     "relation": "uses",
     "confidence": 0.8,
     "source_file": "research_awesome_solana_ai.md"
   },
   {
-    "from": "repo:solana-foundation-awesome-solana-ai",
-    "to": "tech:typescript",
+    "from": "solana-foundation/awesome-solana-ai",
+    "to": "TypeScript",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_awesome_solana_ai.md"
   },
   {
-    "from": "repo:solana-foundation-solana-dev-skill",
-    "to": "tech:anchor-framework",
+    "from": "solana-foundation/solana-dev-skill",
+    "to": "Anchor framework",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_solana_dev_skill.md"
   },
   {
-    "from": "repo:solana-foundation-solana-dev-skill",
-    "to": "tech:helius",
+    "from": "solana-foundation/solana-dev-skill",
+    "to": "Helius",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_solana_dev_skill.md"
   },
   {
-    "from": "repo:solana-foundation-solana-dev-skill",
-    "to": "tech:read",
+    "from": "solana-foundation/solana-dev-skill",
+    "to": "Read",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_solana_dev_skill.md"
   },
   {
-    "from": "repo:solana-foundation-solana-dev-skill",
-    "to": "tech:sse",
+    "from": "solana-foundation/solana-dev-skill",
+    "to": "SSE",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_solana_dev_skill.md"
   },
   {
-    "from": "repo:solana-foundation-solana-dev-skill",
-    "to": "tech:task",
+    "from": "solana-foundation/solana-dev-skill",
+    "to": "Task",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_solana_dev_skill.md"
   },
   {
-    "from": "repo:solana-foundation-solana-dev-skill",
-    "to": "tech:typescript",
+    "from": "solana-foundation/solana-dev-skill",
+    "to": "TypeScript",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_solana_dev_skill.md"
   },
   {
-    "from": "repo:solana-foundation-solana-dev-skill",
-    "to": "tech:write",
+    "from": "solana-foundation/solana-dev-skill",
+    "to": "Write",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_solana_dev_skill.md"
   },
   {
-    "from": "repo:topoteretes-cognee",
-    "to": "tech:arize",
+    "from": "topoteretes/cognee",
+    "to": "Arize",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_cognee.md"
   },
   {
-    "from": "repo:topoteretes-cognee",
-    "to": "tech:chroma",
+    "from": "topoteretes/cognee",
+    "to": "Chroma",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_cognee.md"
   },
   {
-    "from": "repo:topoteretes-cognee",
-    "to": "tech:edit",
+    "from": "topoteretes/cognee",
+    "to": "Edit",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_cognee.md"
   },
   {
-    "from": "repo:topoteretes-cognee",
-    "to": "tech:sse",
+    "from": "topoteretes/cognee",
+    "to": "SSE",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_cognee.md"
   },
   {
-    "from": "repo:topoteretes-cognee",
-    "to": "tech:task",
+    "from": "topoteretes/cognee",
+    "to": "Task",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_cognee.md"
   },
   {
-    "from": "repo:topoteretes-cognee",
-    "to": "tech:weaviate",
+    "from": "topoteretes/cognee",
+    "to": "Weaviate",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_cognee.md"
   },
   {
-    "from": "repo:topoteretes-cognee",
-    "to": "tech:retrieval",
+    "from": "topoteretes/cognee",
+    "to": "retrieval",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_cognee.md"
   },
   {
-    "from": "repo:virattt-dexter",
-    "to": "tech:edit",
+    "from": "virattt/dexter",
+    "to": "Edit",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_dexter.md"
   },
   {
-    "from": "repo:virattt-dexter",
-    "to": "tech:glob",
+    "from": "virattt/dexter",
+    "to": "Glob",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_dexter.md"
   },
   {
-    "from": "repo:virattt-dexter",
-    "to": "tech:json-schema",
+    "from": "virattt/dexter",
+    "to": "JSON Schema",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_dexter.md"
   },
   {
-    "from": "repo:virattt-dexter",
-    "to": "tech:read",
+    "from": "virattt/dexter",
+    "to": "Read",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_dexter.md"
   },
   {
-    "from": "repo:virattt-dexter",
-    "to": "tech:redis",
+    "from": "virattt/dexter",
+    "to": "Redis",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_dexter.md"
   },
   {
-    "from": "repo:virattt-dexter",
-    "to": "tech:sse",
+    "from": "virattt/dexter",
+    "to": "SSE",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_dexter.md"
   },
   {
-    "from": "repo:virattt-dexter",
-    "to": "tech:task",
+    "from": "virattt/dexter",
+    "to": "Task",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_dexter.md"
   },
   {
-    "from": "repo:virattt-dexter",
-    "to": "tech:write",
+    "from": "virattt/dexter",
+    "to": "Write",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_dexter.md"
   },
   {
-    "from": "repo:virattt-dexter",
-    "to": "tech:asyncio",
+    "from": "virattt/dexter",
+    "to": "asyncio",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_dexter.md"
   },
   {
-    "from": "repo:virattt-dexter",
-    "to": "tech:discord.py",
+    "from": "virattt/dexter",
+    "to": "discord.py",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_dexter.md"
   },
   {
-    "from": "repo:virattt-dexter",
-    "to": "tech:slack_sdk",
+    "from": "virattt/dexter",
+    "to": "slack_sdk",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_dexter.md"
   },
   {
-    "from": "repo:virattt-dexter",
-    "to": "tech:yaml",
+    "from": "virattt/dexter",
+    "to": "yaml",
     "relation": "uses",
     "confidence": 0.6,
     "source_file": "research_dexter.md"
   },
   {
-    "from": "tech:web_search",
-    "to": "pattern:architecture",
-    "relation": "implements",
-    "confidence": 0.65,
-    "source_file": "research_agentic_stack.md"
-  },
-  {
-    "from": "tech:web_search",
-    "to": "pattern:skill-catalog",
+    "from": "web_search",
+    "to": "Skill Catalog",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_anthropic_skills.md"
   },
   {
-    "from": "tech:webhooks",
-    "to": "pattern:automation-patterns",
+    "from": "webhooks",
+    "to": "Automation Patterns",
     "relation": "implements",
     "confidence": 0.65,
     "source_file": "research_the_mansion.md"
   },
   {
-    "from": "tech:yaml",
-    "to": "pattern:architecture",
+    "from": "yaml",
+    "to": "Architecture",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_dexter.md"
   },
   {
-    "from": "tech:yaml",
-    "to": "pattern:key-patterns",
-    "relation": "implements",
-    "confidence": 0.65,
-    "source_file": "research_obscura.md"
-  },
-  {
-    "from": "tech:yaml",
-    "to": "pattern:message-handling-architecture",
+    "from": "yaml",
+    "to": "Message Handling Architecture",
     "relation": "implements",
     "confidence": 0.85,
     "source_file": "research_dexter.md"

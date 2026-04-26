@@ -18,3 +18,6 @@ Auto-compiled research entry. Content will be filled by LLM synthesis in future 
 
 ---
 *This wiki page acts as a stub. LLM-driven compilation will populate details.*
+
+# Test Entry
+This is a test of the sync system.
