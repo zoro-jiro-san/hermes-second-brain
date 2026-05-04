@@ -1,0 +1,106 @@
+{
+  "timestamp": "2026-05-04T12:45:07.856638Z",
+  "errors": [
+    {
+      "symlink": "/home/tokisaki/.hermes/skills/infrastructure/coolify",
+      "broken_target": "/home/tokisaki/work/synthesis/skills/coolify"
+    },
+    {
+      "symlink": "/home/tokisaki/.hermes/skills/infrastructure/sandcastle",
+      "broken_target": "/home/tokisaki/work/synthesis/skills/sandcastle"
+    },
+    {
+      "symlink": "/home/tokisaki/.hermes/skills/autonomous-ai-agents/claude-task-master",
+      "broken_target": "/home/tokisaki/work/synthesis/skills/claude-task-master"
+    },
+    {
+      "symlink": "/home/tokisaki/.hermes/skills/autonomous-ai-agents/agentic-stack",
+      "broken_target": "/home/tokisaki/work/synthesis/skills/agentic-stack-agentic-stack"
+    },
+    {
+      "symlink": "/home/tokisaki/.hermes/skills/autonomous-ai-agents/agentic-inbox",
+      "broken_target": "/home/tokisaki/work/synthesis/skills/agentic-inbox"
+    },
+    {
+      "symlink": "/home/tokisaki/.hermes/skills/autonomous-ai-agents/the-mansion",
+      "broken_target": "/home/tokisaki/work/synthesis/skills/the-mansion"
+    },
+    {
+      "symlink": "/home/tokisaki/.hermes/skills/autonomous-ai-agents/openhands",
+      "broken_target": "/home/tokisaki/work/synthesis/skills/openhands"
+    },
+    {
+      "symlink": "/home/tokisaki/.hermes/skills/research/toprank",
+      "broken_target": "/home/tokisaki/work/synthesis/skills/toprank"
+    },
+    {
+      "symlink": "/home/tokisaki/.hermes/skills/research/vibe-trading",
+      "broken_target": "/home/tokisaki/work/synthesis/skills/vibe-trading"
+    },
+    {
+      "symlink": "/home/tokisaki/.hermes/skills/research/cognee",
+      "broken_target": "/home/tokisaki/work/synthesis/skills/cognee"
+    },
+    {
+      "symlink": "/home/tokisaki/.hermes/skills/research/dexter",
+      "broken_target": "/home/tokisaki/work/synthesis/skills/dexter"
+    },
+    {
+      "symlink": "/home/tokisaki/.hermes/skills/research/synthesis",
+      "broken_target": "/home/tokisaki/work/synthesis/skills/synthesis"
+    },
+    {
+      "symlink": "/home/tokisaki/.hermes/skills/research/ai-engineering-hub",
+      "broken_target": "/home/tokisaki/work/synthesis/skills/ai-engineering-hub"
+    },
+    {
+      "symlink": "/home/tokisaki/.hermes/skills/developer-tools/awesome-hermes-agent",
+      "broken_target": "/home/tokisaki/work/synthesis/skills/awesome-hermes-agent"
+    },
+    {
+      "symlink": "/home/tokisaki/.hermes/skills/developer-tools/mattpocock-skills",
+      "broken_target": "/home/tokisaki/work/synthesis/skills/mattpocock-skills"
+    },
+    {
+      "symlink": "/home/tokisaki/.hermes/skills/developer-tools/obsidian-headless",
+      "broken_target": "/home/tokisaki/work/synthesis/skills/obsidian-headless"
+    },
+    {
+      "symlink": "/home/tokisaki/.hermes/skills/developer-tools/everything-claude-code",
+      "broken_target": "/home/tokisaki/work/synthesis/skills/everything-claude-code"
+    },
+    {
+      "symlink": "/home/tokisaki/.hermes/skills/data-engineering/fincept-terminal",
+      "broken_target": "/home/tokisaki/work/synthesis/skills/fincept-terminal"
+    },
+    {
+      "symlink": "/home/tokisaki/.hermes/skills/data-engineering/shannon",
+      "broken_target": "/home/tokisaki/work/synthesis/skills/shannon"
+    },
+    {
+      "symlink": "/home/tokisaki/.hermes/skills/product-strategy/claude-ads",
+      "broken_target": "/home/tokisaki/work/synthesis/skills/claude-ads"
+    },
+    {
+      "symlink": "/home/tokisaki/.hermes/skills/ecosystem/awesome-opensource-ai",
+      "broken_target": "/home/tokisaki/work/synthesis/skills/awesome-opensource-ai"
+    },
+    {
+      "symlink": "/home/tokisaki/.hermes/skills/ecosystem/awesome-solana-ai",
+      "broken_target": "/home/tokisaki/work/synthesis/skills/awesome-solana-ai"
+    },
+    {
+      "symlink": "/home/tokisaki/.hermes/skills/ecosystem/solana-dev-skill",
+      "broken_target": "/home/tokisaki/work/synthesis/skills/solana-dev-skill"
+    },
+    {
+      "symlink": "/home/tokisaki/.hermes/skills/mlops/obscura",
+      "broken_target": "/home/tokisaki/work/synthesis/skills/obscura-ai-obscura"
+    }
+  ],
+  "warnings": [],
+  "summary": {
+    "errors": 24,
+    "warnings": 0
+  }
+}
