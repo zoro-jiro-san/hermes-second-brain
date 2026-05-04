@@ -1,0 +1,38 @@
+=== Post-push hook started: 2026-05-04 02:45:04 ===
+
+[Hook 1] Rebuilding TF-IDF index...
+Indexing 20 documents
+Index built: 56 terms, 20 docs → /home/tokisaki/github/hermes-second-brain/index/embeddings
+[Hook 1] ✓ TF-IDF index rebuilt successfully
+
+[Hook 2] Updating knowledge graph from wikilinks...
+[graph-update] Scanning /home/tokisaki/github/hermes-second-brain/wiki...
+[graph-update] Found 20 wiki pages
+[graph-update] ✓ Added 0 page nodes, 0 edges
+[graph-update] Total nodes: 222, edges: 313
+[graph-update] Graph updated successfully
+[Hook 2] ✓ Graph edges updated successfully
+
+[Hook 3] Running fast lint...
+/home/tokisaki/github/hermes-second-brain/bin/hermes-brain-lint:66: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "timestamp": datetime.utcnow().isoformat()+"Z",
+/home/tokisaki/github/hermes-second-brain/bin/hermes-brain-lint:73: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  outfile = REPORTS / f"lint_{datetime.utcnow().strftime('%Y%m%d_%H%M%S')}.json"
+[lint] 24 errors, 0 warnings → /home/tokisaki/github/hermes-second-brain/reports/lint_20260504_004504.json
+
+ERRORS:
+  {'symlink': '/home/tokisaki/.hermes/skills/infrastructure/coolify', 'broken_target': '/home/tokisaki/work/synthesis/skills/coolify'}
+  {'symlink': '/home/tokisaki/.hermes/skills/infrastructure/sandcastle', 'broken_target': '/home/tokisaki/work/synthesis/skills/sandcastle'}
+  {'symlink': '/home/tokisaki/.hermes/skills/autonomous-ai-agents/claude-task-master', 'broken_target': '/home/tokisaki/work/synthesis/skills/claude-task-master'}
+  {'symlink': '/home/tokisaki/.hermes/skills/autonomous-ai-agents/agentic-stack', 'broken_target': '/home/tokisaki/work/synthesis/skills/agentic-stack-agentic-stack'}
+  {'symlink': '/home/tokisaki/.hermes/skills/autonomous-ai-agents/agentic-inbox', 'broken_target': '/home/tokisaki/work/synthesis/skills/agentic-inbox'}
+  {'symlink': '/home/tokisaki/.hermes/skills/autonomous-ai-agents/the-mansion', 'broken_target': '/home/tokisaki/work/synthesis/skills/the-mansion'}
+  {'symlink': '/home/tokisaki/.hermes/skills/autonomous-ai-agents/openhands', 'broken_target': '/home/tokisaki/work/synthesis/skills/openhands'}
+  {'symlink': '/home/tokisaki/.hermes/skills/research/toprank', 'broken_target': '/home/tokisaki/work/synthesis/skills/toprank'}
+  {'symlink': '/home/tokisaki/.hermes/skills/research/vibe-trading', 'broken_target': '/home/tokisaki/work/synthesis/skills/vibe-trading'}
+  {'symlink': '/home/tokisaki/.hermes/skills/research/cognee', 'broken_target': '/home/tokisaki/work/synthesis/skills/cognee'}
+[Hook 3] ✗ Lint failed (warnings/errors found)
+
+=== Post-push hook completed: 2026-05-04 02:45:04 ===
+Log: /home/tokisaki/github/hermes-second-brain/reports/post_push_20260504_024504.log
+Result: All hooks succeeded
